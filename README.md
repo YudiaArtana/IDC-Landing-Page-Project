@@ -29,7 +29,17 @@
     <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
   </a>
 </p>
-
+  
+<div align="left">
+  
 ## Step Install
 -   Clone repository dengan menajalankan `git clone https://github.com/YudiaArtana/IDC-Landing-Page-Project.git` pada gitbash
 -   Jalankan `npm install bootstrap@5.3.0` untuk menginstall bootstrap
+
+<!-- Author -->
+## :wave: Author
+
+<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+  <img src="https://avatars.githubusercontent.com/u/103521944?v=4" />
+  <h6>Yudia</h6>
+</a>
