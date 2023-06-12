@@ -7,7 +7,8 @@
 
 ## Step Install
 -   Clone repository dengan menajalankan `git clone https://github.com/YudiaArtana/IDC-Landing-Page-Project.git` pada gitbash
--   Jalankan `npm install jquery bootstrap` untuk menginstall bootstrap dan jquery jikalau belum tersedia
+-   Ingat lakukan gitbash pada folder yang akan ditentukan lokasi penyimpanan projectnya
+-   Gitbash dapat dilakukan dengan klik kanan pada folder yang ditentukan, lalu pilih gitbash kemudian jalankan perintah nomor 1
 
 <p align="right">(<a href="#readme-top"> Back to Top </a>)</p>
 
