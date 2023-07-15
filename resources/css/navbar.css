@@ -1,0 +1,158 @@
+:root {
+  --global-background: #fff;
+  --global-background-dark: #1f1f1f;
+  --font-color-white: white;
+  --font-color-dark: black;
+  --font-color-link: #00FC33;
+  --font-color-green: green;
+
+  --xxl: 48px;
+  --xl: 36px;
+  --l: 32px;
+  --m: 24px;
+  --s: 20px;
+  --xs: 18px;
+  --xxs: 13px;
+  --xxxs: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 40;
+}
+
+.nav-bg{
+  background: linear-gradient(90deg, rgba(22,142,0,1) 0%, rgba(14,199,18,1) 84%, rgba(93,218,75,1) 100%);
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.247);
+}
+
+#navbar{
+  transition: 0.5s ease-in-out;
+}
+
+.nav-container{
+  display: flex;
+  max-width: 80%;
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-toggler{
+  width: 50px;
+  height: 50px;
+  background: none;
+  cursor: pointer;
+  color: var(--font-color-white);
+  font-size: 30px;
+  border: none;
+  display: none;
+}
+
+.nav-collapse{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  height: 100vh;
+  z-index: 9999;
+  background: linear-gradient(90deg, rgba(22,142,0,1) 0%, rgba(14,199,18,1) 84%, rgba(93,218,75,1) 100%);
+  padding: 20px;
+  transition: all ease-in-out 0.8s;
+  box-shadow: 0 1px 20px rgb(0, 0, 0, 0.247);
+}
+
+#nav-shadow{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 99;
+  transition: all ease-in-out 0.4s;
+}
+
+.shadow{
+  right: 0% !important;
+}
+
+.show{
+  right: 0%;
+}
+
+.nav-collapse ul{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.nav-collapse ul li{
+  display: block;
+  margin: 50px 0;
+}
+
+.nav-collapse ul li a{
+  cursor: pointer;
+  color: var(--font-color-white);
+  letter-spacing: 0.5px;
+  font-size: var(--xs);
+  font-weight: bold;
+}
+
+.nav-collapse-close{
+  width: 50px;
+  height: 50px;
+  background: none;
+  cursor: pointer;
+  color: var(--font-color-white);
+  font-size: 30px;
+  border: none;
+}
+
+.nav-link li{
+  display: inline-block;
+}
+
+.nav-link li a{
+  padding: 0 20px;
+  cursor: pointer;
+  color: var(--font-color-white);
+  letter-spacing: 0.5px;
+  font-size: var(--xs);
+  font-weight: bold;
+}
+
+.nav-link li a:hover{
+	color: var(--font-color-link);
+}
+
+.nav-link-collapse li a:hover{
+	color: var(--font-color-link);
+}
+
+
+.active{
+	color: var(--font-color-link) !important;
+}
+
+@media screen and (max-width:768px) {
+  .nav-toggler{
+    display: block;
+  }
+
+  .nav-link{
+    display: none;
+  }
+
+}

@@ -1,0 +1,83 @@
+#main-hero{
+  background-image: url(./img/idc-1.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+#main-hero::before{
+  content: "";
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.hero-text{
+  width: 55%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1{
+  font-family: Goudy Old Style, serif;
+  color: var(--font-color-white);
+  font-size: var(--xl);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.hero-text p{
+  font-size: var(--xs);
+  text-align: center;
+  color: var(--font-color-link);
+  margin-bottom: 100px;
+}
+
+.form-control{
+	margin: auto;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.form-input{
+	height: 45px;
+	width: 85%;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	border-radius: 15px 0 0 15px;
+  font-size: var(--xxs);
+  padding-left: 20px;
+}
+
+.form-btn{
+	background: var(--font-color-link);
+	width: 15%;
+	height: 45px;
+	border-radius: 0 15px 15px 0;
+	position: relative;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.form-btn button{
+	background: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 30px;
+	color: black;
+	border-radius: 0 15px 15px 0;
+	cursor: pointer;
+	border: none;
+
+}
+
+.form-btn:hover{
+	background-color: var(--font-color-link);
+}
