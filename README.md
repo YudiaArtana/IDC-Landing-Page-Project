@@ -9,6 +9,11 @@
 -   Clone repository dengan menajalankan `git clone https://github.com/YudiaArtana/IDC-Landing-Page-Project.git` pada gitbash
 -   Ingat lakukan gitbash pada folder yang akan ditentukan lokasi penyimpanan projectnya
 -   Gitbash dapat dilakukan dengan klik kanan pada folder yang ditentukan, lalu pilih gitbash kemudian jalankan perintah nomor 1
+-   Setelah project di clone, buka project pada Text Editor kesayangan anda
+-   Langkah selanjutnya adalah menjalan `composer install` atau `composer update` pada terminal
+-   Set up selesai, untuk menjalankan project silahkan ketikkan perintah `php artisan serve` pada terminal 1
+-   Dan ketikkan `npm run dev` pada terminal 2, npm run dev berfungsi untuk mengcompile build css dan js ke public dan melakukan hot refresh
+-   Jadi anda harus membuka 2 terminal pada directory project anda
 
 <p align="right">(<a href="#readme-top"> Back to Top </a>)</p>
 
