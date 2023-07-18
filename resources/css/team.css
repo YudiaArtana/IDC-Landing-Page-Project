@@ -1,0 +1,199 @@
+/* IDC INTI */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@500&family=Raleway:ital,wght@0,600;0,700;1,600&display=swap');
+body {
+    font-family: "Open sans", sans-serif;
+    color: #444444;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #FBAD18;
+}
+
+a:hover {
+    color: #fcc45b;
+    text-decoration: none;
+}
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.member {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.member.aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.col-lg-6 .member-img img {
+    max-width: 50%;
+    height: auto;
+}
+
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+    text-align: center;
+}
+
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+.team .member .social a {
+    transition: color 0.5s;
+    color: white;
+    margin: 0 5px;
+    padding-top: 5px;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    background: #FBAD18;
+    display: inline-block;
+    transition: ease-in-out 0.5s;
+}
+
+.team .member .social a:hover {
+    background: black;
+}
+
+.team .member .social i {
+    font-size: 18px;
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(206, 203, 203);
+}
+
+/* section */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.section-title h1 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  color: black;
+  -webkit-text-stroke: 0.3vw rgb(83, 82, 82);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center; /* Menyusun tulisan di tengah secara horizontal */
+  align-items: center; /* Menyusun tulisan di tengah secara vertical */
+  overflow: hidden;
+}
+
+.section-title h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #FBAD18;
+  -webkit-text-stroke: 0vw rgb(83, 82, 82);
+  overflow: hidden;
+  animation: distort 5s infinite;
+}
+
+@keyframes distort {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) skewX(10deg);
+  }
+  100% {
+    transform: scale(1) skewX(-10deg);
+  }
+}
+
+
+.section-title h3 {
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.section-bg {
+    padding: 120px 0;
+    color: #fff;
+
+}
+
+.section-bg::before {
+    content: "";
+    position: absolute;
+    bottom: 60px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
+}
+
+.zoom-image {
+    transition: transform 0.3s;
+}
+
+.zoom-image:hover {
+    transform: scale(1.1);
+}
+
+
+/* Responsif */
+@media (max-width: 768px) {
+    .col-lg-6 .member-img img {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+/* IDC  */
