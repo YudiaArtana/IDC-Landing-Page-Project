@@ -4,12 +4,12 @@
     <i class="fas fa-solid fa-bars"></i>
   </button>
   <ul class="nav-link">
-    <li><a href="{{ url('/home') }}">HOME</a></li>
-    <li><a href="{{ url('/news') }}">BERITA</a></li>
-    <li><a href="{{ url('/proker') }}">PROGRAM KERJA</a></li>
-    <li><a href="{{ url('/team') }}">TEAM</a></li>
-    <li><a href="{{ url('/portfolio') }}">PORTFOLIO</a></li>
-    <li><a href="{{ url('/about') }}">TENTANG KAMI</a></li>
+    <li><a class="{{ request()->is('home') ? 'active' : '' }}" href="{{ url('/home') }}">HOME</a></li>
+    <li><a class="{{ request()->is('news') ? 'active' : '' }}" href="{{ url('/news') }}">BERITA</a></li>
+    <li><a class="{{ request()->is('proker') ? 'active' : '' }}" href="{{ url('/proker') }}">PROGRAM KERJA</a></li>
+    <li><a class="{{ request()->is('team') ? 'active' : '' }}" href="{{ url('/team') }}">TEAM</a></li>
+    <li><a class="{{ request()->is('portfolio') ? 'active' : '' }}" href="{{ url('/portfolio') }}">PORTFOLIO</a></li>
+    <li><a class="{{ request()->is('about') ? 'active' : '' }}" href="{{ url('/about') }}">TENTANG KAMI</a></li>
   </ul>
   <div id="nav-shadow"></div>
   <div class="nav-collapse" id="nav-collapse">
