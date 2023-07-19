@@ -1,0 +1,391 @@
+#main-hero-news {
+    position: relative;
+    height: auto;
+}
+
+a {
+    color: #cc6060;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #519ac5fc;
+}
+
+.hero-news {
+    padding-top: 100px;
+}
+
+.header-1-news {
+    font-size: 30px;
+}
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #398AEE;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #69aafa, #398AEE);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #69aafa, #398AEE);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.slider-card {
+    background: #fff;
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+    color: black;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: -20px;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: -20px;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-dots {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.owl-dots .owl-dot.active {
+    background: #398AEE !important;
+}
+
+.logo-wrapper {
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+
+.menu {
+    padding-left: 0px;
+    background: #519ac5fc;
+}
+
+.menu .container {
+    padding-left: 0px;
+}
+
+.menu-items .active {
+    background: #2483d6;
+}
+
+.menu .menu-items a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    display: block;
+}
+
+.menu .menu-items a:hover {
+    background: #2483d6;
+}
+
+.thumb {
+    width: 100%;
+}
+
+.main-news {
+    margin-top: 20px;
+}
+
+.main-news h3 {
+    line-height: 0.75;
+}
+
+.main-news h3 a {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image-sm {
+    max-height: 180px;
+}
+
+.image-sm img {
+    height: 180px;
+}
+
+.image-xs {
+    max-height: 140px;
+}
+
+.image-xxs {
+    max-height: 100px;
+}
+
+.image img {
+    object-fit: cover;
+}
+
+.font-large {
+    font-size: 0.9em !important;
+    font-weight: 600 !important;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-title span {
+    font-weight: 400;
+    font-size: 17px;
+    color: #519ac5fc;
+}
+
+.section-title span:after {
+    content: '';
+    position: absolute;
+    background: #519ac5fc;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+}
+
+.bb-1 {
+    padding: 20px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.section {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+small {
+    color: #999;
+}
+
+.summary {
+    color: #777;
+}
+
+.trending .row {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.no-pad {
+    padding-left: 0px !important;
+}
+
+.underline-1,
+.underline-2,
+.underline-3 {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.underline-1::after {
+    content: "";
+    position: absolute;
+    width: calc(100% - 10px);
+    bottom: -5px;
+    left: 5px;
+    height: 2px;
+    background: linear-gradient(to right, transparent 5px, black, black, transparent calc(100% - 5px));
+}
+
+.underline-2::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.underline-3::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.card-prestasi-content-1 {
+    margin-top: 270px;
+}
+
+.card-prestasi-content-2, .card-prestasi-content-3 {
+    margin-top: 120px;
+}
+
+.column-3 {
+    margin-left: -9px;
+}
+
+.media-partner {
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .hero {
+        padding-top: 100px;
+    }
+
+    .owl-dots {
+        margin-top: -10px;
+    }
+
+    .card-prestasi {
+        margin-bottom: 20px;
+    }
+
+    .column-3 {
+        margin-left: 0px;
+    }
+
+    .card-prestasi-content-1 {
+        font-size: 12px;
+        margin-top: auto;
+    }
+
+    .card-prestasi-content-2,
+    .card-prestasi-content-3 {
+        margin-top: auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .card-prestasi {
+        margin-bottom: 16px;
+    }
+    
+    .column-2 {
+        margin-left: 5px;
+    }
+
+    .column-3 {
+        margin-left: -10px;
+    }
+
+    .card-prestasi-content-1 {
+        margin-top: 170px;
+    }
+
+    .card-prestasi-content-2 {
+        margin-top: 75px;
+    }
+
+    .card-prestasi-content-3 {
+        margin-top: 55px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hero {
+        padding-top: 100px;
+    }
+
+    .image-xs img {
+        max-height: 84px;
+    }
+
+    .card-prestasi-content-1 {
+        font-size: 12px;
+        margin-top: 50px;
+    }
+
+    .card-prestasi-content-2 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .card-prestasi-content-3 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .image-xs {
+        max-height: 120px;
+    }
+
+    .card-prestasi-content-1 {
+        margin-top: 130px;
+    }
+
+    .card-prestasi-content-2 {
+        margin-top: 65px;
+    }
+
+    .card-prestasi-content-3 {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .card-prestasi-content-1 {
+        margin-top: 190px;
+    }
+
+    .card-prestasi-content-2 {
+        margin-top: 90px;
+    }
+
+    .card-prestasi-content-3 {
+        margin-top: 70px;
+    }
+}
