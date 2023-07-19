@@ -1,4 +1,9 @@
 // Owlcarousel
+
+import 'owl.carousel/dist/assets/owl.carousel.min.css';
+import 'owl.carousel/dist/owl.carousel.min.js';
+
+
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         loop: true,

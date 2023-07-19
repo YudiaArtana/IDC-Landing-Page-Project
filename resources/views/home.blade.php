@@ -1,5 +1,10 @@
 @extends('layouts.master')
-@section('title', 'HOME')
+
+@section('vite')
+  @vite(['resources/js/app.js', 'resources/js/home.js'])
+@endsection
+
+@section('title', 'Home Page')
 
 
 @section('content')
@@ -49,10 +54,12 @@
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
       </section>
+      <section>
+
+      </section>
     </div>
   </div>
 </div>
 
 @endsection
-
 

@@ -1,5 +1,11 @@
 @extends('layouts.master')
 
+@section('vite')
+  @vite(['resources/js/app.js'])
+@endsection
+
+@section('title', 'Tentang Kami')
+
 @section('content')
 
 <section id="about">

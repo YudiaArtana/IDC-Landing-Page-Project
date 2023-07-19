@@ -1,4 +1,9 @@
 @extends('layouts.master')
+
+@section('vite')
+  @vite(['resources/js/app.js'])
+@endsection
+
 @section('title', 'TEAM')
 
 @section('content')
@@ -275,25 +280,32 @@
     </section>
 
     <script>
-        AOS.init(
-        function animateFadeUp() {
-            var memberImgs = document.querySelectorAll('.member-img');
+function animateFadeUp() {
+  var memberImgs = document.querySelectorAll('.member-img');
 
-            memberImgs.forEach(function (img) {
-                img.style.opacity = '0';
-                img.style.transform = 'translateY(-20px)';
-                img.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
+  memberImgs.forEach(function (img) {
+    img.style.opacity = '0';
+    img.style.transform = 'translateY(-20px)';
+    img.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
 
-                setTimeout(function () {
-                    img.style.opacity = '1';
-                    img.style.transform = 'translateY(0)';
-                }, 100);
-            });
-        });
+    setTimeout(function () {
+      img.style.opacity = '1';
+      img.style.transform = 'translateY(0)';
+    }, 100);
+  });
+}
 
-        window.addEventListener('load', animateFadeUp);
-        
-        
+AOS.init({
+    offset: 100,
+  duration: 800,
+  easing: 'ease-in-out', 
+  once: true, 
+  mirror: false, 
+});
+
+window.addEventListener('load', function () {
+  animateFadeUp();
+});
 
     </script>
 </body>
