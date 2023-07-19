@@ -1,83 +1,123 @@
-#main-hero{
-  background-image: url(./img/idc-1.png);
-	height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --global-background: #fff;
+  --global-background-dark: #1f1f1f;
+  --font-color-white: white;
+  --font-color-dark: black;
+  --font-color-super-primary: #A01C20;
+  --font-color-primary: #ED1F24;
+  --font-color-super-secondary: #FBAD18;
+	--font-color-tersier: #ffffff99;
+  --font-color-secondary: #F6E016;
+
+  --font-size-xxl: 48px;
+  --font-size-xl: 36px;
+  --font-size-l: 28px;
+  --font-size-m: 20px;
+  --font-size-s: 16px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 12px;
+  --font-size-xxxs: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+  font-family: 'Noto Sans';
+  font-size: var(--font-size-s);
+  color: var(--font-color-white);
+}
+
+.page-background{
+	background-image: url(./img/page-background.svg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	min-height: 300vh;
+	background-color: rgba(11, 11, 34);
+}
+
+.bg-color {
+	height: 100%;
+	width: 100%;
+	min-height: 300vh;
+	background-color: rgba(11,11,34,.8);
+	backdrop-filter: blur(175px);
+}
+
+
+
+.hero {
+	background-image: url(./img/bg.JPG);
 	background-size: cover;
 	background-position: center;
+	height: 100vh;
 }
 
-#main-hero::before{
+.hero::before{
   content: "";
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
-  width: 100%;
+  width: 100vw;
   position: absolute;
 }
 
-.hero-text{
-  width: 55%;
-  position: absolute;
+.text-hero {
+	height: 100%;
+	width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.hero-text h1{
-  font-family: Goudy Old Style, serif;
-  color: var(--font-color-white);
-  font-size: var(--xl);
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.hero-text p{
-  font-size: var(--xs);
-  text-align: center;
-  color: var(--font-color-link);
-  margin-bottom: 100px;
-}
-
-.form-control{
-	margin: auto;
-	box-sizing: border-box;
+  text-align: start;
+	z-index: 1;
 	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
-.form-input{
-	height: 45px;
-	width: 85%;
-	border: none;
-	outline: none;
-	font-size: 18px;
-	border-radius: 15px 0 0 15px;
-  font-size: var(--xxs);
-  padding-left: 20px;
+.text-hero h1 {
+	font-size: 65px;
+	font-weight: 700;
 }
 
-.form-btn{
-	background: var(--font-color-link);
-	width: 15%;
-	height: 45px;
-	border-radius: 0 15px 15px 0;
-	position: relative;
-	cursor: pointer;
-	transition: 0.2s ease-in-out;
+.text-hero h4 {
+	font-size: var(--font-size-m);
+	font-weight: 600;
+	color: var(--font-color-primary);
 }
 
-.form-btn button{
-	background: none;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	font-size: 30px;
-	color: black;
-	border-radius: 0 15px 15px 0;
-	cursor: pointer;
-	border: none;
 
+.division-head h5 p{
+	font-size: var(--font-size-s);
 }
 
-.form-btn:hover{
-	background-color: var(--font-color-link);
+.division-head h3 {
+	font-size: var(--font-size-xl);
+	font-weight: 700;
+}
+
+.division-head h5 {
+	color: var(--font-color-primary);
+	font-weight: 600;
+}
+
+.division-head p {
+	color: var(--font-color-tersier);
+	font-weight: 500;
+}
+.square {
+	background-color: #ffffff0d;
+	border: 1px solid #ffffff1a;
+	align-items: center;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.square p {
+	font-size: var(--font-size-xs);
 }
