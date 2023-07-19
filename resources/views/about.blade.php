@@ -1,20 +1,50 @@
 @extends('layouts.master')
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
 @section('content')
 
-<section id="about">
-  <div class="container-fluid">
-    <div class="about-1 d-flex flex-column align-items-start justify-content-center">
-      <h4 class="fw-bold">TENTANG KAMI</h4> 
-      <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <div class="about"></div>
+  <div class="text-hero m-0 container position-absolute p-0">
+    <h4>TENTANG KAMI</h4>
+    <h1 class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+  </div>
+  <div class="gallery">
+
+    <a href="img/about/IMG_1.jpg">
+        <img src="img/about/IMG_1.jpg" alt="">
+    </a>
+    <a href="img/about/IMG_2.jpg">
+        <img src="img/about/IMG_2.jpg" alt="">
+    </a>
+    <a href="img/about/IMG_3.jpg">
+        <img src="img/about/IMG_3.jpg" alt="">
+    </a>
+    <a href="img/about/IMG_4.jpg">
+        <img src="img/about/IMG_4.jpg" alt="">
+    </a>
+    <a href="img/about/IMG_5.jpg">
+        <img src="img/about/IMG_5.jpg" alt="">
+    </a>
+    <a href="img/about/IMG_6.jpg">
+        <img src="img/about/IMG_6.jpg" alt="">
+    </a>
+    <a href="img/about/IMG_7.jpg">
+        <img src="img/about/IMG_7.jpg" alt="">
+    </a>
+    <a href="img/about/IMG_8.jpg">
+        <img src="img/about/IMG_8.jpg" alt="">
+    </a>
     </div>
+
   </div>
-  <div class="history text-center mt-3">
-    <h1>SEJARAH</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere dapibus lacinia. In egestas eu nibh at accumsan.</p>
-  </div>
+
+
 </section>
 <section id="timeline">
+  <div class="history text-center mt-3">
+    <h1 class="text-dark">SEJARAH KAMI</h1>
+    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere dapibus lacinia. In egestas eu nibh at accumsan.</p>
+  </div>
   <ul>
     <li>
       <div>
@@ -52,33 +82,9 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere dapibus lacinia. In egestas eu nibh at accumsan.</p>
       </div>
     </li>
-    <li>
-      <div>
-        <h3><i class="fas fa-chevron-right"></i> 2015: Milestone 7</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere dapibus lacinia. In egestas eu nibh at accumsan.</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h3><i class="fas fa-chevron-right"></i> 2016: Milestone 8</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere dapibus lacinia. In egestas eu nibh at accumsan.</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h3><i class="fas fa-chevron-right"></i> 2017: Milestone 9</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere dapibus lacinia. In egestas eu nibh at accumsan.</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h3><i class="fas fa-chevron-right"></i> 2018: Milestone 10</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere dapibus lacinia. In egestas eu nibh at accumsan.</p>
-      </div>
-    </li>
   </ul>
-</section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
 <script>
 const items = document.querySelectorAll('#timeline li');
 
@@ -104,6 +110,8 @@ const run = () =>
 window.addEventListener('load', run);
 window.addEventListener('resize', run);
 window.addEventListener('scroll', run);
+
+lightGallery(document.querySelector('.gallery'));
 </script>
 
 @endsection
