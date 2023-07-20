@@ -1,5 +1,11 @@
 @extends('layouts.master')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+@section('vite')
+  @vite(['resources/js/app.js'])
+@endsection
+
+@section('title', 'Tentang Kami')
+
 @section('content')
 
 
