@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('vite')
-  @vite(['resources/js/app.js', 'resources/js/home.js'])
+  @vite(['resources/js/app.js', 'resources/js/home.js', 'resources/css/home.css'])
 @endsection
 
 @section('title', 'Home Page')
@@ -101,9 +101,17 @@
           </div>
         </div>
       </section>
+
+      <section>
+      <div class="paroller">Awesome element with parallax effect</div>
+      </section>
     </div>
   </div>
 </div>
+
+@endsection
+
+@section('js')
 
 @endsection
 
