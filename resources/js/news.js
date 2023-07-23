@@ -1,8 +1,4 @@
 // Owlcarousel
-<<<<<<< HEAD
-=======
-
->>>>>>> a59620c9146ca4017a0d42dba880d80c0bb08d9a
 import 'owl.carousel/dist/owl.carousel.min.js';
 import AOS from 'aos/src/js/aos';
 
