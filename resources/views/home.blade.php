@@ -101,9 +101,17 @@
           </div>
         </div>
       </section>
+
+      <section>
+      <div class="paroller">Awesome element with parallax effect</div>
+      </section>
     </div>
   </div>
 </div>
+
+@endsection
+
+@section('js')
 
 @endsection
 
