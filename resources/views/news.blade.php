@@ -7,48 +7,48 @@
 @section('title', 'News')
 
 @section('content')
-<div id="main-hero-news-1" >
+<div id="main-hero-news-1">
     <svg id="wave" class="position-absolute" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 440" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(62, 108.112, 243, 1)" offset="0%"></stop><stop stop-color="rgba(6.459, 201.112, 250.767, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,282L60,235C120,188,240,94,360,62.7C480,31,600,63,720,94C840,125,960,157,1080,148.8C1200,141,1320,94,1440,133.2C1560,172,1680,298,1800,313.3C1920,329,2040,235,2160,235C2280,235,2400,329,2520,313.3C2640,298,2760,172,2880,164.5C3000,157,3120,266,3240,282C3360,298,3480,219,3600,180.2C3720,141,3840,141,3960,156.7C4080,172,4200,204,4320,242.8C4440,282,4560,329,4680,321.2C4800,313,4920,251,5040,203.7C5160,157,5280,125,5400,148.8C5520,172,5640,251,5760,258.5C5880,266,6000,204,6120,219.3C6240,235,6360,329,6480,360.3C6600,392,6720,360,6840,321.2C6960,282,7080,235,7200,211.5C7320,188,7440,188,7560,203.7C7680,219,7800,251,7920,274.2C8040,298,8160,313,8280,313.3C8400,313,8520,298,8580,289.8L8640,282L8640,470L8580,470C8520,470,8400,470,8280,470C8160,470,8040,470,7920,470C7800,470,7680,470,7560,470C7440,470,7320,470,7200,470C7080,470,6960,470,6840,470C6720,470,6600,470,6480,470C6360,470,6240,470,6120,470C6000,470,5880,470,5760,470C5640,470,5520,470,5400,470C5280,470,5160,470,5040,470C4920,470,4800,470,4680,470C4560,470,4440,470,4320,470C4200,470,4080,470,3960,470C3840,470,3720,470,3600,470C3480,470,3360,470,3240,470C3120,470,3000,470,2880,470C2760,470,2640,470,2520,470C2400,470,2280,470,2160,470C2040,470,1920,470,1800,470C1680,470,1560,470,1440,470C1320,470,1200,470,1080,470C960,470,840,470,720,470C600,470,480,470,360,470C240,470,120,470,60,470L0,470Z"></path></svg>
     <div class="container hero-news">
         <section id="slider">
             <div class="container">
-                <h1 class="text-center position-relative mb-4"><b class="text-black underline-1">Berita Sekilas</b></h1>
-                <div class="slider">
+                <h1 class="text-center position-relative mb-4" data-aos="zoom-out-down" data-aos-delay="50" data-aos-duration="1000"><b class="text-black underline-1">Berita Sekilas</b></h1>
+                <div class="slider" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                     <div class="owl-carousel">
                         <div class="slider-card">
                             <div class="d-flex justify-content-center align-items-center mb-4">
                                 <img src="img/news/AMA with TechConnect.jpg" alt="" >
                                 </div>
                                 <h5 class="mb-0 text-center"><b class="text-black">AMA with TechConnect</b></h5>
-                                <p class="text-black text-center p-4">Satisfy all your curiosities in the Ask Me Anything (AMA) session with TechConnect, coming up this Thursday on May 11th 2023! In this session, Natura Adnyana, a web developer and lead of INSTIKI Developer Club, will be answering all your questions about launching your front end web career!</p>
+                                <p class="text-black text-center p-4">Satisfy all your curiosities in the Ask Me Anything (AMA) session with TechConnect, coming up this Thursday on May 11th 2023!</p>
                             </div>
                             <div class="slider-card">
                                 <div class="d-flex justify-content-center align-items-center mb-4">
                                 <img src="img/news/Webinar-1.jpg" alt="">
                                 </div>
                                 <h5 class="mb-0 text-center"><b class="text-black">Webinar TechConnect Sandbox 2023</b></h5>
-                                <p class="text-black text-center p-4">Jangan lewatkan kesempatan untuk memperlihatkan potensimu di TechConnect Sandbox 2023! Ajang yang diselenggarakan oleh TechConnect ini akan membuka peluangmu untuk menunjukkan kemampuan teknologimu.</p>
+                                <p class="text-black text-center p-4">Jangan lewatkan kesempatan untuk memperlihatkan potensimu di TechConnect Sandbox 2023!</p>
                             </div>
                             <div class="slider-card">
                                 <div class="d-flex justify-content-center align-items-center mb-4">
                                 <img src="img/news/Seminar-1.jpg" alt="">
                                 </div>
                                 <h5 class="mb-0 text-center"><b class="text-black">Seminar Nasional</b></h5>
-                                <p class="text-black text-center p-4">Sudah siap menjadi seorang Website Developer? Kami dari INSTIKI Developer Club, Unit Kegiatan Mahasiswa INSTIKI. Mengadakan kegiatan dengan mengusung tema "Develop skills for becoming a Web Developer".</p>
+                                <p class="text-black text-center p-4">Sudah siap menjadi seorang Website Developer? Kami dari INSTIKI Developer Club, Unit Kegiatan Mahasiswa INSTIKI.</p>
                             </div>
                             <div class="slider-card">
                                 <div class="d-flex justify-content-center align-items-center mb-4">
                                 <img src="img/news/pengabdian-kepada-masyarakat.jpg" alt="">
                                 </div>
                                 <h5 class="mb-0 text-center"><b class="text-black">Pengabdian Kepada Masyarakat</b></h5>
-                                <p class="text-black text-center p-4">Komunitas INSTIKI Developer Club bergerak menuju yayasan Tat Twam Asi, panti asuhan yang terletak di Jl. Jaya Giri IX no. 6 Denpasar. Kami hadir untuk mengunjungi dan berbagi kasih sayang kepada anak-anak yang luar biasa. Hari ini, kami membuka kotak sumbangan, menyerukan kebaikan, dan membagikan kebahagiaan kepada mereka. Bersama, kita dapat membuat perbedaan besar dalam hidup mereka!</p>
+                                <p class="text-black text-center p-4">Komunitas INSTIKI Developer Club bergerak menuju yayasan Tat Twam Asi, panti asuhan yang terletak di Jl. Jaya Giri IX no. 6 Denpasar. Kami hadir untuk mengunjungi dan berbagi kasih sayang kepada anak-anak yang luar biasa.</p>
                             </div>
                             <div class="slider-card">
                                 <div class="d-flex justify-content-center align-items-center mb-4">
                                 <img src="img/news/Hackfest 2023.jpg" alt="">
                                 </div>
                                 <h5 class="mb-0 text-center"><b class="text-black">Hackfest 2023</b></h5>
-                                <p class="text-black text-center p-4">Good news! We've extended the registration deadline for our upcoming HackFest! 💻 Don't miss this chance to join an amazing community of developers, learn new skills, and have fun coding!</p>
+                                <p class="text-black text-center p-4">Good news! We've extended the registration deadline for our upcoming HackFest</p>
                             </div>
                         </div>
                     </div>
@@ -60,49 +60,49 @@
 <div class="container main-news section">
     <div class="row">
         <div class="section-title-news">
-            <h1 class="mb-4"><b class="text-black underline-3">Prestasi</b></h1>
+            <h1 class="mb-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000"><b class="text-black underline-3">Prestasi</b></h1>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="card text-bg-dark card-prestasi">
+            <div class="card text-bg-dark card-prestasi" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="1000">
                 <img src="img/news/Prestasi-1.png" class="card-img opacity-50" alt="...">
                 <div class="card-img-overlay card-prestasi-content-1">
-                <h5 class="card-title">Juara I Desain Web</h5>
-                <p class="card-text">Juara lomba desain web adalah prestasi yang membanggakan bagi para peserta yang telah berhasil menghasilkan karya desain web yang kreatif dan menarik.</p>
-                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Juara I Desain Web</h5>
+                    <p class="card-text">Juara lomba desain web adalah prestasi yang membanggakan bagi para peserta yang telah berhasil menghasilkan karya desain web yang kreatif dan menarik.</p>
+                    <p class="card-text"><small>Last updated 3 mins ago</small></p>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="row">
+            <div class="row" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="1500">
                 <div class="col-sm-6 col-md-6 col-lg-6 column-2">
                     <div class="card text-bg-dark mb-3 card-prestasi">
                         <img src="img/news/Prestasi-2.png" class="card-img opacity-50" alt="...">
                         <div class="card-img-overlay card-prestasi-content-2">
-                        <h5 class="card-title">Juara II UI/UX Design</h5>
-                        <p class="card-text"><small>Last updated 33 mins ago</small></p>
+                            <h5 class="card-title">Juara II UI/UX Design</h5>
+                            <p class="card-text"><small>Last updated 33 mins ago</small></p>
                         </div>
                     </div>
                     <div class="card text-bg-dark card-prestasi">
                         <img src="img/news/Prestasi-3.png" class="card-img opacity-50" alt="...">
                         <div class="card-img-overlay card-prestasi-content-3">
-                        <h5 class="card-title">Juara II Web Development</h5>
-                        <p class="card-text"><small>Last updated 13 mins ago</small></p>
+                            <h5 class="card-title">Juara II Web Development</h5>
+                            <p class="card-text"><small>Last updated 13 mins ago</small></p>
                         </div>
                     </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6 column-3">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 column-3">
                     <div class="card text-bg-dark mb-3 card-prestasi">
                         <img src="img/news/Prestasi-4.png" class="card-img opacity-50" alt="...">
                         <div class="card-img-overlay card-prestasi-content-3">
-                        <h5 class="card-title">Juara II Mobile Development</h5>
-                        <p class="card-text"><small>Last updated 21 mins ago</small></p>
+                            <h5 class="card-title">Juara II Mobile Development</h5>
+                            <p class="card-text"><small>Last updated 21 mins ago</small></p>
                         </div>
                     </div>
                     <div class="card text-bg-dark card-prestasi">
                         <img src="img/news/Prestasi-5.png" class="card-img opacity-50" alt="...">
                         <div class="card-img-overlay card-prestasi-content-3">
-                        <h5 class="card-title">Juara Harapan I Data Science</h5>
-                        <p class="card-text"><small>Last updated 45 mins ago</small></p>
+                            <h5 class="card-title">Juara Harapan I Data Science</h5>
+                            <p class="card-text"><small>Last updated 45 mins ago</small></p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                 <div class="section-title-news">
                     <h1 class="mb-4"><b class=" text-black underline-3">Terbaru</b></h1>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/pengabdian-kepada-masyarakat.jpg">
                     </div>
@@ -309,28 +309,28 @@
         <h1 class="mb-4"><b class="text-black underline-2">Media Partner</b></h1>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-xs-12 col-md-3 col-lg-3">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/bem_instiki/">
                 <img class="thumb media-partner" src="img/news/bem-instiki.png">
                 </a>
             </div>
         </div>
-        <div class="col-sm-12 col-xs-12 col-md-3 col-lg-3">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/hima.ti.instiki/">
                 <img class="thumb media-partner" src="img/news/hima-ti-instiki.png">
                 </a>
             </div>
         </div>
-        <div class="col-sm-12 col-xs-12 col-md-3 col-lg-3">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/ins.id_/">
                 <img class="thumb media-partner" src="img/news/inspiration-dance-instiki.png">
                 </a>
             </div>
         </div>
-        <div class="col-sm-12 col-xs-12 col-md-3 col-lg-3">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/infobalinews/">
                 <img class="thumb media-partner" src="img/news/info-bali-news.png">

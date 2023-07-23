@@ -1,4 +1,7 @@
-#main-hero-news {
+@import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+@import '../../node_modules/aos/dist/aos.css';
+
+#main-hero-news-1 {
     position: relative;
     height: auto;
 }
@@ -14,10 +17,6 @@ a:hover {
 
 .hero-news {
     padding-top: 100px;
-}
-
-.header-1-news {
-    font-size: 30px;
 }
 
 .slider {
@@ -50,13 +49,14 @@ a:hover {
 }
 
 .slider-card img {
+    height: 40vh;
     border-radius: 5px 5px 0px 0px;
 }
 
 .owl-nav .owl-prev {
     position: absolute;
     top: calc(50% - 25px);
-    left: -20px;
+    left: 0px;
     opacity: 1;
     font-size: 30px !important;
     z-index: 1;
@@ -65,7 +65,7 @@ a:hover {
 .owl-nav .owl-next {
     position: absolute;
     top: calc(50% - 25px);
-    right: -20px;
+    right: 0px;
     opacity: 1;
     font-size: 30px !important;
     z-index: 1;
@@ -263,7 +263,7 @@ small {
 }
 
 .card-prestasi-content-1 {
-    margin-top: 270px;
+    margin-top: 240px;
 }
 
 .card-prestasi-content-2, .card-prestasi-content-3 {
@@ -277,6 +277,11 @@ small {
 .media-partner {
     width: 150px;
     height: 150px;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    font-size: 30px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
@@ -331,6 +336,14 @@ small {
     .card-prestasi-content-3 {
         margin-top: 55px;
     }
+
+    .owl-nav .owl-prev {
+        left: -40px;
+    }
+
+    .owl-nav .owl-next {
+        right: -40px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -343,18 +356,28 @@ small {
     }
 
     .card-prestasi-content-1 {
-        font-size: 12px;
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
-    .card-prestasi-content-2 {
-        font-size: 10px;
-        margin-top: 10px;
-    }
-
+    .card-prestasi-content-2,
     .card-prestasi-content-3 {
-        font-size: 10px;
-        margin-top: 10px;
+        margin-top: 0px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 11px;
+    }
+
+    .owl-nav .owl-prev {
+        left: -40px;
+    }
+
+    .owl-nav .owl-next {
+        right: -40px;
     }
 }
 
@@ -364,7 +387,7 @@ small {
     }
 
     .card-prestasi-content-1 {
-        margin-top: 130px;
+        margin-top: 100px;
     }
 
     .card-prestasi-content-2 {
