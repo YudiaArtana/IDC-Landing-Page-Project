@@ -1,6 +1,10 @@
 // Owlcarousel
-import 'owl.carousel/dist/owl.carousel.min.js';
+<<<<<<< HEAD
+=======
 
+>>>>>>> a59620c9146ca4017a0d42dba880d80c0bb08d9a
+import 'owl.carousel/dist/owl.carousel.min.js';
+import AOS from 'aos/src/js/aos';
 
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
@@ -12,8 +16,8 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         center: true,
         navText: [
-            "<i class='fa fa-angle-left'></i>",
-            "<i class='fa fa-angle-right'></i>"
+            "<i class='fa fa-angle-left text-secondary'></i>",
+            "<i class='fa fa-angle-right text-secondary'></i>"
         ],
         responsive: {
             0: {
@@ -28,3 +32,7 @@ $(document).ready(function () {
         }
     });
 });
+
+AOS.init();
+
+
