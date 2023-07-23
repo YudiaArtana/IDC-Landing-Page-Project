@@ -8,7 +8,7 @@
   --font-color-super-primary: #A01C20;
   --font-color-primary: #ED1F24;
   --font-color-super-secondary: #FBAD18;
-	--font-color-tersier: #ffffff99;
+	--font-color-third: #ffffff99;
   --font-color-secondary: #F6E016;
 
   --font-size-xxl: 48px;
@@ -33,7 +33,7 @@
 }
 
 .page-background{
-	background-image: url(./img/page-background.svg);
+	background-image: url(/public/img/page-background.svg);
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -46,49 +46,50 @@
 	width: 100%;
 	min-height: 100vh;
 	background-color: rgba(11,11,34,.8);
-	backdrop-filter: blur(175px);
+	backdrop-filter: blur(150px);
 }
 
-
+.header {
+	position: relative;
+}
 
 .hero {
-	background-image: url(./img/bg.JPG);
+	background-image: url(/public/img/home/bg.JPG);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	position: relative;
 }
 
-.hero::before{
-  content: "";
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 100%;
-  width: 100vw;
-  position: absolute;
+.hero::before {
+	content: "";
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 .text-hero {
-	height: 100%;
-	width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: start;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: start;
 	z-index: 1;
-	display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-}
+	padding: 20px;
+}	
 
 .text-hero h1 {
 	font-size: 65px;
 	font-weight: 700;
+	margin: 0;
 }
 
 .text-hero h4 {
 	font-size: var(--font-size-m);
 	font-weight: 600;
 	color: var(--font-color-primary);
+	margin: 0;
 }
 
 
@@ -107,7 +108,7 @@
 }
 
 .division-head p {
-	color: var(--font-color-tersier);
+	color: var(--font-color-third);
 	font-weight: 500;
 }
 .square {
@@ -142,5 +143,21 @@
 
 .komunitas-item p{
 	font-size: var(--font-size-s) !important;
-	color: var(--font-color-tersier);
+	color: var(--font-color-third);
+}
+
+
+.paroller h1 {
+	font-size: 100px;
+	color: #ff0000;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 2px;
+	font-weight: 900;
+	white-space: nowrap; /* Teks akan tetap dalam satu baris */
+	overflow: hidden; /* Menyembunyikan bagian teks yang melebihi ukuran parent */
+	margin-left: -25%;
+}
+
+.paroller h1:nth-child(2) {
+	margin-left: -50%;
 }

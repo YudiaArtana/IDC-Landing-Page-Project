@@ -12,7 +12,7 @@
   <div class="bg-color position-relative">
     <section class="header p-0">
       <div class="hero ukiyo"></div>
-      <div class="text-hero m-0 container position-absolute p-0">
+      <div class="text-hero container p-0">
         <h4>INSTIKI DEVELOPER CLUB</h4>
         <h1 class="mt-2">CONNECTING AND INSPIRING STUDENT DEVELOPERS IN THE TECH COMMUNITY</h1>
       </div>
@@ -53,7 +53,7 @@
               </div>
           </div>
       </section>
-      <section class="row gap-4 align-items-center">
+      <section class="row gap-4 mb-5 align-items-center">
         <div class="col p-0">
           <div class="division-head">
             <h5>DIVISION</h5>
@@ -101,11 +101,14 @@
           </div>
         </div>
       </section>
-
-      <section>
-      <div class="paroller">Awesome element with parallax effect</div>
-      </section>
     </div>
+  
+      <section class="partner">
+        <div class="paroller">
+          <h1>PARTNER • PARTNER • PARTNER </h1>
+          <h1>PARTNER • PARTNER • PARTNER • PARTNER </h1>
+        </div>
+      </section>
   </div>
 </div>
 
