@@ -63,7 +63,7 @@
             <h1 class="mb-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000"><b class="text-black underline-3">Prestasi</b></h1>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="card text-bg-dark card-prestasi" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="1000">
+            <div class="card text-bg-dark card-prestasi" data-aos="zoom-out-right" data-aos-delay="50" data-aos-duration="1000">
                 <img src="img/news/Prestasi-1.png" class="card-img opacity-50" alt="...">
                 <div class="card-img-overlay card-prestasi-content-1">
                     <h5 class="card-title">Juara I Desain Web</h5>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="row" data-aos="zoom-out" data-aos-delay="50" data-aos-duration="1500">
+            <div class="row" data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="1000">
                 <div class="col-sm-6 col-md-6 col-lg-6 column-2">
                     <div class="card text-bg-dark mb-3 card-prestasi">
                         <img src="img/news/Prestasi-2.png" class="card-img opacity-50" alt="...">
@@ -115,9 +115,9 @@
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
             <div class="mb-4 mt-4">
                 <div class="section-title-news">
-                    <h1 class="mb-4"><b class=" text-black underline-3">Terbaru</b></h1>
+                    <h1 class="mb-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000"><b class="text-black underline-3">Terbaru</b></h1>
                 </div>
-                <div class="row mb-3 bb-1">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/pengabdian-kepada-masyarakat.jpg">
                     </div>
@@ -131,7 +131,7 @@
                         <p class="summary pt-3">Komunitas INSTIKI Developer Club bergerak menuju yayasan Tat Twam Asi, panti asuhan yang terletak di Jl. Jaya Giri IX no. 6 Denpasar. Kami hadir untuk mengunjungi dan berbagi kasih sayang kepada anak-anak yang luar biasa. Hari ini, kami membuka kotak sumbangan, menyerukan kebaikan, dan membagikan kebahagiaan kepada mereka. Bersama, kita dapat membuat perbedaan besar dalam hidup mereka!</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Hari-Raya-Idul-Fitri.jpg">
                     </div>
@@ -145,7 +145,7 @@
                         <p class="summary pt-3">Selamat merayakan Lebaran Idul Fitri 2023. Semoga kita semua senantiasa bahagia dan damai di hari yang fitri ini.</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Hari-Kartini.jpg">
                     </div>
@@ -159,7 +159,7 @@
                         <p class="summary pt-3">Tantangan dalam hidup datang silih berganti, tapi percayalah "Habis Gelap Terbitlah Terang". Selamat Hari Kartini!</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Hari-Raya-Jumat-Agung.jpg">
                     </div>
@@ -173,7 +173,7 @@
                         <p class="summary pt-3">Seluruh Anggota Ukm Instiki Developer Club(IDC) Mengucapkan,Selamat hari Jumat Agung, berdoa agar Tuhan memilikimu dalam cinta-Nya dan memberkatimu dengan rahmat-Nya di Hari Suci ini.</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Tech-Talk-Thursday-1.jpg">
                     </div>
@@ -187,7 +187,7 @@
                         <p class="summary pt-3">Another new episode of Tech Talk Thursday is here. And we’re going to talk about "Managing Risk in a Risky World"</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Puasa-1.jpg">
                     </div>
@@ -201,7 +201,7 @@
                         <p class="summary pt-3">Kami Dari Anggota IDC (Instiki Developer Club) Mengucapkan Selamat Merayakan Bulan Suci Penuh Kemenangan. Semoga Selalu Bisa Menjalani Ibadah dengan Lancar dan Tanpa Halangan.</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Dokumentasi-Seminar-1.jpg">
                     </div>
@@ -215,7 +215,7 @@
                         <p class="summary pt-3">Hai INSTIKI Devs👋 Mari kita lihat momen-momen berharga dari Seminar Nasional INSTIKI Developer Club dengan tema "Develop Skills for Becoming a Web Developer"! Acara ini berhasil membantu para peserta untuk memperluas wawasan dan meningkatkan keterampilan mereka dalam bidang pengembangan web. Terima kasih kepada semua pembicara dan peserta yang telah bergabung dalam seminar ini.</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Hari-Raya-Nyepi.jpg">
                     </div>
@@ -229,7 +229,7 @@
                         <p class="summary pt-3">"Hari Nyepi merupakan hari suci untuk seluruh umat hindu, luruhkan amarah, dendam, dan sifat-sifat buruk lainnya. Mari kita bangun sikap optimisme dan semangat." Kami dari UKM IDC Mengucapkan selamat hari raya nyepi tahun 2023,semoga kita tetap kuat dalam melaksanakan catur brata penyepian dan sehat selalu🙏🙏🙏</p>
                     </div>
                 </div>
-                <div class="row mb-3 bb-1 pt-0">
+                <div class="row mb-3 bb-1" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Seminar-1.jpg">
                     </div>
@@ -248,9 +248,9 @@
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="trending mt-4">
                 <div class="section-title-news">
-                    <h1 class="mb-4"><b class="text-black underline-3">Populer</b></h1>
+                    <h1 class="mb-4" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000"><b class="text-black underline-3">Populer</b></h1>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Dokumentasi-Seminar-1.jpg">
                     </div>
@@ -260,7 +260,7 @@
                         </a>
                     </div>
                     </div>
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Seminar-1.jpg">
                     </div>
@@ -270,7 +270,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/AMA with TechConnect.jpg">
                     </div>
@@ -280,7 +280,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Hari-Raya-Jumat-Agung.jpg">
                     </div>
@@ -290,7 +290,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <img class="thumb" src="img/news/Hari-Raya-Nyepi.jpg">
                     </div>
@@ -306,31 +306,31 @@
 </div>
 <div class="container section mt-4">
     <div class="section-title-news">
-        <h1 class="mb-4"><b class="text-black underline-2">Media Partner</b></h1>
+        <h1 class="mb-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000"><b class="text-black underline-2">Media Partner</b></h1>
     </div>
     <div class="row">
-        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/bem_instiki/">
                 <img class="thumb media-partner" src="img/news/bem-instiki.png">
                 </a>
             </div>
         </div>
-        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/hima.ti.instiki/">
                 <img class="thumb media-partner" src="img/news/hima-ti-instiki.png">
                 </a>
             </div>
         </div>
-        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3" data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/ins.id_/">
                 <img class="thumb media-partner" src="img/news/inspiration-dance-instiki.png">
                 </a>
             </div>
         </div>
-        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2">
+        <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/infobalinews/">
                 <img class="thumb media-partner" src="img/news/info-bali-news.png">
