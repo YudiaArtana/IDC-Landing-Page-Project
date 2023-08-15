@@ -5,28 +5,44 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all .2s linear;
+}
+
+.page-container {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.page-background,
+.bg-color {
+    position: absolute;
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
 }
 
 .page-background{
 	background-image: url(/public/img/page-background.svg);
 	background-size: cover;
-	height: 100%;
-	width: 100%;
-	min-height: 100vh;
-	background-color: rgba(11, 11, 34);
+  width: 100%;
+  background-color: rgba(11, 11, 34);
+  top: -50px;
+  z-index: -1;
+  
 }
 
 .bg-color {
 	height: 100%;
 	width: 100%;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	background-color: rgba(11,11,34,.8);
 	backdrop-filter: blur(50px);
+  margin-top: 50px;
+
 }
 
 .about {
-  background-image: url(/public/img/bg.jpg);
+  background-image: url(/public/img/about/IMG_2.JPG);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -45,44 +61,42 @@
 }
 
 .gallery-section {
-  position: relative !important;
-  height: 750px;
-  width: 100%;
-}
-
-.gallery{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: -50px 20px 0 20px;
+  position: relative !important;
+}
+
+.gallery-section .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.gallery-section .box .gallery{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.gallery-section .box .gallery img{
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0 auto;
-  z-index: 100;
-  margin-top: -5%;
+  padding-bottom: 15px;
+  border-radius: 5px;
 }
 
-.gallery a{
-  box-sizing: border-box;
-height: 25%;
-width: 30%;
-margin: 20px;
-border-radius: 5px;
-overflow: hidden;
-box-shadow: 0 3px 5px #000;
-}
+@media only screen and (max-width: 769px){
+  .gallery-section .box{
+    flex-direction: column;
+  }
 
-.gallery a img{
-height: 100%;
-width: 100%;
-object-fit: cover;
-}
-
-.gallery a img:hover{
-transform: scale(1.4);
+  .gallery-section .box .gallery{
+    width: 100%;
+  }
 }
 
 .text-about,
@@ -149,7 +163,7 @@ transform: scale(1.4);
   border: 3px solid #ddd;
   position: absolute;
   top: 20px;
-  left: -40px;
+  left: -38px;
 }
 
 /* Responsive adjustments */
@@ -160,7 +174,7 @@ transform: scale(1.4);
 
   .timeline:before {
     top: 0;
-    left: -20px;
+    left: -38px;
   }
 }
 
@@ -171,7 +185,7 @@ transform: scale(1.4);
 
   .timeline:before {
     top: 0;
-    left: -20px;
+    left: -38px;
   }
 }
 
@@ -182,11 +196,73 @@ transform: scale(1.4);
 
   .timeline:before {
     top: 5px;
-    left: -15px;
+    left: -38px;
   }
 }
 
+.faq {
+  position: relative;
+  z-index: 2; /* Atur z-index agar FAQ muncul di atas background */
+}
+.faqs {
+  max-width: 700px;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  transition: border-color 0.3s ease; /* Menambahkan transisi warna border */
+}
 
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.3s ease; /* Menambahkan transisi warna teks */
+}
+
+.question h3 {
+  font-size: 1.8rem;
+  margin: 0; /* Menghapus margin atas dan bawah pada h3 */
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.3s ease; /* Mengatur transisi max-height dan padding */
+  animation: fade 0.3s ease-in-out;
+}
+
+.answer p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  margin: 0; /* Menghapus margin atas dan bawah pada paragraf */
+}
+
+.faqs.active .answer {
+  max-height: 300px;
+  padding: 1rem 0; /* Menambahkan padding atas dan bawah */
+  animation: fade 0.5s ease-in-out; /* Mengurangi durasi animasi */
+}
+
+.faqs.active svg {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in 0.1s; /* Menambahkan penundaan pada transisi rotasi */
+}
+
+svg {
+  transition: transform 0.3s ease-in 0.1s; /* Menambahkan penundaan pada transisi rotasi */
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
 
 
