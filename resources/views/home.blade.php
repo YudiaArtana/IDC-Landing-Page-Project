@@ -57,7 +57,6 @@
       <section class="row gap-4 align-items-center">
         <div class="col p-0">
           <div class="division-head">
-            
             <h5>APA ITU IDC?</h5>
             <h3 class="lh-base">INSTIKI DEVELOPER CLUB</h3>
             <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
@@ -101,11 +100,11 @@
           </div>
         </div>
         <div class="col">
-
+        <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
       </section>
 
-      <section class="row gap-4 mb-5 align-items-center">
+      <section class="row gap-4 mb-5 align-items-center marsec">
         <div class="col">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
@@ -141,7 +140,53 @@
           </div>
         </div>
       </section>
-    </div>
+
+      <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
+        <div class="division-head text-center w-50">
+          <h5>BERITA TERKINI</h5>
+          <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
+          <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+        </div>
+        <div class="row">
+          <div class="col-4 d-flex justify-content-center">
+            <div class="card m-0 bg-transparent w-100" style="width: 18rem;">
+              <div class="overflow-hidden img-card">
+                <img src="img/news/Hari-Kartini.jpg" class="card-img-top object-fit-cover h-100 w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <div class="card m-0 bg-transparent w-100" style="width: 18rem;">
+              <div class="overflow-hidden img-card">
+                <img src="img/news/Hackfest 2023.jpg" class="card-img-top object-fit-cover h-100 w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4  d-flex justify-content-center">
+            <div class="card m-0 bg-transparent w-100" style="width: 18rem;">
+              <div class="overflow-hidden img-card">
+                <img src="img/news/AMA with TechConnect.jpg" class="card-img-top object-fit-cover h-100 w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+
   
       <!-- <section class="partner">
         <div class="paroller">
@@ -149,6 +194,7 @@
           <h1>PARTNER • PARTNER • PARTNER • PARTNER • PARTNER • PARTNER • PARTNER </h1>
         </div>
       </section> -->
+    </div>
   </div>
 </div>
 

@@ -152,6 +152,10 @@
 	font-weight: 700;
 }
 
+.marsec {
+	margin-top: 100px !important;
+}
+
 .division-head h5 {
 	color: var(--font-color-primary);
 	font-weight: 600;
@@ -212,4 +216,13 @@
 
 .paroller h1:nth-child(2) {
 	margin-left: -50%;
+}
+
+/* end */
+
+/* BERITA TERKINI */
+
+.img-card {
+	height: 350px;
+	width: 350px;
 }
