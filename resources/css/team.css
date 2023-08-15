@@ -1,8 +1,28 @@
 @import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+
+.page-background{
+	background-image: url(/public/img/page-background.svg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(11, 11, 34);
+}
+
+.bg-color {
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(11,11,34,.8);
+	backdrop-filter: blur(150px);
+}
+
 #team1 {
     position: relative;
     height: auto;
+    margin-bottom: -50px;
 }
+
 
 a {
     color: #cc6060;
@@ -51,11 +71,45 @@ a:hover {
     border-radius: 5px 5px 0px 0px;
 }
 
+
+.slider-divisi {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.slider-card-divisi {
+    padding: 0;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    /* box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%); */
+    border: 1px solid red;
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+    color: black;
+    background-color: transparent;
+}
+
+.slider-card-divisi:hover {
+    transform: translateY(-5px) scale(1);
+    opacity: 1;
+}
+
+.slider-card-divisi img {
+    height: 65vh;
+    width: 70%;
+    border-radius: 5px 5px 0 0;
+    padding-bottom: 10px;
+}
+
+
+
+
 .owl-nav .owl-prev {
     position: absolute;
     top: calc(50% - 25px);
     left: -20px;
-    opacity: 1;
+    /* opacity: 1; */
     font-size: 30px !important;
     z-index: 1;
 }
