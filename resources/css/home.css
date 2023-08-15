@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
 
 :root {
   --global-background: #fff;
@@ -19,6 +19,13 @@
   --font-size-xs: 14px;
   --font-size-xxs: 12px;
   --font-size-xxxs: 10px;
+
+	--font-light: 300;
+	--font-regular: 400;
+	--font-medium: 500;
+	--font-semibold: 600;
+	--font-bold: 700;
+	--font-extrabold: 800;
 }
 
 * {
@@ -27,7 +34,7 @@
   padding: 0;
   scroll-behavior: smooth;
   text-decoration: none !important;
-  font-family: 'Noto Sans';
+  font-family: 'Figtree', sans-serif;
   font-size: var(--font-size-s);
   color: var(--font-color-white);
 }
@@ -93,9 +100,52 @@
 }
 
 
-.division-head h5 p{
-	font-size: var(--font-size-s);
+/* APA ITU IDC */
+.nav-tabs::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 1px; 
+	background: linear-gradient(to right, var(--font-color-super-primary), transparent);
+	z-index: -1;
 }
+
+.nav-tabs {
+	--bs-nav-tabs-link-active-bg: none !important;
+	font-weight: var(--font-light) !important;
+	--bs-nav-tabs-border-width: none !important;
+	position: relative;
+}
+
+.nav-tabs button:not(.active):hover {
+	color: var(--font-color-super-primary) !important;
+	border: none !important;
+}
+
+.nav-tabs .active {
+	border-bottom: none !important;
+	color: var(--font-color-super-secondary) !important;
+	background-color: var(--font-color-super-primary) !important;
+}
+
+.nav-tabs .nav-link {
+	color: var(--font-color-third);
+}
+
+.tab-content #visi {
+	font-weight: var(--font-regular);
+}
+
+.tab-content #misi {
+	font-weight: var(--font-regular);
+}
+
+/* END */
+
+
+/* DIVISI */
 
 .division-head h3 {
 	font-size: var(--font-size-l);
@@ -109,8 +159,10 @@
 
 .division-head p {
 	color: var(--font-color-third);
-	font-weight: 500;
+	font-weight: 400;
+	font-size: var(--font-size-s);
 }
+
 .square {
 	background-color: #ffffff0d;
 	border: 1px solid #ffffff1a;

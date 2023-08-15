@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+
 :root {
   --global-background: #fff;
   --global-background-dark: #1f1f1f;
@@ -26,7 +27,7 @@
   padding: 0;
   scroll-behavior: smooth;
   text-decoration: none !important;
-  font-family: 'Noto Sans';
+  font-family: 'Figtree', sans-serif;
   font-size: var(--font-size-s);
   color: var(--font-color-white);
 }

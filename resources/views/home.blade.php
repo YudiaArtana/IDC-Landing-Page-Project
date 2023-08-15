@@ -53,12 +53,67 @@
               </div>
           </div>
       </section>
+
+      <section class="row gap-4 align-items-center">
+        <div class="col p-0">
+          <div class="division-head">
+            
+            <h5>APA ITU IDC?</h5>
+            <h3 class="lh-base">INSTIKI DEVELOPER CLUB</h3>
+            <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+          </div>
+          <div>
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-visi-tab" data-bs-toggle="tab" data-bs-target="#visi" type="button" role="tab" aria-controls="visi" aria-selected="true">Visi</button>
+                <button class="nav-link" id="nav-misi-tab" data-bs-toggle="tab" data-bs-target="#misi" type="button" role="tab" aria-controls="misi" aria-selected="false">Misi</button>
+              </div>
+            </nav>
+            <div class="tab-content mt-4" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="nav-visi-tab" tabindex="0">
+                Menjadi wadah utama bagi mahasiswa INSTIKI dalam mengembangkan keterampilan dan kreativitas di bidang pengembangan perangkat lunak. Kami bertujuan untuk menciptakan komunitas yang berfokus pada pengembangan diri, di mana anggota kami dapat saling berbagi pengetahuan dan pengalaman untuk tumbuh menjadi developer yang berkualitas.
+              </div>
+              <div class="tab-pane fade" id="misi" role="tabpanel" aria-labelledby="nav-misi-tab" tabindex="0">
+                <ul class="list-unstyled">
+                  <li class="mb-3 d-flex">
+                    <span class="me-2">📌</span>
+                    <span>Mengumpulkan dan memanfaatkan pengetahuan serta keterampilan anggota kami untuk saling berbagi, berkolaborasi, dan tumbuh bersama.</span>
+                  </li>
+                  <li class="mb-3 d-flex">
+                    <span class="me-2">📌</span>
+                    <span>Mengadakan kegiatan seperti workshop, seminar, dan proyek kolaboratif untuk meningkatkan pengetahuan teknis anggota IDC.</span>
+                  </li>
+                  <li class="mb-3 d-flex">
+                    <span class="me-2">📌</span>
+                    <span>Mendorong kolaborasi dan pertukaran ide antara anggota IDC dan mahasiswa INSTIKI lainnya.</span>
+                  </li>
+                  <li class="mb-3 d-flex">
+                    <span class="me-2">📌</span>
+                    <span>Menyediakan akses mudah ke sumber daya dan materi pembelajaran terkini di bidang pengembangan perangkat lunak.</span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="me-2">📌</span>
+                    <span>Membangun hubungan yang kuat dengan komunitas developer di luar kampus untuk memperluas jaringan dan wawasan.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+        </div>
+      </section>
+
       <section class="row gap-4 mb-5 align-items-center">
+        <div class="col">
+          <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
+        </div>
         <div class="col p-0">
           <div class="division-head">
             <h5>DIVISION</h5>
             <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
-            <p class="mt-4 mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+            <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
           </div>
           <div class="division-list">
             <div class="py-3 px-4 square rounded-1 d-flex">
@@ -85,30 +140,15 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
-        </div>
-      </section>
-      <section class="row gap-4 align-items-center">
-        <div class="col">
-
-        </div>
-        <div class="col p-0">
-          <div class="division-head">
-            <h5>DIVISION</h5>
-            <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
-            <p class="mt-4 mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
-          </div>
-        </div>
       </section>
     </div>
   
-      <section class="partner">
+      <!-- <section class="partner">
         <div class="paroller">
           <h1>PARTNER • PARTNER • PARTNER </h1>
-          <h1>PARTNER • PARTNER • PARTNER • PARTNER </h1>
+          <h1>PARTNER • PARTNER • PARTNER • PARTNER • PARTNER • PARTNER • PARTNER </h1>
         </div>
-      </section>
+      </section> -->
   </div>
 </div>
 
