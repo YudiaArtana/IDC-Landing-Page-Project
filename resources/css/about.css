@@ -1,5 +1,32 @@
-/* @import '../../node_modules//lightgallery/css/lightgallery.css'; */
+@import '../../node_modules/aos/dist/aos.css';
 
+:root {
+  --global-background: #fff;
+  --global-background-dark: #1f1f1f;
+  --font-color-white: white;
+  --font-color-dark: black;
+  --font-color-super-primary: #A01C20;
+  --font-color-primary: #ED1F24;
+  --font-color-super-secondary: #FBAD18;
+	--font-color-third: #ffffff99;
+  --font-color-secondary: #F6E016;
+
+  --font-size-xxl: 48px;
+  --font-size-xl: 36px;
+  --font-size-l: 28px;
+  --font-size-m: 20px;
+  --font-size-s: 16px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 12px;
+  --font-size-xxxs: 10px;
+
+	--font-light: 300;
+	--font-regular: 400;
+	--font-medium: 500;
+	--font-semibold: 600;
+	--font-bold: 700;
+	--font-extrabold: 800;
+}
 
 *{
   margin: 0;
@@ -56,9 +83,9 @@
   position: absolute;
 }
 
-.about-us {
-  position: relative !important;
-}
+
+
+/* Gallery */
 
 .gallery-section {
   display: flex;
@@ -99,6 +126,33 @@
   }
 }
 
+
+/* About */
+
+.about-us {
+  position: relative !important;
+}
+
+.text-about h5{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
+}
+
+.text-about h3{
+  font-size: var(--font-size-l) !important;
+  font-weight: 700;
+}
+
+.text-about p{
+  color: var(--font-color-third) !important;
+  font-size: var(--font-size-s) !important;
+  font-weight: 400;
+}
+
+.text-about {
+  font-weight: var(--font-regular) !important;
+}
+
 .text-about,
 .text-vission {
   opacity: 0;
@@ -113,33 +167,10 @@
 }
 
 
-
-:root {
-  --primary-color: white;
-  --secondary-color: black;
-  --third-color: rgb(112, 108, 108);
-  --max-width: 1100px;
-  --global-background: #fff;
-  --global-background-dark: #1f1f1f;
-  --font-color-white: white;
-  --font-color-dark: black;
-  --font-color-super-primary: #A01C20;
-  --font-color-primary: #ED1F24;
-  --font-color-super-secondary: #FBAD18;
-  --font-color-tersier: #ffffff99;
-  --font-color-secondary: #F6E016;
-}
-
-
-/* :root {
-  --primary-color: white;
-  --secondary-color: black;
-  --third-color: rgb(112, 108, 108);
-  --max-width: 1100px;
-} */
+/* Timeline History */
 
 #timeline-area{
-  margin: 20px ;
+  margin: 20px 0;
   width: auto;
   border-left: 3px solid #ccc;
   padding: 0 2px 0 30px;
@@ -149,8 +180,18 @@
   padding: 10px 25px;
   line-height: 1.7;
   position: relative;
-  height: 200px;
-  margin-bottom: 20px;
+  height: auto; /* Mengubah tinggi menjadi otomatis agar sesuai dengan kontennya */
+}
+
+.timeline h5{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
+}
+
+.timeline .sub-timeline{
+  color: var(--font-color-third) !important;
+  font-size: var(--font-size-s) !important;
+  font-weight: 400;
 }
 
 .timeline:before{
@@ -200,10 +241,14 @@
   }
 }
 
+/* FAQs */
+
 .faq {
   position: relative;
   z-index: 2; /* Atur z-index agar FAQ muncul di atas background */
+  margin-top: 130px;
 }
+
 .faqs {
   max-width: 700px;
   padding-bottom: 1rem;
@@ -253,6 +298,30 @@ svg {
   transition: transform 0.3s ease-in 0.1s; /* Menambahkan penundaan pada transisi rotasi */
 }
 
+.faq-head h5{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
+}
+.faq-head h3{
+  font-size: var(--font-size-l) !important;
+  font-weight: 700;
+}
+.faq-head p{
+  color: var(--font-color-third) !important;
+  font-size: var(--font-size-s) !important;
+  font-weight: 400;
+}
+
+.btn-custom{
+  background-color: var(--font-color-primary) !important;
+  color: white !important;
+  transition: background-color 0.3s, color 0.3s !important; /* Efek transisi saat hover */
+}
+
+.btn-custom:hover {
+    background-color: var(--font-color-super-primary)  !important;
+    color: white !important;
+}
 @keyframes fade {
   from {
     opacity: 0;
