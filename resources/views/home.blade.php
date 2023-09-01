@@ -8,8 +8,7 @@
 
 
 @section('content')
-<div class="page-background position-relative">
-  <div class="bg-color position-relative">
+
     <section class="header p-0">
       <div class="hero ukiyo"></div>
       <div class="text-hero container p-0">
@@ -206,12 +205,6 @@
       </section>
 
       
-
-
-
-
-
-
   
       <!-- <section class="partner">
         <div class="paroller">
@@ -220,10 +213,10 @@
         </div>
       </section> -->
     </div>
-  </div>
-</div>
 
+@endsection
+
+@section('js')
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 @endsection
 

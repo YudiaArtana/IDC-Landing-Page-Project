@@ -11,8 +11,12 @@
   <header id="navbar">
     @include('layouts.navbar')
   </header>
-@yield('content')
-@include('layouts.footer')
+  <div class="page-background position-relative">
+    <div class="bg-color position-relative">
+      @yield('content')
+      @include('layouts.footer')
+    </div>
+  </div>
 @yield('js')
 
 <!-- NAVBAR SCRIPT -->
