@@ -1,32 +1,75 @@
-/* @import '../../node_modules//lightgallery/css/lightgallery.css'; */
+@import '../../node_modules/aos/dist/aos.css';
 
+:root {
+  --global-background: #fff;
+  --global-background-dark: #1f1f1f;
+  --font-color-white: white;
+  --font-color-dark: black;
+  --font-color-super-primary: #A01C20;
+  --font-color-primary: #ED1F24;
+  --font-color-super-secondary: #FBAD18;
+	--font-color-third: #ffffff99;
+  --font-color-secondary: #F6E016;
+
+  --font-size-xxl: 48px;
+  --font-size-xl: 36px;
+  --font-size-l: 28px;
+  --font-size-m: 20px;
+  --font-size-s: 16px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 12px;
+  --font-size-xxxs: 10px;
+
+	--font-light: 300;
+	--font-regular: 400;
+	--font-medium: 500;
+	--font-semibold: 600;
+	--font-bold: 700;
+	--font-extrabold: 800;
+}
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all .2s linear;
+}
+
+.page-container {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.page-background,
+.bg-color {
+    position: absolute;
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
 }
 
 .page-background{
 	background-image: url(/public/img/page-background.svg);
 	background-size: cover;
-	height: 100%;
-	width: 100%;
-	min-height: 100vh;
-	background-color: rgba(11, 11, 34);
+  width: 100%;
+  background-color: rgba(11, 11, 34);
+  top: -50px;
+  z-index: -1;
+  
 }
 
 .bg-color {
 	height: 100%;
 	width: 100%;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	background-color: rgba(11,11,34,.8);
 	backdrop-filter: blur(50px);
+  margin-top: 50px;
+
 }
 
 .about {
-  background-image: url(/public/img/bg.jpg);
+  background-image: url(/public/img/about/IMG_2.JPG);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -40,49 +83,74 @@
   position: absolute;
 }
 
+
+
+/* Gallery */
+
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: -50px 20px 0 20px;
+  position: relative !important;
+}
+
+.gallery-section .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.gallery-section .box .gallery{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.gallery-section .box .gallery img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 769px){
+  .gallery-section .box{
+    flex-direction: column;
+  }
+
+  .gallery-section .box .gallery{
+    width: 100%;
+  }
+}
+
+
+/* About */
+
 .about-us {
   position: relative !important;
 }
 
-.gallery-section {
-  position: relative !important;
-  height: 750px;
-  width: 100%;
+.text-about h5{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
 }
 
-.gallery{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0 auto;
-  z-index: 100;
-  margin-top: -5%;
+.text-about h3{
+  font-size: var(--font-size-l) !important;
+  font-weight: 700;
 }
 
-.gallery a{
-  box-sizing: border-box;
-height: 25%;
-width: 30%;
-margin: 20px;
-border-radius: 5px;
-overflow: hidden;
-box-shadow: 0 3px 5px #000;
+.text-about p{
+  color: var(--font-color-third) !important;
+  font-size: var(--font-size-s) !important;
+  font-weight: 400;
 }
 
-.gallery a img{
-height: 100%;
-width: 100%;
-object-fit: cover;
-}
-
-.gallery a img:hover{
-transform: scale(1.4);
+.text-about {
+  font-weight: var(--font-regular) !important;
 }
 
 .text-about,
@@ -99,33 +167,10 @@ transform: scale(1.4);
 }
 
 
-
-:root {
-  --primary-color: white;
-  --secondary-color: black;
-  --third-color: rgb(112, 108, 108);
-  --max-width: 1100px;
-  --global-background: #fff;
-  --global-background-dark: #1f1f1f;
-  --font-color-white: white;
-  --font-color-dark: black;
-  --font-color-super-primary: #A01C20;
-  --font-color-primary: #ED1F24;
-  --font-color-super-secondary: #FBAD18;
-  --font-color-tersier: #ffffff99;
-  --font-color-secondary: #F6E016;
-}
-
-
-/* :root {
-  --primary-color: white;
-  --secondary-color: black;
-  --third-color: rgb(112, 108, 108);
-  --max-width: 1100px;
-} */
+/* Timeline History */
 
 #timeline-area{
-  margin: 20px ;
+  margin: 20px 0;
   width: auto;
   border-left: 3px solid #ccc;
   padding: 0 2px 0 30px;
@@ -135,8 +180,18 @@ transform: scale(1.4);
   padding: 10px 25px;
   line-height: 1.7;
   position: relative;
-  height: 200px;
-  margin-bottom: 20px;
+  height: auto; /* Mengubah tinggi menjadi otomatis agar sesuai dengan kontennya */
+}
+
+.timeline h5{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
+}
+
+.timeline .sub-timeline{
+  color: var(--font-color-third) !important;
+  font-size: var(--font-size-s) !important;
+  font-weight: 400;
 }
 
 .timeline:before{
@@ -149,7 +204,7 @@ transform: scale(1.4);
   border: 3px solid #ddd;
   position: absolute;
   top: 20px;
-  left: -40px;
+  left: -38px;
 }
 
 /* Responsive adjustments */
@@ -160,7 +215,7 @@ transform: scale(1.4);
 
   .timeline:before {
     top: 0;
-    left: -20px;
+    left: -38px;
   }
 }
 
@@ -171,7 +226,7 @@ transform: scale(1.4);
 
   .timeline:before {
     top: 0;
-    left: -20px;
+    left: -38px;
   }
 }
 
@@ -182,11 +237,101 @@ transform: scale(1.4);
 
   .timeline:before {
     top: 5px;
-    left: -15px;
+    left: -38px;
   }
 }
 
+/* FAQs */
 
+.faq {
+  position: relative;
+  z-index: 2; /* Atur z-index agar FAQ muncul di atas background */
+  margin-top: 130px;
+}
+
+.faqs {
+  max-width: 700px;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  transition: border-color 0.3s ease; /* Menambahkan transisi warna border */
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.3s ease; /* Menambahkan transisi warna teks */
+}
+
+.question h3 {
+  font-size: 1.8rem;
+  margin: 0; /* Menghapus margin atas dan bawah pada h3 */
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.3s ease; /* Mengatur transisi max-height dan padding */
+  animation: fade 0.3s ease-in-out;
+}
+
+.answer p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  margin: 0; /* Menghapus margin atas dan bawah pada paragraf */
+}
+
+.faqs.active .answer {
+  max-height: 300px;
+  padding: 1rem 0; /* Menambahkan padding atas dan bawah */
+  animation: fade 0.5s ease-in-out; /* Mengurangi durasi animasi */
+}
+
+.faqs.active svg {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in 0.1s; /* Menambahkan penundaan pada transisi rotasi */
+}
+
+svg {
+  transition: transform 0.3s ease-in 0.1s; /* Menambahkan penundaan pada transisi rotasi */
+}
+
+.faq-head h5{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
+}
+.faq-head h3{
+  font-size: var(--font-size-l) !important;
+  font-weight: 700;
+}
+.faq-head p{
+  color: var(--font-color-third) !important;
+  font-size: var(--font-size-s) !important;
+  font-weight: 400;
+}
+
+.btn-custom{
+  background-color: var(--font-color-primary) !important;
+  color: white !important;
+  transition: background-color 0.3s, color 0.3s !important; /* Efek transisi saat hover */
+}
+
+.btn-custom:hover {
+    background-color: var(--font-color-super-primary)  !important;
+    color: white !important;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
 
 

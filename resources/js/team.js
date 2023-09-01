@@ -1,6 +1,7 @@
 // Owlcarousel
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/owl.carousel.min.js';
+import AOS from 'aos/src/js/aos';
 
 
 $(document).ready(function () {
@@ -29,3 +30,5 @@ $(document).ready(function () {
         }
     });
 });
+
+AOS.init();
