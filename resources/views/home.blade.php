@@ -147,44 +147,69 @@
           <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
           <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
         </div>
-        <div class="row">
-          <div class="col-4 d-flex justify-content-center">
-            <div class="card m-0 bg-transparent w-100" style="width: 18rem;">
+        <div class="row owl-carousel owl-theme position-relative p-1">
+          <div class="me-3 d-flex justify-content-center item" style="width:400px">
+            <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
-                <img src="img/news/Hari-Kartini.jpg" class="card-img-top object-fit-cover h-100 w-100" alt="...">
+                <img src="img/news/Hari-Kartini.jpg" class="card-img-top object-fit-cover" alt="...">
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+              <div class="card-body px-4 pb-5">
+                <p class="card-date">02 FEBRUARY 2023</p>
+                <h3 class="card-title text-white">Hari Kartini 2023</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-4 d-flex justify-content-center">
-            <div class="card m-0 bg-transparent w-100" style="width: 18rem;">
+          <div class="me-3 d-flex justify-content-center item" style="width:400px">
+            <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
-                <img src="img/news/Hackfest 2023.jpg" class="card-img-top object-fit-cover h-100 w-100" alt="...">
+                <img src="img/news/Hackfest 2023.jpg" class="card-img-top object-fit-cover" alt="...">
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+              <div class="card-body px-4 pb-5">
+                <p class="card-date">02 FEBRUARY 2023</p>
+                <h3 class="card-title text-white">Hari Kartini 2023</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-4  d-flex justify-content-center">
-            <div class="card m-0 bg-transparent w-100" style="width: 18rem;">
+          <div class="me-3 d-flex justify-content-center item" style="width:400px">
+            <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
-                <img src="img/news/AMA with TechConnect.jpg" class="card-img-top object-fit-cover h-100 w-100" alt="...">
+                <img src="img/news/AMA with TechConnect.jpg" class="card-img-top object-fit-cover" alt="...">
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+              <div class="card-body px-4 pb-5">
+                <p class="card-date">02 FEBRUARY 2023</p>
+                <h3 class="card-title text-white">Hari Kartini 2023</h3>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
+            </div>
+          </div>
+          <div class=" me-3 d-flex justify-content-center item" style="width:400px">
+            <div class="card m-0 w-100 overflow-hidden">
+              <div class="overflow-hidden img-card">
+                <img src="img/news/Hari-Raya-Jumat-Agung.jpg" class="card-img-top object-fit-cover" alt="...">
+              </div>
+              <div class="card-body px-4 pb-5">
+                <p class="card-date">02 FEBRUARY 2023</p>
+                <h3 class="card-title text-white">Hari Kartini 2023</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="align-items-center">
+            <div class="next item d-flex flex-column justify-content-center align-items-center" style="width:200px">
+                <i class="bi bi-arrow-right-circle-fill fs-1"></i>
+                <a href="{{ url('news') }}" class="text-white">Selengkapnya</a>
             </div>
           </div>
         </div>
-
-
       </section>
+
+      
+
+
+
+
 
 
   
@@ -198,9 +223,7 @@
   </div>
 </div>
 
-@endsection
-
-@section('js')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 @endsection
 

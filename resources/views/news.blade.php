@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('vite')
-  @vite(['resources/js/app.js', 'resources/js/news.js', 'resources/css/news.css'])
+    @vite(['resources/js/app.js', 'resources/js/news.js', 'resources/css/news.css'])
 @endsection
 
 @section('title', 'News')
