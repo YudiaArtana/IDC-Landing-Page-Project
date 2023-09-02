@@ -13,41 +13,29 @@
     <div class="container">
         <section class="gallery-section">
 
-            <div class="main">
-                <div class="gallery">
-                    <div class="img">
-                        <img src="img/about/IMG_1.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_2.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_7.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_4.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_5.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_6.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_3.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_8.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_2.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_2.jpg" />
-                    </div>
-                    <div class="img">
-                        <img src="img/about/IMG_2.jpg" />
-                    </div>
+            <div class="gallery">
+                <div >
+                    <img src="img/about/IMG_1.JPG" alt="">
+                </div>
+        
+                <div class="v-stretch">
+                    <img src="img/about/IMG_1.JPG" alt="">
+                </div>
+        
+                <div class="h-stretch" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/about/IMG_1.JPG" alt="">
+                </div>
+        
+                <div>
+                    <img src="img/about/IMG_1.JPG" alt="">
+                </div>
+        
+                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/about/IMG_1.JPG" alt="">
+                </div>
+        
+                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/about/IMG_1.JPG" alt="">
                 </div>
             </div>
 
