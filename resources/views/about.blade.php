@@ -8,50 +8,47 @@
 @section('title', 'Tentang Kami')
 
 @section('content')
-<div class="page-container">
     <div class="about"></div>
-    <div class="page-background">
-        <div class="bg-color"></div>
-    </div>
+
     <div class="container">
         <section class="gallery-section">
 
-            <div class="box  mb-5">
-
+            <div class="main">
                 <div class="gallery">
-
-                    <img src="img/about/IMG_1.jpg" alt="">
-
-                    <img src="img/about/IMG_2.jpg" alt="" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
-
-                    <img src="img/about/IMG_3.jpg" alt="" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
-
-
+                    <div class="img">
+                        <img src="img/about/IMG_1.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_2.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_7.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_4.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_5.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_6.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_3.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_8.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_2.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_2.jpg" />
+                    </div>
+                    <div class="img">
+                        <img src="img/about/IMG_2.jpg" />
+                    </div>
                 </div>
-
-                <div class="gallery">
-
-                    <img src="img/about/IMG_1.jpg" alt="">
-
-                    <img src="img/about/IMG_2.jpg" alt="" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
-
-                    <img src="img/about/IMG_3.jpg" alt="" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
-
-
-                </div>
-
-                <div class="gallery">
-
-                    <img src="img/about/IMG_1.jpg" alt="">
-
-                    <img src="img/about/IMG_2.jpg" alt="" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
-
-                    <img src="img/about/IMG_3.jpg" alt="" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
-
-
-                </div>
-
-
             </div>
 
         </section>
@@ -122,7 +119,7 @@
                     <div class="faqs">
                         
                         <div class="question">
-                            <h3>what is idc?</h3>
+                            <h3>Kapan saja ngoding bareng dilaksanakan?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -131,7 +128,7 @@
                         </div>
 
                         <div class="answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, a, dolorem repellat ad ratione quisquam officia ea veritatis optio delectus itaque sed odio! Nobis quo vitae eius perspiciatis mollitia eos.</p>
+                            <p>Untuk kegiatan ngoding bareng Instiki Developer Club biasanya dilakukan pada weekend (jika tidak ada halangan).</p>
                         </div>
 
                     </div>
@@ -139,7 +136,7 @@
                     <div class="faqs">
 
                         <div class="question">
-                            <h3>what is idc?</h3>
+                            <h3>Berapa point skp saat mengikuti seminar nasional IDC?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -148,7 +145,7 @@
                         </div>
 
                         <div class="answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, a, dolorem repellat ad ratione quisquam officia ea veritatis optio delectus itaque sed odio! Nobis quo vitae eius perspiciatis mollitia eos.</p>
+                            <p>Untuk setiap seminar yang diadakan Instiki Developer Club mendapatkan 20 point skp.</p>
                         </div>
 
                     </div>
@@ -156,7 +153,7 @@
                     <div class="faqs">
 
                         <div class="question">
-                            <h3>what is idc?</h3>
+                            <h3>Apa keuntungan mengikuti GDSC Instiki?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -165,7 +162,39 @@
                         </div>
 
                         <div class="answer">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, a, dolorem repellat ad ratione quisquam officia ea veritatis optio delectus itaque sed odio! Nobis quo vitae eius perspiciatis mollitia eos.</p>
+                            <p>Keuntungan yang bisa didapat dari mengikuti Google Developer Club Instiki ilmu dan juga relasi. </p>
+                        </div>
+
+                    </div>
+                    <div class="faqs">
+
+                        <div class="question">
+                            <h3>Apakah IDC selalu mengadakan lomba?</h3>
+
+                            <svg width="15" height="10" viewbox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                            </svg>
+                
+                        </div>
+
+                        <div class="answer">
+                            <p>Untuk lomba kami dari Instiki Developer Club pasti akan mengadakan lomba seperti mini hackaton. Kami juga menerima undangan lomba yang berhubungan dengan developer dari kampus-kampus lainnya.</p>
+                        </div>
+
+                    </div>
+                    <div class="faqs">
+
+                        <div class="question">
+                            <h3>Apakah masuk IDC harus pintar ngoding?</h3>
+
+                            <svg width="15" height="10" viewbox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                            </svg>
+                
+                        </div>
+
+                        <div class="answer">
+                            <p>Tidak, karena di Instiki Developer Club tidak memandang jago atau tidaknya dalam mengcoding. Tetapi lebih </p>
                         </div>
 
                     </div>
@@ -176,7 +205,6 @@
         <br><br><br>
 
     </div>
-</div>
 
 <script>
 
