@@ -75,19 +75,29 @@ a:hover {
 .slider-divisi {
     margin-bottom: 30px;
     position: relative;
+    text-align: center; /* Untuk membuat teks di tengah secara horizontal */
 }
 
 .slider-card-divisi {
-    padding: 0;
-    margin: 50px 15px 90px 15px;
+    width: 80%; /* Menambahkan padding untuk memberikan ruang di sekitar konten */
+    padding-bottom: 20px; /* Menambahkan padding untuk memberikan ruang di sekitar konten */
     border-radius: 5px;
-    /* box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%); */
-    border: 1px solid red;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
     transform: scale(0.9);
     opacity: 0.5;
     transition: all 0.3s;
     color: black;
-    background-color: transparent;
+    background: #398AEE;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #69aafa, #398AEE);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #69aafa, #398AEE);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    margin: 0 auto; /* Membuat div berada di tengah secara horizontal */
+    display: flex;
+    flex-direction: column; /* Membuat isi div berada di tengah secara vertikal */
+    align-items: center; /* Membuat isi div berada di tengah secara horizontal */
 }
 
 .slider-card-divisi:hover {
@@ -97,11 +107,10 @@ a:hover {
 
 .slider-card-divisi img {
     height: 65vh;
-    width: 70%;
+    width: 100%;
     border-radius: 5px 5px 0 0;
     padding-bottom: 10px;
 }
-
 
 
 

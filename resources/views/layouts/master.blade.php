@@ -6,6 +6,28 @@
   @yield('vite')
   <script src="https://kit.fontawesome.com/e7badc6d00.js" crossorigin="anonymous"></script>
   <title>@yield('title')</title>
+  <style>
+    /* Gaya umum untuk scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Gaya untuk track (lintasan) scrollbar */
+    ::-webkit-scrollbar-track {
+      background: #e2e2e2;
+    }
+
+    /* Gaya untuk thumb (grip) scrollbar */
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 5px;
+    }
+
+    /* Gaya hover pada thumb scrollbar */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  </style>
 </head>
 <body>
   <header id="navbar">

@@ -49,7 +49,8 @@ html, body {
 .slider .owl-item.active.center .slider-card {
     transform: scale(1.15);
     opacity: 1;
-    background: linear-gradient(to right, var(--font-color-super-secondary), var(--font-color-secondary));
+    /* background: linear-gradient(to right, var(--font-color-super-secondary), var(--font-color-secondary)); */
+    background: radial-gradient(circle, rgba(160,28,32,1) 59%, rgb(108, 0, 0) 100%);
 }
 
 .owl-item.active.center h5 b,

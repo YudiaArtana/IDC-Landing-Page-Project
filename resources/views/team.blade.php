@@ -159,43 +159,45 @@
             </section>
         </div>
 
-        <div id="team3" class="container hero-team">
-            <section id="slider-divisi">
-                <div class="container">
-                    <h1 class="text-center position-relative mb-4" data-aos="zoom-out-down" data-aos-delay="10" data-aos-duration="1000"><b class="text-black underline-1">Divisi</b></h1>
-                    <div class="row" data-aos="zoom-out-down" data-aos-delay="20" data-aos-duration="1000">
-                        <div class="col-md-6">
-                            <div class="slider-card-divisi">
-                                <div class="d-flex justify-content-center align-items-center mb-4">
-                                    <img src="img/team/divisi/pubdok.png" alt="">
-                                </div>
-                                <h5 class="mb-0 text-center"><b class="text-black">I Gede Juniarta</b></h5>
-                                <p class="mb-0 text-center text-black">TI-MTI</p>
-                                <p class="text-black text-center">
-                                    <i class="bi bi-facebook px-2"></i>
-                                    <i class="bi bi-instagram"></i>
-                                    <i class="bi bi-linkedin px-2"></i>
-                                </p>
-                            </div>
+        <div id="team3" class="container hero-team d-flex justify-content-center align-items-center">
+    <section id="slider-divisi">
+        <div class="container">
+            <h1 class="text-center position-relative mb-4" data-aos="zoom-out-down" data-aos-delay="10" data-aos-duration="1000"><b class="text-black underline-1">Divisi</b></h1>
+            <div class="row justify-content-center align-items-center" data-aos="zoom-out-down" data-aos-delay="20" data-aos-duration="1000">
+                <div class="col-md-6">
+                    <div class="slider-card-divisi pb-4">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="img/team/divisi/pubdok.png" alt="">
                         </div>
-                        <div class="col-md-6">
-                            <div class="slider-card-divisi">
-                                <div class="d-flex justify-content-center align-items-center mb-4">
-                                    <img src="img/team/divisi/humas.png" alt="">
-                                </div>
-                                <h5 class="mb-0 text-center"><b class="text-black">I Gede Agus Pramana Satria Wiweka</b></h5>
-                                <p class="mb-0 text-center text-black">TI-MTI</p>
-                                <p class="text-black text-center">
-                                    <i class="bi bi-facebook px-2"></i>
-                                    <i class="bi bi-instagram"></i>
-                                    <i class="bi bi-linkedin px-2"></i>
-                                </p>
-                            </div>
-                        </div>
+                        <h5 class="mt-3 mb-0 text-center"><b class="text-black">I Gede Juniarta</b></h5>
+                        <p class="mb-0 text-center text-black">TI-MTI</p>
+                        <p class="text-black text-center">
+                            <i class="bi bi-facebook px-2"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin px-2"></i>
+                        </p>
                     </div>
                 </div>
-            </section>
+                <div class="col-md-6">
+                    <div class="slider-card-divisi pb-4">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="img/team/divisi/humas.png" alt="">
+                        </div>
+                        <h5 class="mt-3 mb-0 text-center"><b class="text-black">I Gede Agus Pramana Satria Wiweka</b></h5>
+                        <p class="mb-0 text-center text-black">TI-MTI</p>
+                        <p class="text-black text-center">
+                            <i class="bi bi-facebook px-2"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin px-2"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+</div>
+
+
     </div>
 </div>
 
