@@ -10,10 +10,9 @@
 <section>
     <div class="page-background position-relative">
         <div class="bg-color position-relative">
-            <h1 class="text-center proker"><b class="underline-1" style="font-size: 30px; color: white;">Program
-                    Kerja</b></h1>
+            <h1 class="text-center proker"><b class="underline-1" style="font-size: 40px; color: white;">Program Kerja</b></h1>
             <div class="container">
-                <div class="row ldo">
+                <div class="row ldo pb-5">
                     <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -31,7 +30,7 @@
                     </div>
                     <div class="col-sm-6 col-md-5 col-lg-6">
                         <b>
-                            <h2 class="title-proker">Latihan Dasar Organisasi</h2>
+                            <h2 class="title-proker" style="font-size: 35px;">Latihan Dasar Organisasi</h2>
                         </b>
                         <p class="pt-2">Latihan dasar organisasi adalah serangkaian kegiatan awal yang bertujuan untuk
                             mempersiapkan
@@ -44,14 +43,13 @@
                         <p>Selama latihan dasar organisasi, peserta diberikan wawasan tentang sejarah dan latar belakang
                             organisasi, tanggung jawab individu dalam tim, komunikasi yang efektif, serta cara
                             pengambilan keputusan dalam struktur hierarki.</p>
-                        <button type="button" class="btn btn-outline-warning lh-base">Selengkapnya<i
-                                class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></button>
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
 
             <div class="container">
-                <div class="row pt-5">
+                <div class="row py-5">
                     <div class="col-sm-6 col-md-5 col-lg-6">
                         <b>
                             <h2 class="title-proker">Ngobar</h2>
@@ -65,8 +63,7 @@
                         <p>Ngoding Bareng menjadi ruang yang memperkaya wawasan teknis, membangun jaringan
                             profesional, dan menghidupkan semangat kolaborasi di antara para calon pengembang yang
                             bersemangat.</p>
-                            <button type="button" class="btn btn-outline-warning lh-base">Selengkapnya<i
-                                class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></button>
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                     <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -87,7 +84,7 @@
             </div>
 
             <div class="container">
-                <div class="row pt-5">
+                <div class="row py-5">
                     <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -105,7 +102,7 @@
                     </div>
                     <div class="col-sm-6 col-md-5 col-lg-6">
                         <b>
-                            <h2>Seminar dan Workshop</h2>
+                            <h2 class="title-proker">Seminar dan Workshop</h2>
                         </b>
                         <p>Seminar dan workshop yang diselenggarakan oleh UKM INSTIKI Developer Club di kampus adalah
                             kesempatan berharga bagi para anggota untuk meresapi wawasan teknologi terkini secara
@@ -116,17 +113,16 @@
                         <p>Ini adalah peluang ideal untuk mengejar kreativitas, mengasah keterampilan, dan mendapatkan
                             wawasan tentang tren perkembangan teknologi masa depan, yang semuanya memperkaya pengalaman
                             serta pengetahuan para peserta.</p>
-                            <button type="button" class="btn btn-outline-warning lh-base">Selengkapnya<i
-                                class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></button>
+                        <<a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
 
             <div class="container">
-                <div class="row pt-5">
+                <div class="row py-5">
                     <div class="col-sm-6 col-md-5 col-lg-6">
                         <b>
-                            <h2>Pengabdian Kepada Masyarakat</h2>
+                            <h2 class="title-proker">Pengabdian Kepada Masyarakat</h2>
                         </b>
                         <p>Dalam semangat pengabdian pada masyarakat, UKM INSTIKI Developer Club mengambil peran aktif
                             dalam membantu panti asuhan sebagai bagian dari komitmen sosialnya. Kami dengan antusias
@@ -137,8 +133,7 @@
                         <p>Ini adalah wujud nyata dari dedikasi kami untuk memberikan dampak positif dan menciptakan
                             ikatan empati dengan masyarakat di sekitar, sambil memupuk semangat gotong royong dan
                             kepedulian bersama.</p>
-                        <button type="button" class="btn btn-outline-warning lh-base">Selengkapnya<i
-                                class="bi bi-arrow-right ps-2"></i></button>
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                     <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -159,7 +154,7 @@
             </div>
 
             <div class="container">
-                <div class="row pt-5">
+                <div class="row py-5">
                     <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -177,7 +172,7 @@
                     </div>
                     <div class="col-sm-6 col-md-5 col-lg-6">
                         <b>
-                            <h2>Final Project Showcase</h2>
+                            <h2 class="title-proker">Final Project Showcase</h2>
                         </b>
                         <p>Acara Final Project Showcase yang diadakan secara internal oleh UKM INSTIKI Developer Club
                             merupakan puncak dari perjalanan kreatifitas dan pembelajaran anggota. Dalam suasana
@@ -187,9 +182,7 @@
                         <p>Showcase ini menjadi platform untuk berbagi ide inovatif, pemecahan masalah teknis, serta
                             menginspirasi satu sama lain melalui perkembangan perangkat lunak dan aplikasi yang
                             diciptakan.</p>
-                            <button type="button" class="btn btn-custom lh-base">
-  Selengkapnya<i class="bi bi-arrow-right ps-2 icon-proker"></i>
-</button>
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
                 </div>
             </div>
@@ -197,3 +190,4 @@
     </div>
 </section>
 @endsection
+

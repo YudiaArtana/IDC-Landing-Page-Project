@@ -3,6 +3,7 @@
     height: auto;
     margin-bottom: -50px;
 }
+
 .page-background{
 	background-image: url(/public/img/page-background.svg);
 	background-size: cover;
@@ -48,27 +49,18 @@
 	height: 400px;
 }
 
+
 .title-proker{
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 35px;
 	color: #ED1F24;
 }
 p{
 	font-size: 16px;
 }
 
-.btn{
-	color: #FBAD18 !important;
-	border-color:#FBAD18 !important;
-}
 
-.btn:hover{
-	font-weight: bold;
-	background-color: #FBAD18 !important;
-	color: black !important;
-}
-
-.btn-custom {
+/* .btn-custom {
     background: transparent;
     border-color: #FBAD18;
     color: #FBAD18;
@@ -78,13 +70,51 @@ p{
   .btn-custom:hover {
     color: black;
     border-color: black;
+  } */
+
+  .btn-selengkapnya{
+    position: relative;
+    width: 180px;
+    height: 45px;
+    font-size: 0.9rem;
+    background: rgb(250, 179, 57);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-top: 0.5px solid rgba(69, 69, 74, 0.8);
+    border-left: 0.5px solid rgba(69, 69, 74, 0.8);
+    padding-left: 40px;
+    transition: 0.5s;
+    
   }
 
-  .icon-proker {
-    transition: color 0.3s;
+  .btn-selengkapnya:hover{
+    padding-left: 0px;
+    padding-right: 40px;
+    color: rgb(13, 65, 111);
   }
 
-  .btn-custom .icon-proker:hover  {
-    color: black !important;
+  .btn-selengkapnya span{
+    position: absolute;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background: #ED1F24;
+    border-radius: 25%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black ;
+
+  }
+
+  .btn-selengkapnya:hover span
+  {
+    left: calc(100% - 35px);
   }
   
