@@ -19,10 +19,16 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-            600: {
-                items: 1
+            480: {
+                items: 2
             },
-            1000: {
+            760: {
+                items: 2
+            },
+            1024: {
+                items: 3
+            },
+            1280: {
                 items: 3
             }
         }
