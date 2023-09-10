@@ -14,39 +14,71 @@
         <section class="gallery-section">
 
             <div class="gallery">
-                <div >
+                <div class="gallery-item n1-stretch">
                     <img src="img/about/IMG_1.JPG" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. n-stretch</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item v-stretch">
+                    <img src="img/about/IMG_1.JPG" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto.Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. v-stretch</p>
+                    </div>
                 </div>
         
-                <div class="v-stretch">
+                <div class="gallery-item n2-stretch">
                     <img src="img/about/IMG_1.JPG" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. n-stretch</p>
+                    </div>
                 </div>
         
-                <div class="h-stretch" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+                <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                     <img src="img/about/IMG_1.JPG" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. nv-stretch</p>
+                    </div>
                 </div>
         
-                <div>
+                <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <img src="img/about/IMG_1.JPG" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. nh-stretch</p>
+                    </div>
                 </div>
-        
-                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
-                </div>
-        
-                <div data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
-                </div>
-            </div>
 
+                <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/about/IMG_1.JPG" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto.Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. h-stretch</p>
+                    </div>
+                </div>
+
+            </div>
         </section>
+
+        <br><br>
 
         <section class="about-us">
 
-            <div class="text-about text-center pb-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
+            <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
                 <h5 class="mt-5">TENTANG KAMI</h5>
-                <h3>Sejarah Instiki Developer Club</h3>
-                <p class="mx-5">
+                <h3>Sejarah INSTIKI Developer Club</h3>
+                <p class="mx-auto">
                     Mari kita telusuri perjalanan menarik Instiki Developer Club melalui serangkaian titik penting yang membentuk komunitas inovatif ini. Dari akar hingga puncak kolaborasi, mari kita lihat bagaimana IDC telah tumbuh menjadi apa yang kita kenal hari ini.
                 </p>
             </div>
@@ -104,7 +136,7 @@
 
                 <div class="col-7" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1200">
 
-                    <div class="faqs">
+                    <div class="faqs mb-4">
                         
                         <div class="question">
                             <h3>Kapan saja ngoding bareng dilaksanakan?</h3>
@@ -121,7 +153,7 @@
 
                     </div>
 
-                    <div class="faqs">
+                    <div class="faqs mb-4">
 
                         <div class="question">
                             <h3>Berapa point skp saat mengikuti seminar nasional IDC?</h3>
@@ -138,7 +170,7 @@
 
                     </div>
 
-                    <div class="faqs">
+                    <div class="faqs mb-4">
 
                         <div class="question">
                             <h3>Apa keuntungan mengikuti GDSC Instiki?</h3>
@@ -154,7 +186,7 @@
                         </div>
 
                     </div>
-                    <div class="faqs">
+                    <div class="faqs mb-4">
 
                         <div class="question">
                             <h3>Apakah IDC selalu mengadakan lomba?</h3>
@@ -170,7 +202,7 @@
                         </div>
 
                     </div>
-                    <div class="faqs">
+                    <div class="faqs mb-4">
 
                         <div class="question">
                             <h3>Apakah masuk IDC harus pintar ngoding?</h3>

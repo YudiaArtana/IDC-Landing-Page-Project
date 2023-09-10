@@ -89,46 +89,12 @@ html, body {
 
 
 /* Gallery */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery div {
-  flex: 1;
-  overflow: hidden;
-  position: relative;
-  transition: transform 0.3s ease-in-out;
-}
-
-.gallery img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out; /* Tambahkan transisi ini untuk efek yang lebih halus */
-}
-
-.gallery img:hover {
-  transform: scale(1.1); /* Efek zoom-in saat hover */
-  transform-origin: center center; /* Mengatur titik asal transformasi ke tengah gambar */
-}
-
-
 
 .gallery-section{
   position: relative;
 	height: 100%;
 	width: 100%;
   margin-top: -50px;
-}
-
-.gallery-section .gallery img{
-	overflow: hidden;
-	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9 );
-	border-radius: 5px;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .gallery{
@@ -140,43 +106,148 @@ html, body {
   grid-auto-flow: dense;
 }
 
+.gallery-item {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.8s ease-in-out;
+  position: relative;
+}
+
+.gallery-section .gallery .gallery-item img{
+	overflow: hidden;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9 );
+	border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; 
+  backdrop-filter: blur(5px); 
+  transition: opacity 0.8s ease-in-out;
+}
+
+.image-info h3{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
+}
+
+.text-about .date-taken{
+  color: var(--font-color-primary) !important;
+  font-size: 1.125rem !important;
+}
+
+.image-info .description{
+  color: var(--font-color-third) !important;
+  font-size: var(--font-size-s) !important;
+  font-weight: 400;
+  width: 90%;
+}
+
+.gallery-item:hover .image-info {
+  opacity: 1; 
+}
+
+.n1-stretch{
+  grid-row: span 1; 
+}
+
+.n2-stretch{
+  grid-row: span 1; 
+}
+
+.nv-stretch{
+  grid-row: span 1;
+}
+
 .v-stretch{
   grid-row: span 2;
-  
 }
 
 .h-stretch{
   grid-column: span 3;
-
 }
 
-.big-stretch{
+.nh-stretch{
   grid-row: span 1;
-  grid-column:  span 2;
 }
 
-@media(max-width: 560px)
+@media(max-width: 1200px )
 {
+  .n1-stretch{
+    grid-column: span 2;
+  }
+
+  .n2-stretch{
+    grid-column: span 4; 
+  }
+
   .v-stretch{
-      grid-row: span 1;
-      
+    grid-row: span 1; 
+    grid-column: span 2;  
+  }
+  
+  .nv-stretch{
+      grid-column: span 2;
+  }
+ 
+  .h-stretch{
+      grid-column: span 4;
+  }
+
+  .nh-stretch{
+      grid-column: span 2;
+  }
+  
+}  
+
+@media(max-width: 770px )
+{
+  .n1-stretch{
+      grid-column: span 4;    
+  }
+  .n2-stretch{
+      grid-column: span 4;    
+  }
+  .nv-stretch{
+      grid-column: span 4;    
+  }
+  .v-stretch{
+      grid-column: span 4;    
   }
   
   .h-stretch{
-      grid-row: span 1;
-  
+      grid-column: span 4;
+  }
+  .nh-stretch{
+      grid-column: span 4;
   }
   
-  .big-stretch{
-      grid-row: span 1;
-      grid-column:  span 1;
-  } 
 }  
 
 /* About */
 
 .about-us {
   position: relative !important;
+}
+
+.text-about {
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
 }
 
 .text-about h5{
@@ -193,10 +264,7 @@ html, body {
   color: var(--font-color-third) !important;
   font-size: var(--font-size-s) !important;
   font-weight: 400;
-}
-
-.text-about {
-  font-weight: var(--font-regular) !important;
+  width: 60%;
 }
 
 .text-about,
@@ -226,7 +294,7 @@ html, body {
   padding: 10px 25px;
   line-height: 1.7;
   position: relative;
-  height: auto; /* Mengubah tinggi menjadi otomatis agar sesuai dengan kontennya */
+  height: auto; 
 }
 
 .timeline h5{
@@ -291,7 +359,7 @@ html, body {
 
 .faq {
   position: relative;
-  z-index: 2; /* Atur z-index agar FAQ muncul di atas background */
+  z-index: 2; 
   margin-top: 130px;
 }
 
@@ -300,25 +368,25 @@ html, body {
   padding-bottom: 1rem;
   border-bottom: 2px solid #fff;
   cursor: pointer;
-  transition: border-color 0.3s ease; /* Menambahkan transisi warna border */
+  transition: border-color 0.3s ease; 
 }
 
 .question {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: color 0.3s ease; /* Menambahkan transisi warna teks */
+  transition: color 0.3s ease; 
 }
 
 .question h3 {
   font-size: 1.8rem;
-  margin: 0; /* Menghapus margin atas dan bawah pada h3 */
+  margin: 0; 
 }
 
 .answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease, padding 0.3s ease; /* Mengatur transisi max-height dan padding */
+  transition: max-height 0.5s ease, padding 0.3s ease; 
   animation: fade 0.3s ease-in-out;
 }
 
@@ -326,22 +394,22 @@ html, body {
   padding-top: 1rem;
   line-height: 1.6;
   font-size: 1.4rem;
-  margin: 0; /* Menghapus margin atas dan bawah pada paragraf */
+  margin: 0; 
 }
 
 .faqs.active .answer {
   max-height: 300px;
-  padding: 1rem 0; /* Menambahkan padding atas dan bawah */
-  animation: fade 0.5s ease-in-out; /* Mengurangi durasi animasi */
+  padding: 1rem 0; 
+  animation: fade 0.5s ease-in-out; 
 }
 
 .faqs.active svg {
   transform: rotate(180deg);
-  transition: transform 0.3s ease-in 0.1s; /* Menambahkan penundaan pada transisi rotasi */
+  transition: transform 0.3s ease-in 0.1s; 
 }
 
 svg {
-  transition: transform 0.3s ease-in 0.1s; /* Menambahkan penundaan pada transisi rotasi */
+  transition: transform 0.3s ease-in 0.1s; 
 }
 
 .faq-head h5{
@@ -370,7 +438,7 @@ svg {
 .btn-custom{
   background-color: var(--font-color-primary) !important;
   color: white !important;
-  transition: background-color 0.3s, color 0.3s !important; /* Efek transisi saat hover */
+  transition: background-color 0.3s, color 0.3s !important; 
 }
 
 .btn-custom:hover {
