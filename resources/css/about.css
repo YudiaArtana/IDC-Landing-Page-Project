@@ -65,7 +65,7 @@ html, body {
 }
 
 .about {
-  background-image: url(/public/img/about/IMG_2.JPG);
+  background-image: url(/public/img/about/IMG_2.webp);
   background-size: cover;
   background-position: center;
   min-height: 100vh;

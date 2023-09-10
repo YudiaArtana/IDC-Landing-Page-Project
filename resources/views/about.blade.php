@@ -15,7 +15,7 @@
 
             <div class="gallery">
                 <div class="gallery-item n1-stretch">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Judul Foto</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -24,7 +24,7 @@
                 </div>
                 
                 <div class="gallery-item v-stretch">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Judul Foto</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -33,7 +33,7 @@
                 </div>
         
                 <div class="gallery-item n2-stretch">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Judul Foto</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -42,7 +42,7 @@
                 </div>
         
                 <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Judul Foto</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -51,7 +51,7 @@
                 </div>
         
                 <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Judul Foto</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Judul Foto</h3>
                         <p class="date-taken">10 September 2023</p>

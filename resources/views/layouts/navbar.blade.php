@@ -8,7 +8,7 @@
       <li><a class="{{ request()->is('proker') ? 'active' : '' }}" href="{{ url('/proker') }}">Program Kerja</a></li>
       <li><a class="{{ request()->is('team') ? 'active' : '' }}" href="{{ url('/team') }}">Team</a></li>
       <li><a class="{{ request()->is('portfolio') ? 'active' : '' }}" href="{{ url('/portfolio') }}">Portfolio</a></li>
-      <li><a class="{{ request()->is('about') ? 'active' : '' }}" href="{{ url('/about') }}">Tentang</a></li>
+      <li><a class="{{ request()->is('about') ? 'active' : '' }}" href="{{ url('/about') }}">Tentang Kami</a></li>
     </ul>
     <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Join</button>
 

@@ -150,7 +150,7 @@
           <div class="me-3 d-flex justify-content-center item" style="width:400px">
             <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
-                <img src="img/news/Hari-Kartini.jpg" class="card-img-top object-fit-cover" alt="...">
+                <img src="img/news/Hari-Kartini.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
               <div class="card-body px-4 pb-5">
                 <p class="card-date">02 FEBRUARY 2023</p>
@@ -162,7 +162,7 @@
           <div class="me-3 d-flex justify-content-center item" style="width:400px">
             <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
-                <img src="img/news/Hackfest 2023.jpg" class="card-img-top object-fit-cover" alt="...">
+                <img src="img/news/Hackfest 2023.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
               <div class="card-body px-4 pb-5">
                 <p class="card-date">02 FEBRUARY 2023</p>
@@ -174,7 +174,7 @@
           <div class="me-3 d-flex justify-content-center item" style="width:400px">
             <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
-                <img src="img/news/AMA with TechConnect.jpg" class="card-img-top object-fit-cover" alt="...">
+                <img src="img/news/AMA with TechConnect.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
               <div class="card-body px-4 pb-5">
                 <p class="card-date">02 FEBRUARY 2023</p>
@@ -186,7 +186,7 @@
           <div class=" me-3 d-flex justify-content-center item" style="width:400px">
             <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
-                <img src="img/news/Hari-Raya-Jumat-Agung.jpg" class="card-img-top object-fit-cover" alt="...">
+                <img src="img/news/Hari-Raya-Jumat-Agung.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
               <div class="card-body px-4 pb-5">
                 <p class="card-date">02 FEBRUARY 2023</p>
