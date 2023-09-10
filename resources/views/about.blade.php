@@ -71,8 +71,6 @@
             </div>
         </section>
 
-        <br><br>
-
         <section class="about-us">
 
             <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
@@ -222,7 +220,6 @@
                 </div>
             </div>
         </section>
-        <br><br><br>
 
     </div>
 
