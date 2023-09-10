@@ -72,13 +72,7 @@ html, body {
   margin-top: -50px;
 }
 
-.about::before{
-  content: "";
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
+
 
 
 
