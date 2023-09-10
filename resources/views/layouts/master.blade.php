@@ -3,30 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/idc-1.png" type="image/x-icon">
   @yield('vite')
   <script src="https://kit.fontawesome.com/e7badc6d00.js" crossorigin="anonymous"></script>
   <title>@yield('title')</title>
   <style>
     /* Gaya umum untuk scrollbar */
-    ::-webkit-scrollbar {
-      width: 10px;
-    }
+::-webkit-scrollbar {
+  width: 10px;
+}
 
-    /* Gaya untuk track (lintasan) scrollbar */
-    ::-webkit-scrollbar-track {
-      background: #e2e2e2;
-    }
+/* Gaya untuk track (lintasan) scrollbar */
+::-webkit-scrollbar-track {
+  background: #3B3B4D; /* Ubah latar belakang menjadi transparan */
+}
 
-    /* Gaya untuk thumb (grip) scrollbar */
-    ::-webkit-scrollbar-thumb {
-      background: #888;
-      border-radius: 5px;
-    }
+/* Gaya untuk thumb (grip) scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #B8B9C3;
+  border-radius: 5px;
+}
 
-    /* Gaya hover pada thumb scrollbar */
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-    }
+/* Gaya hover pada thumb scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background: #D0D1D9;
+}
+
+
   </style>
 </head>
 <body>

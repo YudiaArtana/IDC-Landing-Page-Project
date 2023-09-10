@@ -1,4 +1,4 @@
-<nav class="navbar mt-3">
+<nav class="navbar mt-3 ps-3 pe-3">
 <div id="nav-shadow"></div>
   <div id="container-bg" class="container rounded-2 py-3 px-4">
     <a class="navbar-brand" href=""><img src="img/idc-2.png" alt="" width="100"></a>
