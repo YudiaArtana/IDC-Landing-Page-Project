@@ -1,31 +1,32 @@
-*{
+* {
     position: relative;
     height: auto;
     margin-bottom: -50px;
 }
 
-.page-background{
-	background-image: url(/public/img/page-background.svg);
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-	min-height: 100vh;
-	background-color: rgba(11, 11, 34);
+.page-background {
+    background-image: url(/public/img/page-background.svg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(11, 11, 34);
 }
 
 .bg-color {
-	height: 100%;
-	width: 100%;
-	min-height: 100vh;
-	background-color: rgba(11,11,34,.8);
-	backdrop-filter: blur(150px);
-}
-.proker{
-	padding-top: 150px;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(11, 11, 34, .8);
+    backdrop-filter: blur(150px);
 }
 
-.ldo{
-	padding-top: 100px;
+.proker {
+    padding-top: 150px;
+}
+
+.ldo {
+    padding-top: 100px;
 }
 
 .underline-1 {
@@ -35,8 +36,8 @@
     margin-bottom: 10px;
 }
 
-.underline-1::after{
-	content: "";
+.underline-1::after {
+    content: "";
     position: absolute;
     width: calc(100% - 10px);
     bottom: -10px;
@@ -45,18 +46,24 @@
     background: linear-gradient(to right, transparent 5px, white, white, transparent calc(100% - 5px));
 }
 
-.carousel-item img{
-	height: 400px;
+.carousel-item img {
+    height: 400px;
+}
+
+.sub-judul{
+    letter-spacing: 3px;
+}
+
+.title-proker {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #ED1F24;
 }
 
 
-.title-proker{
-	font-weight: bold;
-	font-size: 35px;
-	color: #ED1F24;
-}
-p{
-	font-size: 16px;
+p {
+    font-size: 16px;
 }
 
 
@@ -72,7 +79,7 @@ p{
     border-color: black;
   } */
 
-  .btn-selengkapnya{
+.btn-selengkapnya {
     position: relative;
     width: 180px;
     height: 45px;
@@ -89,32 +96,59 @@ p{
     border-left: 0.5px solid rgba(69, 69, 74, 0.8);
     padding-left: 40px;
     transition: 0.5s;
-    
-  }
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    overflow: hidden;
 
-  .btn-selengkapnya:hover{
+}
+
+.btn-selengkapnya:hover {
     padding-left: 0px;
     padding-right: 40px;
-    color: rgb(13, 65, 111);
-  }
+    color: rgb(255, 255, 255);
+}
 
-  .btn-selengkapnya span{
+.btn-selengkapnya span {
     position: absolute;
     left: 5px;
     width: 30px;
     height: 30px;
-    background: #ED1F24;
-    border-radius: 25%;
+    background: #ed941f;
+    border-radius: 20%;
     transition: 0.5s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black ;
+    color: black;
 
-  }
+}
 
-  .btn-selengkapnya:hover span
-  {
+.btn-selengkapnya:hover span {
     left: calc(100% - 35px);
-  }
-  
+}
+
+
+.btn-selengkapnya::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateX(-170px) skewX(30deg);
+    transition: 0.75s ease-in-out;
+}
+
+.btn-selengkapnya:hover::after {
+    transform: translateX(170px) skewX(30deg);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .carousel-item img {
+    padding-top: 30px;
+}
+}

@@ -11,26 +11,13 @@
     <div class="page-background position-relative">
         <div class="bg-color position-relative">
             <h1 class="text-center proker"><b class="underline-1" style="font-size: 40px; color: white;">Program Kerja</b></h1>
+            <p class="text-center w-80">Instiki Developer Club adalah sebuah komunitas pengembang yang berfokus pada pengembangan teknologi informasi. Program kerjanya mencakup latihan dasar organisasi untuk meningkatkan keterampilan manajemen dan kepemimpinan, seminar dan workshop reguler untuk berbagi pengetahuan dan pengalaman, sesi "ngoding bareng" yang bertujuan untuk meningkatkan keterampilan pemrograman bersama-sama, pengabdian kepada masyarakat melalui proyek-proyek teknologi yang bermanfaat, dan akhirnya, final project showcase untuk memamerkan hasil kreatifitas dan inovasi anggota dalam sebuah proyek besar yang dapat memberikan kontribusi positif dalam dunia teknologi informasi.</p>
             <div class="container">
                 <div class="row ldo pb-5">
-                    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/proker/1.jpg" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/proker/2.jpg" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/proker/3.jpg" class="d-block w-100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-5 col-lg-6">
+                    <div class="col-md-6 order-md-2">
+                    <b><h5 class="sub-judul pb-2">PROGRAM KERJA</h5></b>
                         <b>
-                            <h2 class="title-proker" style="font-size: 35px;">Latihan Dasar Organisasi</h2>
+                            <h2 class="title-proker pb-2" style="font-size: 35px;">Latihan Dasar Organisasi</h2>
                         </b>
                         <p class="pt-2">Latihan dasar organisasi adalah serangkaian kegiatan awal yang bertujuan untuk
                             mempersiapkan
@@ -45,14 +32,30 @@
                             pengambilan keputusan dalam struktur hierarki.</p>
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
+                    <div class="col-md-6 order-md-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/proker/ldo/1.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/proker/ldo/2.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/proker/ldo/3.jpg" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-sm-6 col-md-5 col-lg-6">
+                    <div class="col-md-6 order-md-1">
+                    <b><h5 class="sub-judul pb-2">PROGRAM KERJA</h5></b>
                         <b>
-                            <h2 class="title-proker">Ngobar</h2>
+                            <h2 class="title-proker pb-2">Ngobar</h2>
                         </b>
                         <p>Kegiatan Ngoding Bareng yang diadakan di kampus adalah wadah inspiratif bagi para mahasiswa
                             yang memiliki minat dalam pemrograman. Acara ini tidak hanya menjadi platform untuk berbagi
@@ -65,17 +68,17 @@
                             bersemangat.</p>
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
-                    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+                    <div class="col-md-6 order-md-2">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/1.jpg" class="d-block w-100">
+                                    <img src="img/proker/ngobar/1.jpg" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/2.jpg" class="d-block w-100">
+                                    <img src="img/proker/ngobar/2.jpg" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/3.jpg" class="d-block w-100">
+                                    <img src="img/proker/ngobar/3.jpg" class="d-block w-100">
                                 </div>
                             </div>
                         </div>
@@ -85,24 +88,10 @@
 
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/proker/1.jpg" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/proker/2.jpg" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/proker/3.jpg" class="d-block w-100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-5 col-lg-6">
+                    <div class="col-md-6 order-md-2">
+                    <b><h5 class="sub-judul pb-2">PROGRAM KERJA</h5></b>
                         <b>
-                            <h2 class="title-proker">Seminar dan Workshop</h2>
+                            <h2 class="title-proker pb-2">Seminar dan Workshop</h2>
                         </b>
                         <p>Seminar dan workshop yang diselenggarakan oleh UKM INSTIKI Developer Club di kampus adalah
                             kesempatan berharga bagi para anggota untuk meresapi wawasan teknologi terkini secara
@@ -113,16 +102,32 @@
                         <p>Ini adalah peluang ideal untuk mengejar kreativitas, mengasah keterampilan, dan mendapatkan
                             wawasan tentang tren perkembangan teknologi masa depan, yang semuanya memperkaya pengalaman
                             serta pengetahuan para peserta.</p>
-                        <<a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                        <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/proker/seminar/1.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/proker/seminar/2.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/proker/seminar/3.jpg" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-sm-6 col-md-5 col-lg-6">
+                    <div class="col-md-6 order-md-1">
+                    <b><h5 class="sub-judul pb-2">PROGRAM KERJA</h5></b>
                         <b>
-                            <h2 class="title-proker">Pengabdian Kepada Masyarakat</h2>
+                            <h2 class="title-proker pb-2">Pengabdian Kepada Masyarakat</h2>
                         </b>
                         <p>Dalam semangat pengabdian pada masyarakat, UKM INSTIKI Developer Club mengambil peran aktif
                             dalam membantu panti asuhan sebagai bagian dari komitmen sosialnya. Kami dengan antusias
@@ -135,17 +140,17 @@
                             kepedulian bersama.</p>
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                     </div>
-                    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+                    <div class="col-md-6 order-md-2">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/1.jpg" class="d-block w-100">
+                                    <img src="img/proker/pkm/1.jpg" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/2.jpg" class="d-block w-100">
+                                    <img src="img/proker/pkm/2.jpg" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/3.jpg" class="d-block w-100">
+                                    <img src="img/proker/pkm/3.jpg" class="d-block w-100">
                                 </div>
                             </div>
                         </div>
@@ -155,24 +160,10 @@
 
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/proker/1.jpg" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/proker/2.jpg" class="d-block w-100">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/proker/3.jpg" class="d-block w-100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-5 col-lg-6">
+                    <div class="col-md-6 order-md-2">
+                        <b><h5 class="sub-judul pb-2">PROGRAM KERJA</h5></b>
                         <b>
-                            <h2 class="title-proker">Final Project Showcase</h2>
+                            <h2 class="title-proker pb-2">Final Project Showcase</h2>
                         </b>
                         <p>Acara Final Project Showcase yang diadakan secara internal oleh UKM INSTIKI Developer Club
                             merupakan puncak dari perjalanan kreatifitas dan pembelajaran anggota. Dalam suasana
@@ -183,6 +174,21 @@
                             menginspirasi satu sama lain melalui perkembangan perangkat lunak dan aplikasi yang
                             diciptakan.</p>
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/proker/hackaton/1.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/proker/hackaton/2.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/proker/hackaton/3.jpg" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
