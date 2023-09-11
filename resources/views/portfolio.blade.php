@@ -1,56 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+@extends('layouts.master')
 
-        .coming-soon {
-            text-align: center;
-        }
+@section('vite')
+@vite(['resources/js/app.js', 'resources/js/portofolio.js', 'resources/css/portofolio.scss'])
+@endsection
 
-        .coming-soon h1 {
-            font-size: 36px;
-            color: #333;
-            margin-bottom: 20px;
-        }
+@section('title', 'Home Page')
 
-        .coming-soon p {
-            font-size: 18px;
-            color: #666;
-        }
 
-        .back-button {
-            margin-top: 20px;
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .back-button:hover {
-            background-color: #555;
-        }
-    </style>
-</head>
-<body>
-    <div class="coming-soon">
-        <h1>Portofolio Segera Datang</h1>
-        <p>Halaman portofolio kami sedang dalam konstruksi. Kami akan segera kembali!</p>
-        <button class="back-button"><a href="{{ url('/home') }}" style="text-decoration: none; color: white;">Kembali ke beranda</a></button>
+@section('content')
+<div class="card__collection clear-fix">
+    <div class="cards cards--two">
+        <img src="img/team/inti/wakil.png">
+        <span class="cards--two__rect"></span>
+        <span class="cards--two__tri"></span>
+        <p>Lucy Grace</p>
+        <ul class="cards__list">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+        </ul>
     </div>
-</body>
-</html>
+    <div class="cards cards--two">
+        <img src="img/team/inti/wakil.png">
+        <span class="cards--two__rect"></span>
+        <span class="cards--two__tri"></span>
+        <p>Lucy Grace</p>
+        <ul class="cards__list">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+        </ul>
+    </div>
+    <div class="cards cards--two">
+        <img src="img/team/inti/wakil.png">
+        <span class="cards--two__rect"></span>
+        <span class="cards--two__tri"></span>
+        <p>Lucy Grace</p>
+        <ul class="cards__list">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+        </ul>
+    </div>
+    <div class="cards cards--two">
+        <img src="img/team/inti/wakil.png">
+        <span class="cards--two__rect"></span>
+        <span class="cards--two__tri"></span>
+        <p>Lucy Grace</p>
+        <ul class="cards__list">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+        </ul>
+    </div>
+    <div class="cards cards--two">
+        <img src="img/team/inti/wakil.png">
+        <span class="cards--two__rect"></span>
+        <span class="cards--two__tri"></span>
+        <p>Lucy Grace</p>
+        <ul class="cards__list">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+        </ul>
+    </div>
+</div>
+@endsection
