@@ -248,6 +248,11 @@ html, body {
   transform: translateY(0);
 }
 
+@media (max-width: 768px) {
+    .about-us {
+      margin-top: 20%;
+  }
+}
 
 /* Timeline History */
 
