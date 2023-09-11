@@ -8,21 +8,73 @@
 @section('title', 'Tentang Kami')
 
 @section('content')
-    <div class="about d-flex flex-column justify-content-center align-items-center text-center" >
-        <div class="title-about d-flex flex-column justify-content-center align-items-center text-center"  data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-            <h5>TENTANG KAMI</h5>
-            <h3>INSTIKI Developer Club</h5>
-            <p>Komunitas yang berkomitmen untuk mengembangkan keterampilan teknis dan kolaborasi di antara para pengembang. Kami percaya bahwa melalui pembelajaran dan inovasi, kami dapat menciptakan solusi teknologi yang bermanfaat bagi masyarakat dan dunia industri.</p>
-        </div>
-    </div>
+    <div class="about"></div>
 
     <div class="container">
-        
+        <section class="gallery-section">
 
-        <section class="about-us px-3">
+            <div class="gallery">
+                <div class="gallery-item n1-stretch">
+                    <img src="img/about/IMG_1.webp" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. n-stretch</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item v-stretch">
+                    <img src="img/about/IMG_1.webp" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto.Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. v-stretch</p>
+                    </div>
+                </div>
+        
+                <div class="gallery-item n2-stretch">
+                    <img src="img/about/IMG_1.webp" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. n-stretch</p>
+                    </div>
+                </div>
+        
+                <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/about/IMG_1.webp" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. nv-stretch</p>
+                    </div>
+                </div>
+        
+                <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/about/IMG_1.webp" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. nh-stretch</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                    <img src="img/about/IMG_1.webp" alt="">
+                    <div class="image-info text-center">
+                        <h3>Judul Foto</h3>
+                        <p class="date-taken">10 September 2023</p>
+                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto.Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. h-stretch</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about-us">
 
             <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
-                <h5 class="mt-5">SEJARAH KAMI</h5>
+                <h5 class="mt-5">TENTANG KAMI</h5>
                 <h3>Sejarah INSTIKI Developer Club</h3>
                 <p class="mx-auto">
                     Mari kita telusuri perjalanan menarik Instiki Developer Club melalui serangkaian titik penting yang membentuk komunitas inovatif ini. Dari akar hingga puncak kolaborasi, mari kita lihat bagaimana IDC telah tumbuh menjadi apa yang kita kenal hari ini.
@@ -36,7 +88,7 @@
                             <h5> Tahun 2010</h5>
                             <p class="sub-timeline">Pendirian dan Perkembangan IDC</p>
                         </div>
-                        <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2200">
+                        <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
                             <p>Pada tahun-tahun awalnya, Instiki Developer Club (IDC) muncul sebagai suatu wadah yang terdiri dari sekelompok mahasiswa Instiki yang memiliki hasrat mendalam untuk menjelajahi dunia pengembangan perangkat lunak. Awalnya dikenal sebagai Unit Kegiatan Mahasiswa (UKM) Hardware & Software, kelompok ini menyatukan mahasiswa dengan minat yang sama: menjadi seorang developer. Dengan semangat kebersamaan yang tak terbendung, kelompok ini menjelma menjadi suatu komunitas yang tak hanya membangun teknologi, tetapi juga persaudaraan.
                             </p>
                         </div>
@@ -48,7 +100,7 @@
                             <h5> Tahun 2022</h5>
                             <p class="sub-timeline">Transformasi Menjadi Instiki Developer Club</p>
                         </div>
-                        <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2200">
+                        <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
                             <p>Pada awal tahun 2022, komunitas ini mengalami perubahan besar dengan pergantian nama menjadi Instiki Developer Club (IDC). Perubahan ini seiring dengan semakin berkembangnya visi dan misi kelompok ini. Nama baru ini melambangkan semangat kolaboratif dalam menghadapi dunia pengembangan perangkat lunak yang terus berubah. IDC semakin dikenal sebagai pusat bagi para mahasiswa yang haus akan ilmu, siap untuk memahami dan menguasai dunia coding, serta menerapkan kreativitas mereka dalam proyek-proyek berarti.
                             </p>
                         </div>
@@ -60,7 +112,7 @@
                             <h5> Tahun 2023</h5>
                             <p class="sub-timeline">Bergabung dengan GDSC Instiki</p>
                         </div>
-                        <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2200">
+                        <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
                             <p>Melangkah menuju tahun 2023, takdir semakin menghubungkan jejak IDC dengan kelompok lain yang sejalan, yaitu Google Developer Student Club (GDSC) Instiki. Dua entitas ini melebur menjadi satu, menciptakan sinergi yang kuat antara pengembangan perangkat lunak dan pembelajaran teknologi modern. Penggabungan ini menghadirkan lebih banyak peluang, acara, dan proyek kolaboratif untuk anggota, memungkinkan mereka untuk belajar dari berbagai sumber daya dan memperluas jaringan mereka. Dengan total anggota yang kini mencapai 100 orang, kelompok ini menjadi semakin dinamis, berupaya menghasilkan inovasi dan memberi dampak positif dalam komunitas kampus.
                             </p>
                         </div>
@@ -80,12 +132,12 @@
                     <button class="btn btn-custom">Kirim Pertanyaan Anda</button>
                 </div>
 
-                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" data-aos="fade-left" data-aos-delay="250" data-aos-duration="2200">
+                <div class="col-7" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1200">
 
                     <div class="faqs mb-4">
                         
                         <div class="question">
-                            <h5>Kapan saja ngoding bareng dilaksanakan?</h5>
+                            <h3>Kapan saja ngoding bareng dilaksanakan?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -102,7 +154,7 @@
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h5>Berapa point skp saat mengikuti seminar nasional IDC?</h5>
+                            <h3>Berapa point skp saat mengikuti seminar nasional IDC?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -119,7 +171,7 @@
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h5>Apa keuntungan mengikuti GDSC Instiki?</h5>
+                            <h3>Apa keuntungan mengikuti GDSC Instiki?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -135,7 +187,7 @@
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h5>Apakah IDC selalu mengadakan lomba?</h5>
+                            <h3>Apakah IDC selalu mengadakan lomba?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -151,7 +203,7 @@
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h5>Apakah masuk IDC harus pintar ngoding?</h5>
+                            <h3>Apakah masuk IDC harus pintar ngoding?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
