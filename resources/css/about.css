@@ -226,7 +226,7 @@ html, body {
   .nv-stretch{
       grid-column: span 2;
   }
- 
+
   .h-stretch{
       grid-column: span 4;
   }
@@ -346,7 +346,7 @@ html, body {
 
 /* Responsive adjustments */
 @media (max-width: 990px) {
-  .timeline {
+    .timeline {
     height: auto;
   }
 
@@ -357,7 +357,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  .timeline {
+    .timeline {
     height: auto;
   }
 
@@ -480,6 +480,9 @@ svg {
     transform: translateY(0px);
   }
 }
+
+
+
 
 
 

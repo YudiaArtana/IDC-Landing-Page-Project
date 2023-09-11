@@ -1,3 +1,4 @@
+@import '../../node_modules/aos/dist/aos.css';
 * {
     position: relative;
     height: auto;
@@ -21,8 +22,18 @@
     backdrop-filter: blur(150px);
 }
 
-.proker {
+.proker h5{
+    font-size: 15px;
+    
+}
+
+.main-title {
     padding-top: 150px;
+}
+
+.main-title h3{
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 
 .ldo {
@@ -56,7 +67,7 @@
 
 .title-proker {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 1px;
     color: #ED1F24;
 }
@@ -66,18 +77,6 @@ p {
     font-size: 16px;
 }
 
-
-/* .btn-custom {
-    background: transparent;
-    border-color: #FBAD18;
-    color: #FBAD18;
-    transition: color 0.3s, border-color 0.3s;
-  }
-
-  .btn-custom:hover {
-    color: black;
-    border-color: black;
-  } */
 
 .btn-selengkapnya {
     position: relative;
@@ -96,7 +95,6 @@ p {
     border-left: 0.5px solid rgba(69, 69, 74, 0.8);
     padding-left: 40px;
     transition: 0.5s;
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.24);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.8px);
@@ -150,5 +148,9 @@ p {
 @media (max-width: 768px) {
   .carousel-item img {
     padding-top: 30px;
+}
+
+.container{
+    padding-top:25px;
 }
 }
