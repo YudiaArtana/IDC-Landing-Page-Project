@@ -61,7 +61,7 @@
 }
 
 .hero {
-	background-image: url(/public/img/home/bg-homepage.webp);
+	background-image: url(/public/img/home/bg-homepage.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -70,7 +70,7 @@
 
 .hero::before {
 	content: "";
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(22, 0, 0, 0.85);
 	height: 100%;
 	width: 100%;
 	position: absolute;
