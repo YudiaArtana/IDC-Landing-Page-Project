@@ -39,12 +39,6 @@ html, body {
   overflow-x: hidden;
 } 
 
-.page-container {
-  position: relative;
-  overflow: hidden;
-  z-index: -100;
-}
-
 .page-background,
 .bg-color {
     position: absolute;
@@ -61,60 +55,11 @@ html, body {
 .bg-color {
 	background-color: rgba(11,11,34,.8);
 	backdrop-filter: blur(50px);
-  margin-top: 50px;
 }
-
-/* About */
-
-.about {
-  background-image: url(/public/img/about/IMG_2.webp);
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  margin-top: -50px;
-  position: relative; /* Diperlukan untuk elemen ::before */
-}
-
-.title-about{
-  z-index: 2;
-}
-
-/* Menambahkan elemen ::before untuk efek blur pada gambar latar belakang dan warna latar belakang */
-.about::before {
-  content: "";
-  background-color: rgba(11,11,34,.8); /* Gambar yang sama dengan background */
-  background-size: cover;
-  background-position: center;
-  filter: blur(50px); /* Mengatur tingkat blur sesuai keinginan Anda */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1; /* Menempatkan elemen ::before di bawah elemen konten lainnya */
-}
-
-.about h5 {
-  color: var(--font-color-primary) !important;
-  font-size: 1.125rem !important;
-}
-.about h3 {
-  font-size: var(--font-size-l) !important;
-  font-weight: 700;
-}
-.about p {
-  color: var(--font-color-third) !important;
-  font-size: var(--font-size-s) !important;
-  font-weight: 400;
-  width: 60% !important;
-  text-align: center !important;
-}
-
-
 
 /* Gallery */
 
-.gallery-section{
+/* .gallery-section{
   position: relative;
 	height: 100%;
 	width: 100%;
@@ -259,12 +204,12 @@ html, body {
       grid-column: span 4;
   }
   
-}  
+}   */
 
 /* About Us */
 
 .about-us {
-  position: relative !important;
+  margin-top: 10%;
 }
 
 .text-about {
@@ -344,7 +289,6 @@ html, body {
   left: -38px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 990px) {
     .timeline {
     height: auto;

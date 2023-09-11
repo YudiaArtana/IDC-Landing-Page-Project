@@ -8,69 +8,7 @@
 @section('title', 'Tentang Kami')
 
 @section('content')
-    <div class="about"></div>
-
-    <div class="container">
-        <section class="gallery-section">
-
-            <div class="gallery">
-                <div class="gallery-item n1-stretch">
-                    <img src="img/about/IMG_1.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Judul Foto</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. n-stretch</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item v-stretch">
-                    <img src="img/about/IMG_1.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Judul Foto</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto.Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. v-stretch</p>
-                    </div>
-                </div>
-        
-                <div class="gallery-item n2-stretch">
-                    <img src="img/about/IMG_1.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Judul Foto</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. n-stretch</p>
-                    </div>
-                </div>
-        
-                <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Judul Foto</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. nv-stretch</p>
-                    </div>
-                </div>
-        
-                <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Judul Foto</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. nh-stretch</p>
-                    </div>
-                </div>
-
-                <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Judul Foto</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto.Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. Ini adalah keterangan tentang foto. h-stretch</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
+    <div class="container pt-5">
         <section class="about-us">
 
             <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
