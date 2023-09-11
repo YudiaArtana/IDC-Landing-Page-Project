@@ -17,6 +17,11 @@
 	backdrop-filter: blur(150px);
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 #team1 {
     position: relative;
     height: auto;

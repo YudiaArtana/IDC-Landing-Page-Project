@@ -69,7 +69,7 @@
                     <div class="owl-carousel">
                         <div class="slider-card">
                             <div class="d-flex justify-content-center align-items-center mb-4">
-                                <img src="img/news/AMA with TechConnect.jpg" alt="">
+                                <img src="img/news/AMA with TechConnect.webp" alt="">
                             </div>
                             <h5 class="mb-0 text-center"><b class="title-slider-card">AMA with TechConnect</b></h5>
                             <p class="text-slider-card text-center p-0 opacity-50">Tue, 09 May 2023</p>
@@ -77,7 +77,7 @@
                         </div>
                         <div class="slider-card">
                             <div class="d-flex justify-content-center align-items-center mb-4">
-                                <img src="img/news/Webinar-1.jpg" alt="">
+                                <img src="img/news/Webinar-1.webp" alt="">
                             </div>
                             <h5 class="mb-0 text-center"><b class="title-slider-card">Webinar TechConnect Sandbox 2023</b></h5>
                             <p class="text-slider-card text-center p-0 opacity-50">Fri, 28 April 2023</p>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="slider-card">
                             <div class="d-flex justify-content-center align-items-center mb-4">
-                                <img src="img/news/Seminar-1.jpg" alt="">
+                                <img src="img/news/Seminar-1.webp" alt="">
                             </div>
                             <h5 class="mb-0 text-center"><b class="title-slider-card">Seminar Nasional</b></h5>
                             <p class="text-slider-card text-center p-0 opacity-50">Sat, 04 February 2023</p>
@@ -93,7 +93,7 @@
                         </div>
                         <div class="slider-card">
                             <div class="d-flex justify-content-center align-items-center mb-4">
-                                <img src="img/news/pengabdian-kepada-masyarakat.jpg" alt="">
+                                <img src="img/news/pengabdian-kepada-masyarakat.webp" alt="">
                             </div>
                             <h5 class="mb-0 text-center"><b class="title-slider-card">Pengabdian Kepada Masyarakat</b></h5>
                             <p class="text-slider-card text-center p-0 opacity-50">Tue, 11 July 2023</p>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="slider-card">
                             <div class="d-flex justify-content-center align-items-center mb-4">
-                                <img src="img/news/Hackfest 2023.jpg" alt="">
+                                <img src="img/news/Hackfest 2023.webp" alt="">
                             </div>
                             <h5 class="mb-0 text-center"><b class="title-slider-card">Hackfest 2023</b></h5>
                             <p class="text-slider-card text-center p-0 opacity-50">Wed, 8 February 2023</p>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/pengabdian-kepada-masyarakat.jpg">
+                        <img class="thumb" src="img/news/pengabdian-kepada-masyarakat.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Hari-Raya-Idul-Fitri.jpg">
+                        <img class="thumb" src="img/news/Hari-Raya-Idul-Fitri.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Hari-Kartini.jpg">
+                        <img class="thumb" src="img/news/Hari-Kartini.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Hari-Raya-Jumat-Agung.jpg">
+                        <img class="thumb" src="img/news/Hari-Raya-Jumat-Agung.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Tech-Talk-Thursday-1.jpg">
+                        <img class="thumb" src="img/news/Tech-Talk-Thursday-1.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -192,7 +192,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Puasa-1.jpg">
+                        <img class="thumb" src="img/news/Puasa-1.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -206,7 +206,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Dokumentasi-Seminar-1.jpg">
+                        <img class="thumb" src="img/news/Dokumentasi-Seminar-1.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -220,7 +220,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Hari-Raya-Nyepi.jpg">
+                        <img class="thumb" src="img/news/Hari-Raya-Nyepi.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -234,7 +234,7 @@
                 </div>
                 <div class="terbaru-content row mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Seminar-1.jpg">
+                        <img class="thumb" src="img/news/Seminar-1.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <h5>
@@ -258,7 +258,7 @@
                 </div>
                 <div class="trending-content row border border-0" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Dokumentasi-Seminar-1.jpg">
+                        <img class="thumb" src="img/news/Dokumentasi-Seminar-1.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <a href="https://www.instagram.com/p/CoNT9qsP_Wd/" class="trending-title">
@@ -268,7 +268,7 @@
                 </div>
                 <div class="trending-content row border border-0" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Seminar-1.jpg">
+                        <img class="thumb" src="img/news/Seminar-1.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <a href="https://www.instagram.com/p/CoNT9qsP_Wd/" class="trending-title">
@@ -278,7 +278,7 @@
                 </div>
                 <div class="trending-content row border border-0" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/AMA with TechConnect.jpg">
+                        <img class="thumb" src="img/news/AMA with TechConnect.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <a href="https://www.instagram.com/p/CsBjWWXPcOs/" class="trending-title">
@@ -288,7 +288,7 @@
                 </div>
                 <div class="trending-content row border border-0" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Hari-Raya-Jumat-Agung.jpg">
+                        <img class="thumb" src="img/news/Hari-Raya-Jumat-Agung.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <a href="https://www.instagram.com/p/CquF4bMP9tb/" class="trending-title">
@@ -298,7 +298,7 @@
                 </div>
                 <div class="trending-content row border border-0" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <img class="thumb" src="img/news/Hari-Raya-Nyepi.jpg">
+                        <img class="thumb" src="img/news/Hari-Raya-Nyepi.webp">
                     </div>
                     <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
                         <a href="https://www.instagram.com/p/CqCa-6vPQnB/?img_index=1" class="trending-title">
@@ -394,28 +394,28 @@
         <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/bem_instiki/">
-                <img class="thumb media-partner" src="img/news/bem-instiki.png">
+                <img class="thumb media-partner" src="img/news/bem-instiki.webp">
                 </a>
             </div>
         </div>
         <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/hima.ti.instiki/">
-                <img class="thumb media-partner" src="img/news/hima-ti-instiki.png">
+                <img class="thumb media-partner" src="img/news/hima-ti-instiki.webp">
                 </a>
             </div>
         </div>
         <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3" data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/ins.id_/">
-                <img class="thumb media-partner" src="img/news/inspiration-dance-instiki.png">
+                <img class="thumb media-partner" src="img/news/inspiration-dance-instiki.webp">
                 </a>
             </div>
         </div>
         <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2" data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">
             <div class="mb-2 image image-md">
                 <a href="https://www.instagram.com/infobalinews/">
-                <img class="thumb media-partner" src="img/news/info-bali-news.png">
+                <img class="thumb media-partner" src="img/news/info-bali-news.webp">
                 </a>
             </div>
         </div>

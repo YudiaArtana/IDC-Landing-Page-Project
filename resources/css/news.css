@@ -214,7 +214,7 @@ small {
 
 .card-news-1 {
     position: relative;
-    background-image: url(/public/img/news/news-1.jpg);
+    background-image: url(/public/img/news/news-1.webp);
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -249,7 +249,7 @@ small {
 
 .card-news-2 {
     position: relative;
-    background-image: url(/public/img/news/slide-1.jpg);
+    background-image: url(/public/img/news/slide-1.webp);
 	background-size: cover;
 	min-height: 250px;
 	width: 100%;
@@ -284,7 +284,7 @@ small {
 
 .card-news-3 {
     position: relative;
-    background-image: url(/public/img/news/slide-2.jpg);
+    background-image: url(/public/img/news/slide-2.webp);
 	background-size: cover;
 	min-height: 250px;
 	width: 100%;
@@ -319,7 +319,7 @@ small {
 
 .card-news-4 {
     position: relative;
-    background-image: url(/public/img/news/slide-3.jpg);
+    background-image: url(/public/img/news/slide-3.webp);
 	background-size: cover;
 	min-height: 250px;
 	width: 100%;

@@ -4,7 +4,7 @@
 @vite(['resources/js/app.js', 'resources/css/proker.css'])
 @endsection
 
-@section('title', 'proker')
+@section('title', 'Program Kerja')
 
 @section('content')
 <section>
@@ -36,13 +36,13 @@
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/ldo/1.jpg" class="d-block w-100">
+                                    <img src="img/proker/ldo/1.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/ldo/2.jpg" class="d-block w-100">
+                                    <img src="img/proker/ldo/2.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/ldo/3.jpg" class="d-block w-100">
+                                    <img src="img/proker/ldo/3.webp" class="d-block w-100">
                                 </div>
                             </div>
                         </div>
@@ -72,13 +72,13 @@
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/ngobar/1.jpg" class="d-block w-100">
+                                    <img src="img/proker/ngobar/1.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/ngobar/2.jpg" class="d-block w-100">
+                                    <img src="img/proker/ngobar/2.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/ngobar/3.jpg" class="d-block w-100">
+                                    <img src="img/proker/ngobar/3.webp" class="d-block w-100">
                                 </div>
                             </div>
                         </div>
@@ -108,13 +108,13 @@
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/seminar/1.jpg" class="d-block w-100">
+                                    <img src="img/proker/seminar/1.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/seminar/2.jpg" class="d-block w-100">
+                                    <img src="img/proker/seminar/2.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/seminar/3.jpg" class="d-block w-100">
+                                    <img src="img/proker/seminar/3.webp" class="d-block w-100">
                                 </div>
                             </div>
                         </div>
@@ -144,13 +144,13 @@
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/pkm/1.jpg" class="d-block w-100">
+                                    <img src="img/proker/pkm/1.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/pkm/2.jpg" class="d-block w-100">
+                                    <img src="img/proker/pkm/2.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/pkm/3.jpg" class="d-block w-100">
+                                    <img src="img/proker/pkm/3.webp" class="d-block w-100">
                                 </div>
                             </div>
                         </div>
@@ -179,13 +179,13 @@
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/hackaton/1.jpg" class="d-block w-100">
+                                    <img src="img/proker/hackaton/1.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/hackaton/2.jpg" class="d-block w-100">
+                                    <img src="img/proker/hackaton/2.webp" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/hackaton/3.jpg" class="d-block w-100">
+                                    <img src="img/proker/hackaton/3.webp" class="d-block w-100">
                                 </div>
                             </div>
                         </div>

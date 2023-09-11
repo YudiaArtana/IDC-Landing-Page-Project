@@ -20,8 +20,8 @@
         <section class="gallery-section">
 
             <div class="gallery">
-                <div class="gallery-item n1-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                <div class="gallery-item n1-stretch">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Pelatihan Koding untuk Anak-Anak</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -29,8 +29,8 @@
                     </div>
                 </div>
                 
-                <div class="gallery-item v-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                <div class="gallery-item v-stretch">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Hackathon Inovasi</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -38,8 +38,8 @@
                     </div>
                 </div>
         
-                <div class="gallery-item n2-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                <div class="gallery-item n2-stretch">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Pelatihan AI dan Machine Learning</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -48,7 +48,7 @@
                 </div>
         
                 <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Proyek Pemrograman Web</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -57,7 +57,7 @@
                 </div>
         
                 <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Hackathon Kesehatan</h3>
                         <p class="date-taken">10 September 2023</p>
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.JPG" alt="">
+                    <img src="img/about/IMG_1.webp" alt="">
                     <div class="image-info text-center">
                         <h3>Kunjungan Lapangan ke Perusahaan Teknologi</h3>
                         <p class="date-taken">10 September 2023</p>
