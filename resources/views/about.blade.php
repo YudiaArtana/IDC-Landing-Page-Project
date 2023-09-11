@@ -17,67 +17,9 @@
     </div>
 
     <div class="container">
-        <section class="gallery-section">
-
-            <div class="gallery">
-                <div class="gallery-item n1-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_1.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Pelatihan Koding untuk Anak-Anak</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Program pelatihan koding menyenangkan untuk menginspirasi anak-anak di bidang teknologi.</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item v-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">
-                    <img src="img/about/IMG_2.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Hackathon Inovasi</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Kami menggelar hackathon tahunan yang mendorong para pengembang untuk berkolaborasi dan menciptakan solusi inovatif untuk masalah dunia nyata.</p>
-                    </div>
-                </div>
         
-                <div class="gallery-item n2-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200">
-                    <img src="img/about/IMG_3.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Pelatihan AI dan Machine Learning</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Pelatihan intensif dalam AI dan machine learning.</p>
-                    </div>
-                </div>
-        
-                <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_4.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Proyek Pemrograman Web</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Pengembangan proyek web kreatif.</p>
-                    </div>
-                </div>
-        
-                <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_5.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Hackathon Kesehatan</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">Hackathon fokus pada teknologi kesehatan.</p>
-                    </div>
-                </div>
 
-                <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
-                    <img src="img/about/IMG_6.webp" alt="">
-                    <div class="image-info text-center">
-                        <h3>Kunjungan Lapangan ke Perusahaan Teknologi</h3>
-                        <p class="date-taken">10 September 2023</p>
-                        <p class="description">IDC mengatur kunjungan lapangan ke perusahaan-perusahaan teknologi terkemuka untuk memberikan wawasan tentang industri teknologi.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="about-us">
+        <section class="about-us px-3">
 
             <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
                 <h5 class="mt-5">SEJARAH KAMI</h5>
@@ -128,9 +70,9 @@
 
         </section>
 
-        <section class="faq">
+        <section class="faq px-3">
             <div class="row">
-                <div class="col-5 faq-head" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 faq-head mb-5" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000">
 
                     <h5>FAQs</h5>
                     <h3 class="w-75">Pertanyaan Umum</h3>
@@ -138,7 +80,7 @@
                     <button class="btn btn-custom">Kirim Pertanyaan Anda</button>
                 </div>
 
-                <div class="col-7" data-aos="fade-left" data-aos-delay="250" data-aos-duration="2200">
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" data-aos="fade-left" data-aos-delay="250" data-aos-duration="2200">
 
                     <div class="faqs mb-4">
                         
