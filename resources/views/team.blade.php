@@ -22,11 +22,11 @@
                                     </div>
                                     <h5 class="mb-0 text-center"><b class="text-black">I Wayan Natura Adnyana</b></h5>
                                     <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
+                                    <a class="text-black text-center ">
+                                        <i class="bi bi-facebook px-2 sosmed"></i>
+                                        <i class="bi bi-instagram sosmed"></i>
+                                        <i class="bi bi-linkedin px-2 sosmed"></i>
+                                    </a>
                                 </div>
                                 <div class="slider-card">
                                     <div class="d-flex justify-content-center align-items-center mb-4">
