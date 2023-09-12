@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('vite')
-    @vite(['resources/js/app.js', 'resources/js/news.js', 'resources/css/news.css'])
+    @vite(['resources/js/app.js', 'resources/js/news.js', 'resources/css/news.css', 'resources/sass/news.scss'])
 @endsection
 
 @section('title', 'Berita')
@@ -247,7 +247,7 @@
                     </div>
                 </div>
                 <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
-                    <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                    <a href="#" class="btn-selengkapnya float-end">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                 </div>
             </div>
         </div>
@@ -306,11 +306,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
-                    <button class="btn-custom" data-hover="Selamat Membaca!"><div style="font-size: 12px;">Lihat Selengkapnya <i class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></div></button>
-                </div>
-                <div class="pb-3">
-                    <div class="section-title-news"  data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                <div class="pt-2 pb-3">
+                    <div class="section-title-news" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <h1 class="mb-4 mt-4"><b class="underline-5">Follow Us</b></h1>
                     </div>
                     <div class="sosmed-container">
@@ -379,7 +376,7 @@
                                     <input type="text" class="form-control form-control-lg" placeholder="Alamat Email Anda">
                                 </div>
                                 <div class="form-group text-center pt-3">
-                                    <button class="btn btn-primary btn-lg">Berlangganan</button>
+                                    <button class="py-2 px-5 join rounded-2 btn btn-default fw-small text-white">Berlangganan</button>
                                 </div>
                             </form>
                             <small class="mt-2 d-block">Dengan berlangganan, Anda menyetujui kebijakan privasi kami.</small>
@@ -422,9 +419,6 @@
                 <img class="thumb media-partner" src="img/news/info-bali-news.webp">
                 </a>
             </div>
-        </div>
-        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
-            <button class="btn-custom" data-hover="Selamat Membaca!"><div style="font-size: 12px;">Lihat Selengkapnya <i class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></div></button>
         </div>
     </div>
 </div>
