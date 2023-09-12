@@ -61,7 +61,7 @@
         </section>
 
         <section class="faq px-3">
-            <div class="row">
+            <div class="row  row-faq d-flex flex-row  justify-content-center">
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 faq-head mb-5" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000">
 
                     <h5>FAQs</h5>
