@@ -204,7 +204,12 @@
         </div>
       </section>
 
-      <section class="gallery-section px-3">
+      <section class="gallery-section px-3 mb-5 marsec d-flex flex-column align-items-center justify-content-center">
+      <div class="division-head text-center w-50">
+          <h5>KEGIATAN</h5>
+          <h3 class="lh-base mb-5">Create solutions to repetitive problems, design applications and access anywhere!</h3>
+          <!-- <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
+        </div>
 
         <div class="gallery">
             <div class="gallery-item n1-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
