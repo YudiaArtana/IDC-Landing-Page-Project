@@ -823,54 +823,110 @@ small {
 
 .sosmed {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out !important; 
-    opacity: 1 !important;
+    opacity: 1;
 }
 
 .sosmed:hover {
     transform: scale(1.1) !important;
-    opacity: 0.6 !important;
+    opacity: 0.6;
 }
 
-.btn-custom:hover{cursor: pointer}
-.btn-custom {
-    background: transparent; outline: none;
+.btn-selengkapnya {
     position: relative;
-    border: 2px solid white;
-    padding: 15px 30px;
+    width: 180px;
+    height: 45px;
+    font-size: 0.9rem;
+    background: rgb(250, 179, 57);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-top: 0.5px solid rgba(69, 69, 74, 0.8);
+    border-left: 0.5px solid rgba(69, 69, 74, 0.8);
+    padding-left: 40px;
+    transition: 0.5s;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.24);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
     overflow: hidden;
+
 }
 
-.btn-custom:hover:before{opacity: 1; transform: translate(0,0);}
-.btn-custom:before{
-    content: attr(data-hover);
+.btn-selengkapnya:hover {
+    padding-left: 0px;
+    padding-right: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-selengkapnya span {
     position: absolute;
-    top: 1.5em; left: 0;
-    width: 100%;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 800;
-    font-size: 12px;
-    opacity: 0;
-    transform: translate(-100%,0);
-    transition: all .3s ease-in-out;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background: #ed941f;
+    border-radius: 20%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
 }
 
-.btn-custom:hover div{opacity: 0; transform: translate(100%,0)}
-.btn-custom div{
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 800;
-    font-size: .8em;
-    transition: all .3s ease-in-out;
+.btn-selengkapnya:hover span {
+    left: calc(100% - 35px);
 }
 
-img {
+
+.btn-selengkapnya::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateX(-170px) skewX(30deg);
+    transition: 0.75s ease-in-out;
+}
+
+.btn-selengkapnya:hover::after {
+    transform: translateX(170px) skewX(30deg);
+}
+
+.terbaru-content .thumb {
     transform: scale(1);
     transition: transform 0.3s ease;
 }
 
-img:hover {
+.terbaru-content .thumb:hover {
     transform: scale(0.95);
+}
+
+.terbaru-content:hover .thumb {
+    transform: scale(0.95);
+}
+
+.terbaru-content .trending-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 350ms ease-in-out;
+}
+
+.terbaru-content:hover .trending-title::after {
+    transform: scaleX(1);
+    transform-origin: left center;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { }
@@ -935,6 +991,40 @@ img:hover {
 }
 
 @media all and (min-width: 468px) and (max-width: 576px) {
+    .headline-card-1 {
+        height: max-content;
+    }
+
+    .headline-card-1 .box-text-category-1 .text-category-1 {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .headline-data-science {
+        padding-top: 15px;
+        padding-left: 0 !important;
+    }
+
+    .headline-card-2 .box-text-category-2 .text-category-2 {
+        font-size: 10px;
+    }
+
+    .headline-blockchain {
+        padding-left: 0 !important;
+    }
+
+    .headline-blockchain .box-text-category-3 {
+        padding-left: 30px !important;
+    }
+
+    .headline-blockchain .box-text-category-3 .text-category-3 {
+        font-size: 10px;
+    }
+
+    .headline-IoT .box-text-category-4 .text-category-4 {
+        font-size: 10px;
+    }
+
     .owl-dots {
         margin-top: -20px;
     }
@@ -999,6 +1089,59 @@ img:hover {
 }
 
 @media all and (max-width: 468px) {
+    .sosmed-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .tags {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .newsletter {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .division-head h3 {
+        font-size: 20px;
+    }
+
+    .division-head p {
+        font-size: 14px;
+    }
+    
+    .headline-card-1 .box-text-category-1 .text-category-1 {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .headline-data-science {
+        padding-top: 15px;
+        padding-left: 0 !important;
+    }
+
+    .headline-card-2 .box-text-category-2 .text-category-2 {
+        font-size: 10px;
+    }
+
+    .headline-blockchain {
+        padding-left: 0 !important;
+    }
+
+    .headline-blockchain .box-text-category-3 {
+        padding-left: 30px !important;
+    }
+
+    .headline-blockchain .box-text-category-3 .text-category-3 {
+        font-size: 10px;
+    }
+
+    .headline-IoT .box-text-category-4 .text-category-4 {
+        font-size: 10px;
+    }
+
     .title-slider-card {
         font-size: 12px;
     }

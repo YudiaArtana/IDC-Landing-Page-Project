@@ -10,7 +10,7 @@
 <div id="main-hero-news-1">
     <div class="container hero-news">
         <div class="row d-flex flex-column align-items-center justify-content-center pt-5">
-            <div class="d-flex flex-column align-items-center justify-content-center pt-5">
+            <div class="d-flex flex-column align-items-center justify-content-center pt-5 p-0">
                 <div class="division-head d-flex flex-column align-items-center justify-content-center text-center w-50" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="3000">
                     <h5>BERITA TERKINI</h5>
                     <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 p-0 m-0" data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000">
+                <div class="headline-card-1 col-sm-12 col-md-6 col-lg-6 p-0 m-0" data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000">
                     <div class="card-news-1">
                         <div class="col box-text-category-1 ps-5 pb-0 d-flex align-items-end">
                             <p class="text-category-1">Web Development</p>
@@ -26,9 +26,9 @@
                         <h2 class="box-text-category-1 p-5 pt-0">Meningkatkan Pengalaman Pengguna Melalui Responsif dan Kecepatan</h2>
                     </div>
                 </div>
-                <div class="col-6" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000">
+                <div class="headline-card-2 col-sm-12 col-md-6 col-lg-6" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000">
                     <div class="row">
-                        <div class="col-12 mb-3 pe-0">
+                        <div class="headline-data-science col-12 mb-3 pe-0">
                             <div class="card-news-2">
                                 <div class="col box-text-category-2 ps-5 pb-0 d-flex align-items-end">
                                     <p class="text-category-2">Data Science</p>
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 pe-0">
+                        <div class="headline-blockchain col-6 pe-0">
                             <div class="card-news-3">
                                 <div class="col box-text-category-3 ps-5 pb-0 d-flex align-items-end">
                                     <p class="text-category-3">Blockchain</p>
@@ -46,7 +46,7 @@
                                 <h5 class="box-text-category-3 p-5 pt-0">Inovasi Paradigma Keamanan Data</h5>
                             </div>
                         </div>
-                        <div class="col-6 pe-0">
+                        <div class="headline-IoT col-6 pe-0">
                             <div class="card-news-4">
                                 <div class="col box-text-category-4 ps-5 pb-0 d-flex align-items-end">
                                     <p class="text-category-4">IoT</p>
@@ -246,8 +246,8 @@
                         <p class="summary pt-3">Dengan di mentoring langsung oleh Prabu Rangki seorang Software Engineer di Kintell dari Google Developer Group. Soo! what you waiting guys? c'mon join and enjoy our event 🔥🔥get your new experience 🔥🔥 Dengan pelatihan dari pemateri yang luar biasa, bisa kalian dapatkan dengan harga yang affordable!</p>
                     </div>
                 </div>
-                <div class="position-relative text-center" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
-                    <button class="btn-custom" data-hover="Selamat Membaca!"><div style="font-size: 12px;">Lihat Selengkapnya <i class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></div></button>
+                <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
+                    <a href="#" class="btn-selengkapnya">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                 </div>
             </div>
         </div>
@@ -306,36 +306,38 @@
                         </a>
                     </div>
                 </div>
-                <div class="position-relative text-center" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
+                <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
                     <button class="btn-custom" data-hover="Selamat Membaca!"><div style="font-size: 12px;">Lihat Selengkapnya <i class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></div></button>
                 </div>
                 <div class="pb-3">
                     <div class="section-title-news"  data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <h1 class="mb-4 mt-4"><b class="underline-5">Follow Us</b></h1>
                     </div>
-                    <div class="d-flex mb-3">
-                        <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none me-2" style="background: #0185AE;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
-                            <small class="fab fa-linkedin-in me-2 text-light"></small><small class="text-light">12,345 Connects</small>
-                        </a>
-                        <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none ms-2" style="background: #C8359D;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
-                            <small class="fab fa-instagram me-2 text-light"></small><small class="text-light">7,890 Followers</small>
-                        </a>
-                    </div>
-                    <div class="d-flex mb-3 text-light">
-                        <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none me-2" style="background: #39569E;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1400">
-                            <small class="fab fa-facebook-f me-2 text-light"></small><small class="text-light">4,567 Fans</small>
-                        </a>
-                        <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none ms-2" style="background: #52AAF4;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1600">
-                            <small class="fab fa-twitter me-2 text-light"></small><small class="text-light">2,385 Followers</small>
-                        </a>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none me-2" style="background: #DC472E;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1800">
-                            <small class="fab fa-youtube me-2 text-light"></small><small class="text-light">8,901 Subscribers</small>
-                        </a>
-                        <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none ms-2" style="background: #202b49;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000">
-                            <small class="fab fa-github me-2 text-light"></small><small class="text-light">4,938 Followers</small>
-                        </a>
+                    <div class="sosmed-container">
+                        <div class="d-flex mb-3">
+                            <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none me-2" style="background: #0185AE;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                                <small class="fab fa-linkedin-in me-2 text-light"></small><small class="text-light">12,345 Connects</small>
+                            </a>
+                            <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none ms-2" style="background: #C8359D;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
+                                <small class="fab fa-instagram me-2 text-light"></small><small class="text-light">7,890 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3 text-light">
+                            <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none me-2" style="background: #39569E;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1400">
+                                <small class="fab fa-facebook-f me-2 text-light"></small><small class="text-light">4,567 Fans</small>
+                            </a>
+                            <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none ms-2" style="background: #52AAF4;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1600">
+                                <small class="fab fa-twitter me-2 text-light"></small><small class="text-light">2,385 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none me-2" style="background: #DC472E;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1800">
+                                <small class="fab fa-youtube me-2 text-light"></small><small class="text-light">8,901 Subscribers</small>
+                            </a>
+                            <a href="" class="sosmed d-block w-50 py-2 px-3 text-decoration-none ms-2" style="background: #202b49;" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2000">
+                                <small class="fab fa-github me-2 text-light"></small><small class="text-light">4,938 Followers</small>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="pb-3">
@@ -369,17 +371,19 @@
                     <div class="section-title-news" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <h1 class="mb-4 mt-4"><b class="underline-6">Newsletter</b></h1>
                     </div>
-                    <div class="bg-dark text-center p-4 mb-3" data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000">
-                        <p>Dapatkan berita terbaru langsung di inbox Anda. Berlangganan newsletter kami untuk informasi terkini.</p>
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" placeholder="Alamat Email Anda">
-                            </div>
-                            <div class="form-group text-center pt-3">
-                                <button class="btn btn-primary btn-lg">Berlangganan</button>
-                            </div>
-                        </form>
-                        <small class="mt-2 d-block">Dengan berlangganan, Anda menyetujui kebijakan privasi kami.</small>
+                    <div class="newsletter">
+                        <div class="bg-dark text-center p-4 mb-3" data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000">
+                            <p>Dapatkan berita terbaru langsung di inbox Anda. Berlangganan newsletter kami untuk informasi terkini.</p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Alamat Email Anda">
+                                </div>
+                                <div class="form-group text-center pt-3">
+                                    <button class="btn btn-primary btn-lg">Berlangganan</button>
+                                </div>
+                            </form>
+                            <small class="mt-2 d-block">Dengan berlangganan, Anda menyetujui kebijakan privasi kami.</small>
+                        </div>
                     </div>
                 </div>   
             </div>
@@ -419,7 +423,7 @@
                 </a>
             </div>
         </div>
-        <div class="position-relative text-center pt-2" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
+        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
             <button class="btn-custom" data-hover="Selamat Membaca!"><div style="font-size: 12px;">Lihat Selengkapnya <i class="bi bi-arrow-right align-middle ps-2 icon-proker"></i></div></button>
         </div>
     </div>
