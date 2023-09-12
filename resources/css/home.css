@@ -409,8 +409,13 @@
 		align-items: center;
 		font-weight: 600;
 		margin-bottom: 20px;
-		height: 500px;
+		padding: 80px;
 	}
+
+	.recruitment .icon {
+		font-size: 100px;
+		color: var(--font-color-primary);
+	} 
   
   @media(max-width: 1200px )
   {

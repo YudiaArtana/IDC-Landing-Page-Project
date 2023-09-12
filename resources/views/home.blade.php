@@ -288,11 +288,13 @@
         </div>
     </section>
 
-    <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center recruitment row p-2">
+    <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center recruitment">
+      <div class="row">
         <div class="col-6">
           <div class="division-head">
-            <h3 class="lh-base mb-5">Create solutions to repetitive problems, design applications and access anywhere!</h3>
-            <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+            <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
+            <p class="lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+            <p class="icon">>>></p>
           </div>
         </div>
         <div class="col-6">
@@ -305,13 +307,14 @@
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
           </div>
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <div class="form-floating mb-3">
+            <textarea style="height: 200px;" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea">Comments</label>
           </div>
           <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Kirim</button>
           </form>
         </div>
+      </div>
     </section>
   
       <!-- <section class="partner">
