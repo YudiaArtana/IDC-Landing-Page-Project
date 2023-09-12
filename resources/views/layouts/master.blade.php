@@ -33,8 +33,8 @@
   width: 100px;
   height: 100px;
   position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: 10px;
   text-align: center;
   cursor: pointer;
   z-index: 999;
@@ -43,7 +43,7 @@
 }
 
 #toTop:hover{
-  bottom: 10px;
+  bottom: 20px;
   transition: bottom 0.3s ease;
 }
 
@@ -66,13 +66,17 @@
 }
 
 #toTop img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: shake 10s ease-in-out  infinite; /* Menggunakan animasi "shake" dengan durasi 1 detik dan berulang tak terbatas */
+}
+
+.rotate{
+  transform: rotate(-45deg)
 }
 
 
@@ -85,8 +89,8 @@
 </head>
 <body>
 
-  <div id="toTop" onclick="toTop()">
-    <img src="img/totop.png" alt="">
+  <div id="toTop" class="rotate" onclick="toTop()">
+    <img src="img/rocket.gif"  alt="">
   </div>
 
   <header id="navbar">
