@@ -10,7 +10,7 @@
       <li><a class="{{ request()->is('portfolio') ? 'active' : '' }}" href="{{ url('/portfolio') }}">Portfolio</a></li>
       <li><a class="{{ request()->is('about') ? 'active' : '' }}" href="{{ url('/about') }}">Tentang Kami</a></li>
     </ul>
-    <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Join</button>
+    <a href="{{ url('/join') }}"><button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Join</button></a>
 
     <button class="nav-toggler d-flex justify-content-center align-items-center" id="nav-collapse-show">
       <i class="fas fa-solid fa-bars fs-1"></i>

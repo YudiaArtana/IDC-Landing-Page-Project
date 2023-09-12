@@ -39,3 +39,7 @@ Route::get('/about', function () {
     return view('about');
 }); 
 
+Route::get('/join', function () {
+    return view('join');
+}); 
+
