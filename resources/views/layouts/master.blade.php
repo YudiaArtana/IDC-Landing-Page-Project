@@ -39,16 +39,43 @@
   cursor: pointer;
   z-index: 999;
   display: none;
+  transition: 0.3s ease;
 }
 
-#toTop img{
+#toTop:hover{
+  bottom: 10px;
+  transition: bottom 0.3s ease;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translate(-50%, -50%) translateX(0);
+  }
+  10%, 90% {
+    transform: translate(-50%, -50%) translateX(-5px);
+  }
+  20%, 80% {
+    transform: translate(-50%, -50%) translateX(5px);
+  }
+  30%, 70% {
+    transform: translate(-50%, -50%) translateX(-5px);
+  }
+  40%, 60% {
+    transform: translate(-50%, -50%) translateX(5px);
+  }
+}
+
+#toTop img {
   width: 100px;
   height: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: shake 10s ease-in-out  infinite; /* Menggunakan animasi "shake" dengan durasi 1 detik dan berulang tak terbatas */
 }
+
+
 
 .hidden-to-top{
   display: none !important;
