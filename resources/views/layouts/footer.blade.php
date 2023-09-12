@@ -4,34 +4,16 @@
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
+      <span>Hubungi kami di media sosial:</span>
     </div>
     <!-- Left -->
 
     <!-- Right -->
     <div class="mb-4">
-      <!-- Facebook -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #55acee;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
 
       <!-- Google -->
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #dd4b39;"
+        class="google btn text-white btn-floating m-1"
         href="#!"
         role="button"
         ><i class="fab fa-google"></i
@@ -39,8 +21,7 @@
 
       <!-- Instagram -->
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #ac2bac;"
+        class="instagram btn text-white btn-floating m-1"
         href="#!"
         role="button"
         ><i class="fab fa-instagram"></i
@@ -48,16 +29,14 @@
 
       <!-- Linkedin -->
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
+        class="linkedin btn text-white btn-floating m-1"
         href="#!"
         role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
       <!-- Github -->
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
+        class="github btn text-white btn-floating m-1"
         href="#!"
         role="button"
         ><i class="fab fa-github"></i
@@ -76,11 +55,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <img src="img/idc-3.png" alt="" width="50">INSTIKI Developer Club
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            Komunitas yang berkomitmen untuk mengembangkan keterampilan teknis dan kolaborasi di antara para Developer.
           </p>
         </div>
         <!-- Grid column -->
@@ -89,19 +67,22 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Products
+            Navigasi
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="{{ url('/home') }}" class="text-reset">Beranda</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="{{ url('/news') }}" class="text-reset">Berita</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="{{ url('/proker') }}" class="text-reset">Program Kerja</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="{{ url('/team') }}" class="text-reset">Team</a>
+          </p>
+          <p>
+            <a href="{{ url('/about') }}" class="text-reset">Tentang Kami</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -110,19 +91,13 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
+            Partner
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="#!" class="text-reset">INSTIKI</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
+            <a href="#!" class="text-reset">Google Developer Club</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -130,14 +105,23 @@
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
+        
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          <div class="row">
+            <div class="col-1"><i class="fas fa-home me-3"></i> </div>
+            <div class="col-11"><p>Institut Bisnis dan Teknologi Indonesia</p></div>
+          </div>
+
+          <div class="row">
+            <div class="col-1"><i class="fas fa-envelope me-3"></i> </div>
+            <div class="col-11"><p>instikideveloperclub@gmail.com</p></div>
+          </div>
+       
+          <div class="row">
+            <div class="col-1"><i class="fas fa-phone me-3"></i>  </div>
+            <div class="col-11"> <p>+62 832 6578 0980</p></div>
+          </div>
+
         </div>
         <!-- Grid column -->
       </div>
@@ -148,8 +132,8 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Atong Team</a>
   </div>
   <!-- Copyright -->
 </footer>
