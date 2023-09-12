@@ -8,7 +8,7 @@
   --font-color-super-primary: #A01C20;
   --font-color-primary: #ED1F24;
   --font-color-super-secondary: #FBAD18;
-	--font-color-third: #ffffff99;
+    --font-color-third: #ffffff99;
   --font-color-secondary: #F6E016;
 
   --font-size-xxl: 48px;
@@ -55,3 +55,43 @@
 	background-color: rgba(11,11,34,.8);
 	backdrop-filter: blur(150px);
 }
+
+.section-title{
+    height: 100vh;
+    width: 100%;
+}
+
+.box-form{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid #8e8d8d !important;
+}
+
+.box-form:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.box-form::placeholder {
+    color: #ffffff3f !important;
+}
+
+
+.box-select{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid #8e8d8d !important;
+    color: #ffff !important;
+}
+
+
+
+.box-select:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.color-select{
+    color: black !important;
+}
+
