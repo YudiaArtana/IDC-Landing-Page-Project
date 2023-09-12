@@ -16,13 +16,13 @@
         <h1 class="mt-2">CONNECTING AND INSPIRING STUDENT DEVELOPERS IN THE TECH COMMUNITY</h1>
       </div>
     </section>
-    <div class="container">
+    <div class="container p-0">
       <section id="komunitas">
           <div class="division-head komunitas-head text-center">
             <h5>KOMUNITAS</h5>
             <h3 class="lh-base komunitas-text">Hingga tahun ini, kami telah mengajak ratusan mahasiswa bergabung pada komunitas</h3>
           </div>
-          <div class="py-4 mt-5 square rounded-1 row border-0">
+          <div class="py-4 mt-5 square rounded-1 row m-0 border-0">
               <div class="col d-flex justify-content-center border-end border-light border-opacity-10">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-check px-4"></i>
@@ -53,7 +53,7 @@
           </div>
       </section>
 
-      <section class="row gap-4 align-items-center">
+      <section class="row gap-4 align-items-center m-0">
         <div class="col p-0">
           <div class="division-head">
             <h5>APA ITU IDC?</h5>
@@ -103,7 +103,7 @@
         </div>
       </section>
 
-      <section class="row gap-4 mb-5 align-items-center marsec">
+      <section class="row me-0 ms-0 gap-4 mb-5 align-items-center marsec">
         <div class="col">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
@@ -204,7 +204,118 @@
         </div>
       </section>
 
-      
+      <section class="gallery-section px-3 mb-5 marsec d-flex flex-column align-items-center justify-content-center">
+        <div class="division-head text-center w-50">
+          <h5>KEGIATAN</h5>
+          <h3 class="lh-base mb-5">Create solutions to repetitive problems, design applications and access anywhere!</h3>
+          <!-- <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item n1-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <img src="img/about/IMG_1.webp" alt="">
+                <div class="image-info text-center">
+                    <h3>Pelatihan Koding untuk Anak-Anak</h3>
+                    <p class="date-taken">10 September 2023</p>
+                    <p class="description">Program pelatihan koding menyenangkan untuk menginspirasi anak-anak di bidang teknologi.</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item v-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">
+                <img src="img/about/IMG_2.webp" alt="">
+                <div class="image-info text-center">
+                    <h3>Hackathon Inovasi</h3>
+                    <p class="date-taken">10 September 2023</p>
+                    <p class="description">Kami menggelar hackathon tahunan yang mendorong para pengembang untuk berkolaborasi dan menciptakan solusi inovatif untuk masalah dunia nyata.</p>
+                </div>
+            </div>
+    
+            <div class="gallery-item n2-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200">
+                <img src="img/about/IMG_3.webp" alt="">
+                <div class="image-info text-center">
+                    <h3>Pelatihan AI dan Machine Learning</h3>
+                    <p class="date-taken">10 September 2023</p>
+                    <p class="description">Pelatihan intensif dalam AI dan machine learning.</p>
+                </div>
+            </div>
+    
+            <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                <img src="img/about/IMG_4.webp" alt="">
+                <div class="image-info text-center">
+                    <h3>Proyek Pemrograman Web</h3>
+                    <p class="date-taken">10 September 2023</p>
+                    <p class="description">Pengembangan proyek web kreatif.</p>
+                </div>
+            </div>
+    
+            <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                <img src="img/about/IMG_5.webp" alt="">
+                <div class="image-info text-center">
+                    <h3>Hackathon Kesehatan</h3>
+                    <p class="date-taken">10 September 2023</p>
+                    <p class="description">Hackathon fokus pada teknologi kesehatan.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                <img src="img/about/IMG_6.webp" alt="">
+                <div class="image-info text-center">
+                    <h3>Kunjungan Lapangan ke Perusahaan Teknologi</h3>
+                    <p class="date-taken">10 September 2023</p>
+                    <p class="description">IDC mengatur kunjungan lapangan ke perusahaan-perusahaan teknologi terkemuka untuk memberikan wawasan tentang industri teknologi.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
+        <div class="division-head text-center w-50">
+          <h5>PARTNER</h5>
+          <h3 class="lh-base">Behold! Our story is sought-after.</h3>
+          <p class="mb-5 lh-lg">The chronicle of RISTEK is well-known by the masses!</p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="img/home/instiki.png" alt="" width="200px">
+          </div>
+          <div class="col">
+            <img src="img/home/gdsc.png" alt="" width="200px">
+          </div>
+          <div class="col">
+            <img src="img/home/kampus_merdeka.png" alt="" width="150px">
+          </div>
+        </div>
+    </section>
+
+    <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center recruitment">
+      <div class="row">
+        <div class="col-6">
+          <div class="division-head">
+            <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
+            <p class="lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+            <p class="icon">>>></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <form action="">  
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="nama">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea style="height: 200px;" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
+          <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </section>
   
       <!-- <section class="partner">
         <div class="paroller">

@@ -1,3 +1,40 @@
 footer {
   background-color: none !important;
 }
+
+.google{
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.google:hover{
+  cursor: pointer;
+  background-color: #dd4b39;
+}
+.instagram{
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.instagram:hover{
+  cursor: pointer;
+  background-color: #ac2bac;
+}
+.linkedin{
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.linkedin:hover{
+  cursor: pointer;
+  background-color: #0082ca;
+}
+.github{
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.github:hover{
+  cursor: pointer;
+  background-color: #333333;
+}
