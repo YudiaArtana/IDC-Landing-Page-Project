@@ -205,14 +205,14 @@
       </section>
 
       <section class="gallery-section px-3 mb-5 marsec d-flex flex-column align-items-center justify-content-center">
-        <div class="division-head text-center w-50" data-aos="fade-in" data-aos-delay="150" data-aos-duration="1000">
+        <div class="division-head text-center w-50" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
           <h5>ACTIVITY</h5>
           <h3 class="lh-base mb-5">Footage of exciting activities with members.</h3>
           <!-- <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
         </div>
 
         <div class="gallery">
-            <div class="gallery-item n1-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+            <div class="gallery-item n1-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">
                 <img src="img/about/IMG_1.webp" alt="">
                 <div class="image-info text-center">
                     <h3>Coding Training for Kids</h3>
