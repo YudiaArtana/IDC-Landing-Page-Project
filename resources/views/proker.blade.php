@@ -11,21 +11,15 @@
     <div class="page-background position-relative proker">
         <div class="bg-color position-relative">
             <div class="main-title d-flex flex-column justify-content-center align-items-center text-center"
-                data-aos="fade-in-out" data-aos-easing="linear" data-aos-duration="1500">
-                <h5 style="color: #ED1F24;">RENCANA AKSI</h5>
+                data-aos="fade-in-out" data-aos-easing="linear" data-aos-duration="2000">
+                <h5>RENCANA AKSI</h5>
                 <h3 class="lh-base">Menggerakkan Program Kerja</h3>
-                <p class="mb-5 lh-lg opacity-50 w-75">Dalam upaya kami untuk mencapai keunggulan dalam dunia
-                    pengembangan, Instiki Developer Club memandang pentingnya sebuah 'Rencana Aksi' yang mampu memandu
-                    langkah-langkah kami. Rencana ini bukan sekadar dokumen, melainkan komitmen kami untuk menggerakkan
-                    Program Kerja dengan tekad yang kuat. </p>
             </div>
             <div class="container">
                 <div class="row ldo pb-5">
                     <div class="col-md-6 order-md-2">
-                        <b>
                             <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">PROGRAM KERJA</h5>
-                        </b>
                         <b>
                             <h2 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
                                 data-aos-duration="1000">Latihan Dasar Organisasi</h2>
@@ -39,10 +33,6 @@
                             berpartisipasi secara efektif dalam aktivitas organisasi dan berkontribusi secara positif
                             terhadap tujuan bersama.
                         </p>
-                        <p data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">Selama latihan dasar
-                            organisasi, peserta diberikan wawasan tentang sejarah dan latar belakang
-                            organisasi, tanggung jawab individu dalam tim, komunikasi yang efektif, serta cara
-                            pengambilan keputusan dalam struktur hierarki.</p>
                         <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
@@ -71,10 +61,8 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-6 order-md-1">
-                        <b>
-                            <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
+                    <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
                                 data-aos-duration="1000">PROGRAM KERJA</h5>
-                        </b>
                         <b>
                             <h2 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
                                 data-aos-duration="1000">Ngobar</h2>
@@ -86,10 +74,6 @@
                             kolaboratif di mana ide-ide inovatif dapat diperbincangkan dan diwujudkan menjadi proyek
                             nyata.
                         </p>
-                        <p data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">Ngoding Bareng menjadi
-                            ruang yang memperkaya wawasan teknis, membangun jaringan
-                            profesional, dan menghidupkan semangat kolaborasi di antara para calon pengembang yang
-                            bersemangat.</p>
                         <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
@@ -118,10 +102,8 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-6 order-md-2">
-                        <b>
-                            <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
+                    <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">PROGRAM KERJA</h5>
-                        </b>
                         <b>
                             <h2 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
                                 data-aos-duration="1000">Seminar dan Workshop</h2>
@@ -133,10 +115,6 @@
                             pengembangan perangkat lunak, pemrograman aplikasi, serta tren terkini dalam dunia
                             teknologi.
                         </p>
-                        <p data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">Ini adalah peluang ideal
-                            untuk mengejar kreativitas, mengasah keterampilan, dan mendapatkan
-                            wawasan tentang tren perkembangan teknologi masa depan, yang semuanya memperkaya pengalaman
-                            serta pengetahuan para peserta.</p>
                         <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
@@ -165,10 +143,8 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-6 order-md-1">
-                        <b>
-                            <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
+                    <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
                                 data-aos-duration="1000">PROGRAM KERJA</h5>
-                        </b>
                         <b>
                             <h2 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
                                 data-aos-duration="1000">Pengabdian Kepada Masyarakat</h2>
@@ -180,10 +156,6 @@
                             asuhan, memberikan dukungan berupa bantuan materi, interaksi yang bermakna, serta menggelar
                             sesi edukatif yang menginspirasi.
                         </p>
-                        <p data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">Ini adalah wujud nyata
-                            dari dedikasi kami untuk memberikan dampak positif dan menciptakan
-                            ikatan empati dengan masyarakat di sekitar, sambil memupuk semangat gotong royong dan
-                            kepedulian bersama.</p>
                         <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
@@ -212,10 +184,8 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-6 order-md-2">
-                        <b>
-                            <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
+                    <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">PROGRAM KERJA</h5>
-                        </b>
                         <b>
                             <h2 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
                                 data-aos-duration="1000">Final Project Showcase</h2>
@@ -226,10 +196,6 @@
                             kolaboratif, anggota memamerkan hasil akhir proyek-proyek yang telah mereka kerjakan dengan
                             penuh dedikasi.
                         </p>
-                        <p data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">Showcase ini menjadi
-                            platform untuk berbagi ide inovatif, pemecahan masalah teknis, serta
-                            menginspirasi satu sama lain melalui perkembangan perangkat lunak dan aplikasi yang
-                            diciptakan.</p>
                         <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
@@ -241,13 +207,13 @@
                             data-aos="zoom-in" data-aos-delay="50" data-aos-duration="2000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/proker/hackaton/1.webp" class="d-block w-100">
+                                    <img src="img/proker/hackaton/1.jpg" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/hackaton/2.webp" class="d-block w-100">
+                                    <img src="img/proker/hackaton/2.jpg" class="d-block w-100">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/proker/hackaton/3.webp" class="d-block w-100">
+                                    <img src="img/proker/hackaton/3.jpg" class="d-block w-100">
                                 </div>
                             </div>
                         </div>

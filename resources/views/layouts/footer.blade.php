@@ -3,7 +3,7 @@
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
+    <div class="me-5 pt-2 d-none d-lg-block">
       <span>Hubungi kami di media sosial:</span>
     </div>
     <!-- Left -->
@@ -52,7 +52,7 @@
       <!-- Grid row -->
       <div class="row mt-3">
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <div class="col-xs-2 col-sm-6 col-md-6 col-lg-4 col-xl-4 mx-auto mb-5">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
             <img src="img/idc-3.png" alt="" width="50">INSTIKI Developer Club
@@ -64,7 +64,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-xs-2 col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto mb-5">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
             Navigasi
@@ -88,38 +88,38 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-xs-2 col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto mb-5">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Partner
+            Mitra
           </h6>
           <p>
             <a href="#!" class="text-reset">INSTIKI</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Google Developer Club</a>
+            <a href="#!" class="text-reset">Google Developer Student Club</a>
           </p>
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <div class="col-xs-2 col-sm-6 col-md-6 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-5">
           <!-- Links -->
         
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
           <div class="row">
-            <div class="col-1"><i class="fas fa-home me-3"></i> </div>
-            <div class="col-11"><p>Institut Bisnis dan Teknologi Indonesia</p></div>
+            <div class="col-md-1 col-lg-1 col-xl-1"><i class="fas fa-home"></i> </div>
+            <div class="col-md-11 col-lg-11 col-xl-11"><p>Institut Bisnis dan Teknologi Indonesia</p></div>
           </div>
 
           <div class="row">
-            <div class="col-1"><i class="fas fa-envelope me-3"></i> </div>
-            <div class="col-11"><p>instikideveloperclub@gmail.com</p></div>
+            <div class="col-md-1 col-lg-1 col-xl-1"><i class="fas fa-envelope"></i> </div>
+            <div class="col-md-11 col-lg-11 col-xl-11"><p>instikideveloperclub@gmail.com</p></div>
           </div>
        
           <div class="row">
-            <div class="col-1"><i class="fas fa-phone me-3"></i>  </div>
-            <div class="col-11"> <p>+62 832 6578 0980</p></div>
+            <div class="col-md-1 col-lg-1 col-xl-1"><i class="fas fa-phone"></i>  </div>
+            <div class="col-md-11 col-lg-11 col-xl-11"> <p>+62 832 6578 0980</p></div>
           </div>
 
         </div>
