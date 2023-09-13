@@ -47,6 +47,12 @@ body {
     overflow-x: hidden;
 }
 
+h3{
+    font-family: 'Figtree', sans-serif !important;
+    font-size: var(--font-size-l) !important;
+    color: var(--font-color-white) !important;  
+}
+
 .page-background {
     background-image: url(/public/img/page-background.svg);
     background-size: cover;
@@ -192,25 +198,6 @@ body {
 
 .thumb {
     width: 100%;
-}
-
-.main-news {
-    margin-top: 20px;
-}
-
-.main-news h3 {
-    line-height: 0.75;
-}
-
-.main-news h3 a {
-    font-size: 17px;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.font-large {
-    font-size: 0.9em !important;
-    font-weight: 600 !important;
 }
 
 .section-title {
@@ -1019,14 +1006,18 @@ small {
     display: block !important;
 }
 
-@media all and (min-width: 992px) and (max-width: 1200px) {
-    .headline-IoT .box-text-category-5 {
-        margin-bottom: 30px !important;
-    }
+.division-head h5 {
+    font-family: 'Kanit', sans-serif !important;
+    font-weight: var(--font-light) !important;
+    font-size: var(--font-size-s) !important;
+    color: var(--font-color-primary) !important;
+    letter-spacing: 4px !important;
 }
 
-@media all and (min-width: 990px) and (max-width: 992px) {
-
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .headline-IoT .box-text-category-5 {
+        margin-bottom: 0px !important;
+    }
 }
 
 @media all and (min-width: 767px) and (max-width: 991px) {
@@ -1055,7 +1046,7 @@ small {
     }
 
     .headline-IoT .box-text-category-4 {
-        padding-left: 30px !important;
+        padding-left: 45px !important;
     }
 }
 

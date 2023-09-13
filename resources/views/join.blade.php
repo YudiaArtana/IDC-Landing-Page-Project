@@ -12,13 +12,13 @@
     <div class="container p-0">
         <div class="title-join">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 tulisan">
                     <h4>INSTIKI DEVELOPER CLUB</h4>
                     <h1>Yuk, bergabunglah dengan kami</h1>
                     <p class="title-divisi">Raihlah impianmu menjadi seorang <span class="auto-type "
                             id="auto-type"></span></p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 gambar">
                     <img src="img/join/jumbotron.png" alt="">
                 </div>
             </div>
