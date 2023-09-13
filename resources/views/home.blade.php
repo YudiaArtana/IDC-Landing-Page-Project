@@ -53,7 +53,7 @@
           </div>
       </section>
 
-      <section class="row gap-4 align-items-center m-0 marsec d-flex flex-column-reverse flex-md-row">
+      <section class="box-ref row gap-4 align-items-center m-0 marsec d-flex flex-column-reverse flex-md-row">
         <div class="col p-0">
           <div class="division-head">
             <h5>WHAT IS IDC?</h5>
@@ -98,14 +98,14 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col box-img">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
       </section>
 
 
-      <section class="row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
-        <div class="col">
+      <section class="box-ref row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
+        <div class="col box-img">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
         <div class="col p-0">
@@ -143,7 +143,7 @@
 
       <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
         <div class="division-head text-center w-50">
-          <h5>Latest News</h5>
+          <h5>LATEST NEWS</h5>
           <h3 class="lh-base mb-5">A collection of the latest articles with informative, educational and current news.</h3>
         </div>
         <div class="row owl-carousel owl-theme position-relative p-1">
