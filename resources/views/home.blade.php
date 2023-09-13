@@ -99,14 +99,14 @@
           </div>
         </div>
         <div class="col box-img">
-          <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
+          <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it.png" alt=""></div>
         </div>
       </section>
 
 
       <section class="box-ref row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
         <div class="col box-img">
-          <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
+          <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it1.png" alt=""></div>
         </div>
         <div class="col p-0">
           <div class="division-head">
