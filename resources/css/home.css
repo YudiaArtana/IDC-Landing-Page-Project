@@ -475,7 +475,23 @@ h5{
 		grid-column: span 2;
 	}
 	
-  }  
+  }
+
+  @media(max-width: 768px )
+  {
+	.kotak-1 {
+		border: 1px solid red;
+	}
+	.kotak-1 .icon-1 {
+		margin-left: -10px;
+	}
+	.kotak-2 {
+		border: 1px solid red;
+	}
+	.kotak-3 {
+		border: 1px solid red;
+	}
+  }
   
   @media(max-width: 770px )
   {
