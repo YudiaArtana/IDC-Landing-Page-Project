@@ -153,7 +153,7 @@
 }
 
 .marsec {
-	margin-top: 100px !important;
+	margin-top: 200px !important;
 }
 
 .division-head h5 {
@@ -180,7 +180,7 @@
 }
 
 #komunitas {
-	margin: 100px 0;
+	margin: 200px 0;
 }
 
 .komunitas-head {
@@ -273,7 +273,7 @@
 	height: 500px !important;
 }
 
-.next a:hover {
+.next:hover .lengkap{
   color: var(--font-color-primary) !important;
   text-decoration: underline !important;
 	cursor: pointer;
@@ -409,13 +409,26 @@
 		align-items: center;
 		font-weight: 600;
 		margin-bottom: 20px;
-		padding: 80px;
+		padding: 100px;
 	}
 
 	.recruitment .icon {
-		font-size: 100px;
+		font-size: 180px;
 		color: var(--font-color-primary);
+		letter-spacing: -40px;
+		line-height: 0.8;
+		margin-left: -25px;
 	} 
+
+	.box-form:focus{
+    outline: none !important;
+    box-shadow: none !important;
+	}
+
+	.partner {
+		margin-bottom: 200px;
+	}
+
   
   @media(max-width: 1200px )
   {

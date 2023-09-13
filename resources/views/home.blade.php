@@ -53,12 +53,12 @@
           </div>
       </section>
 
-      <section class="row gap-4 align-items-center m-0">
+      <section class="row gap-4 align-items-center m-0 marsec">
         <div class="col p-0">
           <div class="division-head">
             <h5>APA ITU IDC?</h5>
             <h3 class="lh-base">INSTIKI DEVELOPER CLUB</h3>
-            <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+            <p class="mb-5 lh-lg">Kenal lebih dekat dengan IDC (INSTIKI DEVELOPER CLUB) melalui visi misinya.</p>
           </div>
           <div>
             <nav>
@@ -109,9 +109,9 @@
         </div>
         <div class="col p-0">
           <div class="division-head">
-            <h5>DIVISION</h5>
-            <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
-            <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+            <h5>DIVISI</h5>
+            <h3 class="lh-base">Tersusun oleh divisi yang relevan dengan kebutuhan industri</h3>
+            <p class="mb-5 lh-lg">Temukan divisi yang sesuai dengan bidang dan minat bakatmu.</p>
           </div>
           <div class="division-list">
             <div class="py-3 px-4 square rounded-1 d-flex">
@@ -134,7 +134,7 @@
           <div class="division-list">
             <div class="py-3 px-4 square rounded-1 d-flex">
               <div class="me-3 d-flex justify-content-center align-items-center"><i class="bi bi-robot"></i></div>
-              <p class="m-0">Machine Learning</p>
+              <p class="m-0">Data Science</p>
             </div>
           </div>
         </div>
@@ -143,8 +143,7 @@
       <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
         <div class="division-head text-center w-50">
           <h5>BERITA TERKINI</h5>
-          <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
-          <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+          <h3 class="lh-base mb-5">Kumpulan artikel terbaru dengan berita informatif, edukatif dan terkini.</h3>
         </div>
         <div class="row owl-carousel owl-theme position-relative p-1">
           <div class="me-3 d-flex justify-content-center item" style="width:400px">
@@ -197,8 +196,8 @@
           </div>
           <div class="align-items-center">
             <div class="next item d-flex flex-column justify-content-center align-items-center" style="width:200px">
-                <i class="bi bi-arrow-right-circle-fill fs-1"></i>
-                <a href="{{ url('news') }}" class="text-white">Selengkapnya</a>
+                <i class="bi bi-arrow-right-circle-fill fs-1 lengkap"></i>
+                <a href="{{ url('news') }}" class="text-white lengkap">Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -207,7 +206,7 @@
       <section class="gallery-section px-3 mb-5 marsec d-flex flex-column align-items-center justify-content-center">
         <div class="division-head text-center w-50">
           <h5>KEGIATAN</h5>
-          <h3 class="lh-base mb-5">Create solutions to repetitive problems, design applications and access anywhere!</h3>
+          <h3 class="lh-base mb-5">Cuplikan kegiatan - kegiatan seru bersama anggota.</h3>
           <!-- <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
         </div>
 
@@ -269,11 +268,41 @@
         </div>
     </section>
 
-    <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
+    <section class="mb-5 marsec recruitment">
+      <div class="row justify-content-between d-flex align-items-center">
+        <div class="col-6">
+          <div class="division-head">
+            <h3 class="lh-base">KRITIK DAN SARAN!</h3>
+            <p class="lh-lg">Berikan kritik dan saranmu demi perkembangan IDC yang lebih baik kedepannya.</p>
+            <p class="icon">>>></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <form action="">  
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control box-form" id="floatingInput" placeholder="Email Address">
+            <label for="floatingInput" class="text-black-50">Email address</label>
+        </div>
+
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control box-form" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword" class="text-black-50">Password</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea style="height: 200px;" class="form-control box-form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea" class="text-black-50">Comments</label>
+          </div>
+          <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="marsec d-flex flex-column align-items-center justify-content-center partner">
         <div class="division-head text-center w-50">
           <h5>PARTNER</h5>
           <h3 class="lh-base">Behold! Our story is sought-after.</h3>
-          <p class="mb-5 lh-lg">The chronicle of RISTEK is well-known by the masses!</p>
+          <p class="mb-5 lh-lg">Perusahaan teknologi besar telah memutuskan untuk memberdayakan tujuan kami dengan meningkatkan potensi siswa kami sepenuhnya.</p>
         </div>
         <div class="row">
           <div class="col">
@@ -286,35 +315,6 @@
             <img src="img/home/kampus_merdeka.png" alt="" width="150px">
           </div>
         </div>
-    </section>
-
-    <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center recruitment">
-      <div class="row">
-        <div class="col-6">
-          <div class="division-head">
-            <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
-            <p class="lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
-            <p class="icon">>>></p>
-          </div>
-        </div>
-        <div class="col-6">
-          <form action="">  
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="nama">
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-          </div>
-          <div class="form-floating mb-3">
-            <textarea style="height: 200px;" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Comments</label>
-          </div>
-          <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Kirim</button>
-          </form>
-        </div>
-      </div>
     </section>
   
       <!-- <section class="partner">

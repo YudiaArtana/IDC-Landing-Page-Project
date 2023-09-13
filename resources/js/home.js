@@ -14,8 +14,6 @@ new Ukiyo(parallax, {
 
 $('.owl-carousel').owlCarousel({
     autoWidth: true,
-    autoplay: true,
-    autoplayTimeout: 5000,
     nav: true,
     autoplayHoverPause: true,
     responsive:{
