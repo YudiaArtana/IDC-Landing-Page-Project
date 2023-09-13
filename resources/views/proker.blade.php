@@ -13,7 +13,7 @@
             <div class="main-title d-flex flex-column justify-content-center align-items-center text-center"
                 data-aos="fade-in-out" data-aos-easing="linear" data-aos-duration="2000">
                 <h5>ACTION PLAN</h5>
-                <h3 class="lh-base">Driving Work Programs</h3>
+                <h2 class="lh-base">Driving Work Programs</h2>
             </div>
             <div class="container">
                 <div class="row ldo pb-5">
@@ -21,8 +21,8 @@
                             <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
                         <b>
-                            <h2 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
-                                data-aos-duration="1000">Basic Organizational Training</h2>
+                            <h3 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
+                                data-aos-duration="1000">Basic Organizational Training</h3>
                         </b>
                         <p data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">Basic training
                              organization is a series of initial activities aimed at
@@ -64,8 +64,8 @@
                     <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
                         <b>
-                            <h2 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
-                                data-aos-duration="1000">Code Collaboratively.</h2>
+                            <h3 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
+                                data-aos-duration="1000">Code Collaboratively</h3>
                         </b>
                         <p data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">The Coding Together activity held on campus is an inspirational platform for students who have an interest in programming. This event not only serves as a platform for sharing knowledge and skills in the coding world but also creates a collaborative environment where innovative ideas can be discussed and transformed into real projects.
                         </p>
@@ -100,8 +100,8 @@
                     <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
                         <b>
-                            <h2 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
-                                data-aos-duration="1000">Seminars dan Workshops</h2>
+                            <h3 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
+                                data-aos-duration="1000">Seminars dan Workshops</h3>
                         </b>
                         <p data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">Seminars and workshops
                              organized by the UKM INSTIKI Developer Club on campus is
@@ -141,8 +141,8 @@
                     <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
                         <b>
-                            <h2 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
-                                data-aos-duration="1000">Community service</h2>
+                            <h3 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
+                                data-aos-duration="1000">Community service</h3>
                         </b>
                         <p data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">In the spirit of devotion
                              in society, the UKM INSTIKI Developer Club takes an active role
@@ -182,8 +182,8 @@
                     <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
                         <b>
-                            <h2 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
-                                data-aos-duration="1000">Final Project Showcase</h2>
+                            <h3 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
+                                data-aos-duration="1000">Final Project Showcase</h3>
                         </b>
                         <p data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">Final Project Event
                              Showcase held internally by UKM INSTIKI Developer Club
