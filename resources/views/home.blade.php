@@ -23,8 +23,8 @@
             <h3 class="lh-base komunitas-text">So far this year, we have invited hundreds of students to join the community</h3>
           </div>
           <div class="py-4 mt-5 square rounded-1 row m-0 border-0 d-flex flex-md-row flex-column">
-              <div class="col d-flex flex-row-reverse flex-md-row justify-content-start justify-content-md-center border-bottom border-md-end border-light border-opacity-10">
-                <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-md-4 rounded-1">
+              <div class="col kotak-1 d-flex flex-md-row justify-content-center justify-content-md-center">
+                <div class="square m-0 icon-1 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-check px-4"></i>
                 </div>
                 <div class="komunitas-item">
@@ -32,7 +32,7 @@
                   <p class="m-0">MEMBERS</p>
                 </div>
               </div>
-              <div class="col d-flex justify-content-start justify-content-md-center border-bottom border-md-end border-light border-opacity-10">
+              <div class="col kotak-2 d-flex justify-content-center justify-content-md-center">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-up px-4"></i>
                 </div>
@@ -41,8 +41,8 @@
                   <p class="m-0">GRADUATES</p>
                 </div>
               </div>
-              <div class="col d-flex flex-row-reverse flex-md-row justify-content-start justify-content-md-center">
-                <div class="square m-0 d-flex  justify-content-center komunitas-icon border-0 me-md-4 rounded-1">
+              <div class="col kotak-3 d-flex flex-md-row justify-content-center justify-content-md-center">
+                <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-calendar3 px-4"></i>
                 </div>
                 <div class="komunitas-item">
