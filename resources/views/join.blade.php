@@ -11,7 +11,7 @@
 <div class="section-title d-flex justify-content-start align-items-center px-3">
     <div class="container p-0">
         <div class="title-join">
-            <div class="row">
+            <div class="row pt-0 d-flex justify-content-start align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 tulisan d-flex justify-content-start align-items-start">
                     <h4>INSTIKI DEVELOPER CLUB</h4>
                     <h1>Let's, Join with us!</h1>
@@ -19,7 +19,7 @@
                             id="auto-type"></span></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 gambar">
-                    <img src="img/join/jumbotron.png" alt="">
+                    <img src="img/join/join.png" alt="">
                 </div>
             </div>
         </div>
