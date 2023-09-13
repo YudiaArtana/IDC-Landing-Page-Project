@@ -1,21 +1,21 @@
 @mixin white-gradient {
-	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right,  rgb(11,11,34) 0%,rgba(255,255,255,0) 100%);
 }
 
-$animationSpeed: 40s;
+$animationSpeed: 20s;
 
 // Animation
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+	100% { transform: translateX(calc(-250px * 8))}
 }
 
 
 // Styling
 .slider-partner {
-	background: transparent;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 100px;
+	background: rgba(255, 255, 255, 0); /* Warna latar belakang dengan kejernihan yang lebih rendah */
+	border-radius: 10px; /* Membuat sudut elemen lebih lunak */
+	height: auto;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
@@ -25,7 +25,7 @@ $animationSpeed: 40s;
 	&::after {
 		@include white-gradient;
 		content: "";
-		height: 100px;
+		height: 160px;
 		position: absolute;
 		width: 200px;
 		z-index: 2;
@@ -45,11 +45,11 @@ $animationSpeed: 40s;
 	.slide-track {
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
-		width: calc(250px * 14);
+		width: calc(250px * 15);
 	}
 	
 	.slide {
-		height: 100px;
-		width: 250px;
+		height: auto;
+		width: 150px;
 	}
 }
