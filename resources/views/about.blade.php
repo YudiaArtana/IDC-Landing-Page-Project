@@ -11,12 +11,12 @@
     <div class="container pt-5">
         <section class="about-us">
 
-            <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
+            <div class="text-about text-center pb-5 mx-auto" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                 <h5 class="mt-5">ABOUT US</h5>
                 <h3>History of INSTIKI Developer Club</h3>
             </div>
 
-            <div id="timeline-area" class="mt-5 mx-5">
+            <div id="timeline-area" class="mt-4 mx-5">
                 <div class="timeline">
                     <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <div class="col-md">
