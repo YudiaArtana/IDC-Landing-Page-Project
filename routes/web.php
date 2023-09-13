@@ -27,12 +27,12 @@ Route::get('/proker', function () {
     return view('proker');
 }); 
 
+// Route::get('/team', function () {
+//     return view('team');
+// }); 
+
 Route::get('/team', function () {
     return view('team');
-}); 
-
-Route::get('/portfolio', function () {
-    return view('portfolio');
 }); 
 
 Route::get('/about', function () {

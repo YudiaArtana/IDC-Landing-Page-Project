@@ -61,6 +61,29 @@
     width: 100%;
 }
 
+.title-join h1 {
+	font-size: 65px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.title-join h4 {
+	font-size: var(--font-size-m);
+	font-weight: 600;
+	color: var(--font-color-primary);
+	margin: 0;
+}
+
+.title-divisi span {
+    color: var(  --font-color-super-secondary);
+}
+
+.title-join p {
+	font-weight: 400;
+	font-size: var(--font-size-s);
+}
+
+
 .box-form{
     background-color: transparent !important;
     border: none !important;

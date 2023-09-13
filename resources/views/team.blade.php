@@ -1,209 +1,178 @@
 @extends('layouts.master')
 
 @section('vite')
-@vite(['resources/js/app.js','resources/js/team.js', 'resources/css/team.css'])
+@vite(['resources/js/app.js', 'resources/js/team.js', 'resources/css/team.css'])
 @endsection
 
-@section('title', 'Team')
+@section('title', 'Home Page')
 
 @section('content')
 <div class="page-background position-relative">
     <div class="bg-color position-relative">
-        <div id="team1 ">
-            <div class="container hero-team" data-aos="zoom-in">
-                <section id="slider">
-                    <div class="container">
-                        <h1 class="text-center position-relative mb-4"><b class="text-black underline-1">Inti</b></h1>
-                        <div class="slider">
-                            <div class="owl-carousel">
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/inti/ketua.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">I Wayan Natura Adnyana</b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/inti/wakil.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">I Made Mei Sastra Jayadi</b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center p-4">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/inti/sekretaris_1.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">I Gede Oka Darma Putra</b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center p-4">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/inti/sekretaris_2.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">Maria Adventalia Nera</b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center p-4">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/inti/bendahara_1.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">I Kadek Setiawan </b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center p-4">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/inti/bendahara_2.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">Siti Romadiah </b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center p-4">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container text-center">
+            <div class="team-title d-flex flex-column justify-content-center align-items-center text-center"
+                data-aos="fade-in-out" data-aos-easing="linear" data-aos-duration="1500">
+                <h5 style="color: #ED1F24;">Tim IDC</h5>
+                <h3 class="lh-base">Yuk, kenalan dengan Kami, komunitas pengembang kreatif!</h3>
             </div>
-            </section>
-        </div>
-
-        <div id="team2">
-            <div class="container hero-team ">
-                <section id="slider">
-                    <div class="container">
-                        <h1 class="text-center position-relative mb-4" data-aos="zoom-out-down" data-aos-delay="10" data-aos-duration="1000"><b class="text-black underline-1">Non Divisi</b>
-                        </h1>
-                        <div class="slider" data-aos="zoom-out-down" data-aos-delay="20" data-aos-duration="1000">
-                            <div class="owl-carousel">
-                                <div class="slider-card" >
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/non-divisi/data_science.webp " alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">I Made Adrian Astalina Pramata</b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/non-divisi/web.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">I Gede Tresna Agustina Putra</b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center p-4">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/non-divisi/mobile.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">Putu Rades Pratama</b></h5>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    <p class="text-black text-center p-4">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                                <div class="slider-card">
-                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                        <img src="img/team/non-divisi/ui_ux.webp" alt="">
-                                    </div>
-                                    <h5 class="mb-0 text-center"><b class="text-black">Marcell Budi Putra</b>
-                                    <p class="mb-0 text-center text-black">TI-MTI</p>
-                                    </h5>
-                                    <p class="text-black text-center p-4 py-2">
-                                        <i class="bi bi-facebook px-2"></i>
-                                        <i class="bi bi-instagram"></i>
-                                        <i class="bi bi-linkedin px-2"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="judul-tim">
+                <h2>Tim Inti</h2>
             </div>
-            </section>
-        </div>
-
-        <div id="team3" class="container hero-team d-flex justify-content-center align-items-center">
-    <section id="slider-divisi">
-        <div class="container">
-            <h1 class="text-center position-relative mb-4" data-aos="zoom-out-down" data-aos-delay="10" data-aos-duration="1000"><b class="text-black underline-1">Divisi</b></h1>
-            <div class="row justify-content-center align-items-center" data-aos="zoom-out-down" data-aos-delay="20" data-aos-duration="1000">
-                <div class="col-md-6">
-                    <div class="slider-card-divisi pb-4">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <img src="img/team/divisi/pubdok.webp" alt="">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 inti">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="header-area img1">
                         </div>
-                        <h5 class="mt-3 mb-0 text-center"><b class="text-black">I Gede Juniarta</b></h5>
-                        <p class="mb-0 text-center text-black">TI-MTI</p>
-                        <p class="text-black text-center">
-                            <i class="bi bi-facebook px-2"></i>
-                            <i class="bi bi-instagram"></i>
-                            <i class="bi bi-linkedin px-2"></i>
-                        </p>
+                        <div class="body-area">
+                            <h3 class="pt-0">I Wayan Natura Adnyana</h3>
+                            <h4>Ketua</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="slider-card-divisi pb-4">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <img src="img/team/divisi/humas.webp" alt="">
+
+                <div class="col-lg-4 col-md-6 col-sm-12 inti">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="header-area img2"></div>
+                        <div class="body-area">
+                            <h3>I Made Mei Sastra Wijaya</h3>
+                            <h4>Wakil Ketua</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
                         </div>
-                        <h5 class="mt-3 mb-0 text-center"><b class="text-black">I Gede Agus Pramana Satria Wiweka</b></h5>
-                        <p class="mb-0 text-center text-black">TI-MTI</p>
-                        <p class="text-black text-center">
-                            <i class="bi bi-facebook px-2"></i>
-                            <i class="bi bi-instagram"></i>
-                            <i class="bi bi-linkedin px-2"></i>
-                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 inti">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="header-area img3"></div>
+                        <div class="body-area">
+                            <h3>I Gede Oka Darma Putra</h3>
+                            <h4>Sekretaris 1</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 inti">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="header-area img4"></div>
+                        <div class="body-area">
+                            <h3>Maria Adventalia Nera</h3>
+                            <h4>Sekretaris 2</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 inti">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="header-area img5"></div>
+                        <div class="body-area">
+                            <h3>I Kadek Setiawan</h3>
+                            <h4>Bendahara 1</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 inti">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="header-area img6"></div>
+                        <div class="body-area">
+                            <h3>Siti Romadiah</h3>
+                            <h4>Bendahara 2</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="judul-tim">
+                <h2>Tim Non Divisi</h2>
+            </div>
+            <div class="row pt-4">
+                <div class="col-lg-3 col-md-6 col-sm-12 non-divisi">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="header-area img7"></div>
+                        <div class="body-area">
+                            <h3>I Made Adrian Astlina P.</h3>
+                            <h4>Koor Data Science</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 non-divisi">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="header-area img8"></div>
+                        <div class="body-area">
+                            <h3>I Gede Tresna Agustina P.</h3>
+                            <h4>Koor Web</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 non-divisi">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="header-area img9"></div>
+                        <div class="body-area">
+                            <h3>Marcel Budi Putra</h3>
+                            <h4>Koor UI/UX</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 non-divisi">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="header-area img10"></div>
+                        <div class="body-area">
+                            <h3>Putu Rades Pratama</h3>
+                            <h4>Koor Mobile</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="judul-tim">
+                <h2>Tim Divisi</h2>
+            </div>
+            <div class="row d-flex flex-row justify-content-center align-items-center text-center pt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 divisi1">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="header-area img11"></div>
+                        <div class="body-area">
+                            <h3>I Gede Agus Pramana S. W.</h3>
+                            <h4>Koor Humas</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 divisi2">
+                    <div class="single-box" data-aos="flip-left" data-aos-delay="3  00" data-aos-duration="1000">
+                        <div class="header-area img12"></div>
+                        <div class="body-area">
+                            <h3>I Gede Juniarta</h3>
+                            <h4>Koor Pubdok</h4>
+                            <p class="socials"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                                    class="fa fa-instagram"></i> <i class="fa fa-linkedin"></i></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-</div>
-
-
     </div>
 </div>
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 @endsection

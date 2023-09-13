@@ -43,8 +43,11 @@
                             organisasi, peserta diberikan wawasan tentang sejarah dan latar belakang
                             organisasi, tanggung jawab individu dalam tim, komunikasi yang efektif, serta cara
                             pengambilan keputusan dalam struktur hierarki.</p>
-                        <a href="#" class="btn-selengkapnya" data-aos="zoom-in" data-aos-delay="100"
-                            data-aos-duration="1200">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                            data-aos-duration="1000">
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
+                                        class="bi bi-arrow-right"></i></span></a>
+                        </div>
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
@@ -87,8 +90,11 @@
                             ruang yang memperkaya wawasan teknis, membangun jaringan
                             profesional, dan menghidupkan semangat kolaborasi di antara para calon pengembang yang
                             bersemangat.</p>
-                        <a href="#" class="btn-selengkapnya" data-aos="zoom-in" data-aos-delay="100"
-                            data-aos-duration="1200">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                            data-aos-duration="1000">
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
+                                        class="bi bi-arrow-right"></i></span></a>
+                        </div>
                     </div>
                     <div class="col-md-6 order-md-2" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="500">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
@@ -131,8 +137,11 @@
                             untuk mengejar kreativitas, mengasah keterampilan, dan mendapatkan
                             wawasan tentang tren perkembangan teknologi masa depan, yang semuanya memperkaya pengalaman
                             serta pengetahuan para peserta.</p>
-                        <a href="#" class="btn-selengkapnya" data-aos="zoom-in" data-aos-delay="100"
-                            data-aos-duration="1200">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                            data-aos-duration="1000">
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
+                                        class="bi bi-arrow-right"></i></span></a>
+                        </div>
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
@@ -175,8 +184,11 @@
                             dari dedikasi kami untuk memberikan dampak positif dan menciptakan
                             ikatan empati dengan masyarakat di sekitar, sambil memupuk semangat gotong royong dan
                             kepedulian bersama.</p>
-                        <a href="#" class="btn-selengkapnya" data-aos="zoom-in" data-aos-delay="100"
-                            data-aos-duration="1200">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                            data-aos-duration="1000">
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
+                                        class="bi bi-arrow-right"></i></span></a>
+                        </div>
                     </div>
                     <div class="col-md-6 order-md-2" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="500">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
@@ -218,8 +230,11 @@
                             platform untuk berbagi ide inovatif, pemecahan masalah teknis, serta
                             menginspirasi satu sama lain melalui perkembangan perangkat lunak dan aplikasi yang
                             diciptakan.</p>
-                        <a href="#" class="btn-selengkapnya" data-aos="zoom-in" data-aos-delay="100"
-                            data-aos-duration="1200">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
+                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                            data-aos-duration="1000">
+                            <a href="#" class="btn-selengkapnya">Selengkapnya<span><i
+                                        class="bi bi-arrow-right"></i></span></a>
+                        </div>
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
