@@ -53,7 +53,7 @@
           </div>
       </section>
 
-      <section class="row gap-4 align-items-center m-0 marsec d-flex flex-column-reverse flex-md-row">
+      <section class="box-ref row gap-4 align-items-center m-0 marsec d-flex flex-column-reverse flex-md-row">
         <div class="col p-0">
           <div class="division-head">
             <h5>WHAT IS IDC?</h5>
@@ -98,14 +98,14 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col box-img">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
       </section>
 
 
-      <section class="row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
-        <div class="col">
+      <section class="box-ref row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
+        <div class="col box-img">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
         <div class="col p-0">

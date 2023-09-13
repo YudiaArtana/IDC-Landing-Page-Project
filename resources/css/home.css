@@ -41,6 +41,11 @@
   color: var(--font-color-white);
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  } 
+
 .page-background{
 	background-image: url(/public/img/page-background.svg);
 	background-size: cover;
@@ -493,5 +498,28 @@ h5{
 	.nh-stretch{
 		grid-column: span 4;
 	}
+	
+  }
+
+  @media(max-width: 410px )
+  {
+	.box-img img{
+		height: 100% !important;
+		width: 100% !important;
+	}
+
+	
+  }
+  @media(max-width: 576px )
+  {
+	.box-ref{
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	.box-ref{
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
 	
   }

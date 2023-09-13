@@ -4,7 +4,7 @@
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
     <div class="me-5 pt-2 d-none d-lg-block">
-      <span>Hubungi kami di media sosial:</span>
+      <span>Contact us on social media:</span>
     </div>
     <!-- Left -->
 
@@ -58,7 +58,7 @@
             <img src="img/idc-3.png" alt="" width="50">INSTIKI Developer Club
           </h6>
           <p>
-            Komunitas yang berkomitmen untuk mengembangkan keterampilan teknis dan kolaborasi di antara para Developer.
+            A community committed to developing technical skills and fostering collaboration among developers.
           </p>
         </div>
         <!-- Grid column -->
@@ -67,22 +67,22 @@
         <div class="col-xs-2 col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto mb-5">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Navigasi
+            Navigation
           </h6>
           <p>
-            <a href="{{ url('/home') }}" class="text-reset">Beranda</a>
+            <a href="{{ url('/home') }}" class="text-reset">Home</a>
           </p>
           <p>
-            <a href="{{ url('/news') }}" class="text-reset">Berita</a>
+            <a href="{{ url('/news') }}" class="text-reset">News</a>
           </p>
           <p>
-            <a href="{{ url('/proker') }}" class="text-reset">Program Kerja</a>
+            <a href="{{ url('/proker') }}" class="text-reset">Workplan</a>
           </p>
           <p>
             <a href="{{ url('/team') }}" class="text-reset">Team</a>
           </p>
           <p>
-            <a href="{{ url('/about') }}" class="text-reset">Tentang Kami</a>
+            <a href="{{ url('/about') }}" class="text-reset">About Us</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -91,7 +91,7 @@
         <div class="col-xs-2 col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto mb-5">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Mitra
+            Partner
           </h6>
           <p>
             <a href="#!" class="text-reset">INSTIKI</a>
@@ -106,7 +106,7 @@
         <div class="col-xs-2 col-sm-6 col-md-6 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-5">
           <!-- Links -->
         
-          <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
           <div class="row">
             <div class="col-md-1 col-lg-1 col-xl-1"><i class="fas fa-home"></i> </div>
             <div class="col-md-11 col-lg-11 col-xl-11"><p>Institut Bisnis dan Teknologi Indonesia</p></div>
