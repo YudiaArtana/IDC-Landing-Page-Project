@@ -39,6 +39,11 @@
   color: var(--font-color-white);
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  } 
+
 .page-background{
 	background-image: url(/public/img/page-background.svg);
 	background-size: cover;
