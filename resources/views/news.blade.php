@@ -11,7 +11,7 @@
     <div class="container hero-news">
         <div class="row d-flex flex-column align-items-center justify-content-center pt-5">
             <div class="d-flex flex-column align-items-center justify-content-center pt-5 p-0">
-                <div class="division-head d-flex flex-column align-items-center justify-content-center text-center w-50" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="3000">
+                <div class="division-head d-flex flex-column align-items-center justify-content-center text-center w-50" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                     <h5>BERITA TERKINI</h5>
                     <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
                     <p class="mb-5 lh-lg opacity-50">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
@@ -51,7 +51,7 @@
                                 <div class="col box-text-category-4 ps-5 pb-0 d-flex align-items-end">
                                     <p class="text-category-4">IoT</p>
                                 </div>
-                                <h5 class="box-text-category-4 p-5 pt-0">Tantangan Baru dalam Era Terhubung</h5>
+                                <h5 class="box-text-category-5 p-5 pt-0">Tantangan Baru dalam Era Terhubung</h5>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
 </div>
 <div class="container section border border-0">
     <div class="row">
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
             <div class="mb-4 mt-4">
                 <div class="section-title-news">
                     <h1 class="mb-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000"><b class="underline-3">Terbaru</b></h1>
@@ -246,12 +246,12 @@
                         <p class="summary pt-3">Dengan di mentoring langsung oleh Prabu Rangki seorang Software Engineer di Kintell dari Google Developer Group. Soo! what you waiting guys? c'mon join and enjoy our event 🔥🔥get your new experience 🔥🔥 Dengan pelatihan dari pemateri yang luar biasa, bisa kalian dapatkan dengan harga yang affordable!</p>
                     </div>
                 </div>
-                <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
+                <div class="position-relative text-center pt-3 btn-wadah" data-aos="zoom-out-up" data-aos-delay="50" data-aos-duration="1000">
                     <a href="#" class="btn-selengkapnya float-end">Selengkapnya<span><i class="bi bi-arrow-right"></i></span></a>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
             <div class="trending mt-4">
                 <div class="section-title-news"  data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                     <h1 class="mb-4"><b class="underline-4">Populer</b></h1>
@@ -373,10 +373,10 @@
                             <p>Dapatkan berita terbaru langsung di inbox Anda. Berlangganan newsletter kami untuk informasi terkini.</p>
                             <form>
                                 <div class="form-group">
-                                    <input type="text" class="form-control form-control-lg" placeholder="Alamat Email Anda">
+                                    <input type="email" class="form-control form-control-lg" placeholder="Alamat Email Anda">
                                 </div>
-                                <div class="form-group text-center pt-3">
-                                    <button class="py-2 px-5 join rounded-2 btn btn-default fw-small text-white">Berlangganan</button>
+                                <div class="form-group d-flex flex-column align-items-center justify-content-center text-center pt-3">
+                                    <button class="py-2 px-5 join btn-berlangganan rounded-2 btn btn-default fw-small text-white">Berlangganan</button>
                                 </div>
                             </form>
                             <small class="mt-2 d-block">Dengan berlangganan, Anda menyetujui kebijakan privasi kami.</small>
@@ -390,6 +390,21 @@
 <div class="container section mt-4 border border-0">
     <div class="section-title-news">
         <h1 class="mb-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000"><b class="underline-2">Media Partner</b></h1>
+    </div>
+    <div class="row text-center">
+        <div class="slider-partner" style="border: 2px solid red;">
+            <div class="slide-track" style="border: 2px solid blue;">
+                <div class="slide" style="border: 2px solid yellow;">
+                    <img src="img/news/bem-instiki.webp" height="100" width="250" alt="" />
+                </div>
+                <div class="slide" style="border: 2px solid yellow;">
+                    <img src="img/news/hima-ti-instiki.webp" height="100" width="250" alt="" />
+                </div>
+                <div class="slide" style="border: 2px solid yellow;">
+                    <img src="img/news/inspiration-dance-instiki.webp" height="100" width="250" alt="" />
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row text-center">
         <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3 mb-2" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">

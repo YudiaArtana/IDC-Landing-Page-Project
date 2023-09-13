@@ -11,23 +11,20 @@
     <div class="container pt-5">
         <section class="about-us">
 
-            <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
-                <h5 class="mt-5">TENTANG KAMI</h5>
-                <h3>Sejarah INSTIKI Developer Club</h3>
-                <p class="mx-auto">
-                    Mari kita telusuri perjalanan menarik Instiki Developer Club melalui serangkaian titik penting yang membentuk komunitas inovatif ini. Dari akar hingga puncak kolaborasi, mari kita lihat bagaimana IDC telah tumbuh menjadi apa yang kita kenal hari ini.
-                </p>
+            <div class="text-about text-center pb-5 mx-auto" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+                <h5 class="mt-5">ABOUT US</h5>
+                <h3>History of INSTIKI Developer Club</h3>
             </div>
 
-            <div id="timeline-area" class="mt-5">
+            <div id="timeline-area" class="mt-4 mx-5">
                 <div class="timeline">
                     <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <div class="col-md">
-                            <h5> Tahun 2010</h5>
-                            <p class="sub-timeline">Pendirian dan Perkembangan IDC</p>
+                            <h5>2010</h5>
+                            <p class="sub-timeline">Establishment and Development of Hardware and Software Organizations</p>
                         </div>
                         <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
-                            <p>Pada tahun-tahun awalnya, Instiki Developer Club (IDC) muncul sebagai suatu wadah yang terdiri dari sekelompok mahasiswa Instiki yang memiliki hasrat mendalam untuk menjelajahi dunia pengembangan perangkat lunak. Awalnya dikenal sebagai Unit Kegiatan Mahasiswa (UKM) Hardware & Software, kelompok ini menyatukan mahasiswa dengan minat yang sama: menjadi seorang developer. Dengan semangat kebersamaan yang tak terbendung, kelompok ini menjelma menjadi suatu komunitas yang tak hanya membangun teknologi, tetapi juga persaudaraan.
+                            <p>In its early years, the Instiki Developer Club (IDC) emerged as a forum consisting of a group of Instiki students who had a deep desire to explore the world of software development. Initially known as the Hardware & Software Student Activity Unit (UKM), this group unites students with the same interest: becoming a developer. With an unstoppable spirit of togetherness, this group has transformed into a community that not only builds technology, but also brotherhood.
                             </p>
                         </div>
                     </div>
@@ -35,11 +32,11 @@
                 <div class="timeline">
                     <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <div class="col-md">
-                            <h5> Tahun 2022</h5>
-                            <p class="sub-timeline">Transformasi Menjadi Instiki Developer Club</p>
+                            <h5>2022</h5>
+                            <p class="sub-timeline">Transformation into Instiki Developer Club</p>
                         </div>
                         <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
-                            <p>Pada awal tahun 2022, komunitas ini mengalami perubahan besar dengan pergantian nama menjadi Instiki Developer Club (IDC). Perubahan ini seiring dengan semakin berkembangnya visi dan misi kelompok ini. Nama baru ini melambangkan semangat kolaboratif dalam menghadapi dunia pengembangan perangkat lunak yang terus berubah. IDC semakin dikenal sebagai pusat bagi para mahasiswa yang haus akan ilmu, siap untuk memahami dan menguasai dunia coding, serta menerapkan kreativitas mereka dalam proyek-proyek berarti.
+                            <p>In early 2022, this community underwent major changes with the name changing to Instiki Developer Club (IDC). This change is in line with the development of the group's vision and mission. The new name symbolizes a collaborative spirit in the face of the ever-changing world of software development. IDC is increasingly known as a center for students who are hungry for knowledge, ready to understand and master the world of coding, and apply their creativity in meaningful projects.
                             </p>
                         </div>
                     </div>
@@ -47,11 +44,11 @@
                 <div class="timeline pb-5">
                     <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <div class="col-md">
-                            <h5> Tahun 2023</h5>
-                            <p class="sub-timeline">Bergabung dengan GDSC Instiki</p>
+                            <h5>2023</h5>
+                            <p class="sub-timeline">Merge with GDSC Chapter INSTIKI</p>
                         </div>
                         <div class="col-md" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
-                            <p>Melangkah menuju tahun 2023, takdir semakin menghubungkan jejak IDC dengan kelompok lain yang sejalan, yaitu Google Developer Student Club (GDSC) Instiki. Dua entitas ini melebur menjadi satu, menciptakan sinergi yang kuat antara pengembangan perangkat lunak dan pembelajaran teknologi modern. Penggabungan ini menghadirkan lebih banyak peluang, acara, dan proyek kolaboratif untuk anggota, memungkinkan mereka untuk belajar dari berbagai sumber daya dan memperluas jaringan mereka. Dengan total anggota yang kini mencapai 100 orang, kelompok ini menjadi semakin dinamis, berupaya menghasilkan inovasi dan memberi dampak positif dalam komunitas kampus.
+                            <p>Moving towards 2023, fate increasingly connects IDC's footprint with another group that is in line, namely the Google Developer Student Club (GDSC) Instiki. These two entities merge into one, creating a strong synergy between software development and modern technology learning. This merger brings more opportunities, events and collaborative projects to members, allowing them to learn from a variety of resources and expand their networks. With total members now reaching 100 people, this group is becoming increasingly dynamic, striving to produce innovation and have a positive impact on the campus community.
                             </p>
                         </div>
                     </div>
@@ -65,9 +62,9 @@
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 faq-head mb-5" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000">
 
                     <h5>FAQs</h5>
-                    <h3 class="w-75">Pertanyaan Umum</h3>
-                    <p>Temukan pertanyaan-pertanyaan umum seputar IDC</p>
-                    <button class="btn btn-custom">Kirim Pertanyaan Anda</button>
+                    <h3 class="w-75">General Questions</h3>
+                    <p>Find frequently asked questions about IDC</p>
+                    <button class="btn btn-custom">Submit Your Inquiry</button>
                 </div>
 
                 <div class="col-7" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1200">
@@ -75,7 +72,7 @@
                     <div class="faqs mb-4">
                         
                         <div class="question">
-                            <h3>Kapan saja ngoding bareng dilaksanakan?</h3>
+                            <h3>When does coding together take place?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -84,7 +81,7 @@
                         </div>
 
                         <div class="answer">
-                            <p>Untuk kegiatan ngoding bareng Instiki Developer Club biasanya dilakukan pada weekend (jika tidak ada halangan).</p>
+                            <p>Coding activities with the Instiki Developer Club are usually carried out on weekends (if there are no obstacles).</p>
                         </div>
 
                     </div>
@@ -92,7 +89,7 @@
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h3>Berapa point skp saat mengikuti seminar nasional IDC?</h3>
+                            <h3>How many SKP points do you have when attending an IDC national seminar?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -101,7 +98,7 @@
                         </div>
 
                         <div class="answer">
-                            <p>Untuk setiap seminar yang diadakan Instiki Developer Club mendapatkan 20 point skp.</p>
+                            <p>For every seminar held by the Instiki Developer Club, you get 20 SKP points.</p>
                         </div>
 
                     </div>
@@ -109,7 +106,7 @@
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h3>Apa keuntungan mengikuti GDSC Instiki?</h3>
+                            <h3>What are the benefits of joining GDSC Chapter INSTIKI?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -118,14 +115,14 @@
                         </div>
 
                         <div class="answer">
-                            <p>Keuntungan yang bisa didapat dari mengikuti Google Developer Club Instiki ilmu dan juga relasi. </p>
+                            <p>The benefits that can be obtained from joining the Google Developer Students Club are knowledge and relationships. </p>
                         </div>
 
                     </div>
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h3>Apakah IDC selalu mengadakan lomba?</h3>
+                            <h3>Does IDC always hold competitions?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -134,14 +131,14 @@
                         </div>
 
                         <div class="answer">
-                            <p>Untuk lomba kami dari Instiki Developer Club pasti akan mengadakan lomba seperti mini hackaton. Kami juga menerima undangan lomba yang berhubungan dengan developer dari kampus-kampus lainnya.</p>
+                            <p>For our competition, the Instiki Developer Club will definitely hold a competition like a mini hackaton. We also accept invitations to competitions related to developers from other campuses.</p>
                         </div>
 
                     </div>
                     <div class="faqs mb-4">
 
                         <div class="question">
-                            <h3>Apakah masuk IDC harus pintar ngoding?</h3>
+                            <h3>Do you have to be good at coding to join IDC?</h3>
 
                             <svg width="15" height="10" viewbox="0 0 42 25">
                                 <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -150,7 +147,7 @@
                         </div>
 
                         <div class="answer">
-                            <p>Tidak, karena di Instiki Developer Club tidak memandang jago atau tidaknya dalam mengcoding. Tetapi lebih </p>
+                            <p>No, because the Instiki Developer Club doesn't look at whether you are good at coding or not. But more about sharing knowledge and experience in technology</p>
                         </div>
 
                     </div>
