@@ -46,6 +46,7 @@ p{
 }
 h2{
     font-family: 'Figtree', sans-serif;
+    font-weight: var(--font-bold) !important;
     font-size: var(--font-size-xl) !important;
     color: var(--font-color-white) !important; 
 }
@@ -77,12 +78,6 @@ h5{
 
 .main-title {
     padding-top: 150px;
-}
-
-.main-title h3 {
-    font-weight: var(--font-bold);
-    font-size: var(--font-size-xl) !important;
-    letter-spacing: 2px;
 }
 
 .ldo {
@@ -118,7 +113,6 @@ h5{
     font-weight: bold;
     font-size: 30px;
     letter-spacing: 1px;
-    color: #ED1F24;
 }
 
 
