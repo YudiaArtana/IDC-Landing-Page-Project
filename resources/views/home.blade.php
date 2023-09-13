@@ -19,8 +19,8 @@
     <div class="container p-0">
       <section id="komunitas">
           <div class="division-head komunitas-head text-center">
-            <h5>KOMUNITAS</h5>
-            <h3 class="lh-base komunitas-text">Hingga tahun ini, kami telah mengajak ratusan mahasiswa bergabung pada komunitas</h3>
+            <h5>COMMUNITY</h5>
+            <h3 class="lh-base komunitas-text">So far this year, we have invited hundreds of students to join the community</h3>
           </div>
           <div class="py-4 mt-5 square rounded-1 row m-0 border-0">
               <div class="col d-flex justify-content-center border-end border-light border-opacity-10">
@@ -29,7 +29,7 @@
                 </div>
                 <div class="komunitas-item">
                   <span class="fs-1 fw-bold">200</span>
-                  <p class="m-0">ANGGOTA</p>
+                  <p class="m-0">MEMBERS</p>
                 </div>
               </div>
               <div class="col d-flex justify-content-center border-end border-light border-opacity-10">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="komunitas-item">
                   <span class="fs-1 fw-bold">230</span>
-                  <p class="m-0">ALUMNI</p>
+                  <p class="m-0">GRADUATES</p>
                 </div>
               </div>
               <div class="col d-flex justify-content-center">
@@ -47,7 +47,7 @@
                 </div>
                 <div class="komunitas-item">
                   <span class="fs-1 fw-bold">5+</span>
-                  <p class="m-0">TAHUN</p>
+                  <p class="m-0">YEARS</p>
                 </div>
               </div>
           </div>
@@ -56,42 +56,42 @@
       <section class="row gap-4 align-items-center m-0 marsec">
         <div class="col p-0">
           <div class="division-head">
-            <h5>APA ITU IDC?</h5>
+            <h5>WHAT IS IDC?</h5>
             <h3 class="lh-base">INSTIKI DEVELOPER CLUB</h3>
-            <p class="mb-5 lh-lg">Kenal lebih dekat dengan IDC (INSTIKI DEVELOPER CLUB) melalui visi misinya.</p>
+            <p class="mb-5 lh-lg">Get to know Instiki Developer Club through its vision and mission.</p>
           </div>
           <div>
             <nav>
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="nav-link active" id="nav-visi-tab" data-bs-toggle="tab" data-bs-target="#visi" type="button" role="tab" aria-controls="visi" aria-selected="true">Visi</button>
-                <button class="nav-link" id="nav-misi-tab" data-bs-toggle="tab" data-bs-target="#misi" type="button" role="tab" aria-controls="misi" aria-selected="false">Misi</button>
+                <button class="nav-link active" id="nav-visi-tab" data-bs-toggle="tab" data-bs-target="#visi" type="button" role="tab" aria-controls="visi" aria-selected="true">Vision</button>
+                <button class="nav-link" id="nav-misi-tab" data-bs-toggle="tab" data-bs-target="#misi" type="button" role="tab" aria-controls="misi" aria-selected="false">Mission</button>
               </div>
             </nav>
             <div class="tab-content mt-4" id="nav-tabContent">
               <div class="tab-pane fade show active" id="visi" role="tabpanel" aria-labelledby="nav-visi-tab" tabindex="0">
-                Menjadi wadah utama bagi mahasiswa INSTIKI dalam mengembangkan keterampilan dan kreativitas di bidang pengembangan perangkat lunak. Kami bertujuan untuk menciptakan komunitas yang berfokus pada pengembangan diri, di mana anggota kami dapat saling berbagi pengetahuan dan pengalaman untuk tumbuh menjadi developer yang berkualitas.
+              To be the main forum for INSTIKI students to develop skills and creativity in the field of software development. We aim to create a community focused on self-development, where our members can share knowledge and experiences to grow into quality developers.
               </div>
               <div class="tab-pane fade" id="misi" role="tabpanel" aria-labelledby="nav-misi-tab" tabindex="0">
                 <ul class="list-unstyled">
                   <li class="mb-3 d-flex">
                     <span class="me-2">📌</span>
-                    <span>Mengumpulkan dan memanfaatkan pengetahuan serta keterampilan anggota kami untuk saling berbagi, berkolaborasi, dan tumbuh bersama.</span>
+                    <span>Gather and leverage the knowledge and skills of our members to share, collaborate and grow together.</span>
                   </li>
                   <li class="mb-3 d-flex">
                     <span class="me-2">📌</span>
-                    <span>Mengadakan kegiatan seperti workshop, seminar, dan proyek kolaboratif untuk meningkatkan pengetahuan teknis anggota IDC.</span>
+                    <span>Organizing activities such as workshops, seminars and collaborative projects to increase the technical knowledge of IDC members.</span>
                   </li>
                   <li class="mb-3 d-flex">
                     <span class="me-2">📌</span>
-                    <span>Mendorong kolaborasi dan pertukaran ide antara anggota IDC dan mahasiswa INSTIKI lainnya.</span>
+                    <span>Encourage collaboration and exchange of ideas between IDC members and other INSTIKI students.</span>
                   </li>
                   <li class="mb-3 d-flex">
                     <span class="me-2">📌</span>
-                    <span>Menyediakan akses mudah ke sumber daya dan materi pembelajaran terkini di bidang pengembangan perangkat lunak.</span>
+                    <span>Provides easy access to the latest resources and learning materials in the field of software development.</span>
                   </li>
                   <li class="d-flex">
                     <span class="me-2">📌</span>
-                    <span>Membangun hubungan yang kuat dengan komunitas developer di luar kampus untuk memperluas jaringan dan wawasan.</span>
+                    <span>Build strong relationships with the developer community outside of campus to expand your network and insight.</span>
                   </li>
                 </ul>
               </div>
@@ -109,9 +109,9 @@
         </div>
         <div class="col p-0">
           <div class="division-head">
-            <h5>DIVISI</h5>
-            <h3 class="lh-base">Tersusun oleh divisi yang relevan dengan kebutuhan industri</h3>
-            <p class="mb-5 lh-lg">Temukan divisi yang sesuai dengan bidang dan minat bakatmu.</p>
+            <h5>DIVISION</h5>
+            <h3 class="lh-base">Composed by divisions that are relevant to industry needs</h3>
+            <p class="mb-5 lh-lg">Find a division that suits your field and talent interests.</p>
           </div>
           <div class="division-list">
             <div class="py-3 px-4 square rounded-1 d-flex">
@@ -122,7 +122,7 @@
           <div class="division-list">
             <div class="py-3 px-4 square rounded-1 d-flex">
               <div class="me-3 d-flex justify-content-center align-items-center"><i class="bi bi-phone-fill"></i></div>
-              <p class="m-0">Mobile Apps Development</p>
+              <p class="m-0">Mobile Development</p>
             </div>
           </div>
           <div class="division-list">
@@ -142,8 +142,8 @@
 
       <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
         <div class="division-head text-center w-50">
-          <h5>BERITA TERKINI</h5>
-          <h3 class="lh-base mb-5">Kumpulan artikel terbaru dengan berita informatif, edukatif dan terkini.</h3>
+          <h5>Latest News</h5>
+          <h3 class="lh-base mb-5">A collection of the latest articles with informative, educational and current news.</h3>
         </div>
         <div class="row owl-carousel owl-theme position-relative p-1">
           <div class="me-3 d-flex justify-content-center item" style="width:400px">
@@ -153,8 +153,8 @@
               </div>
               <div class="card-body px-4 pb-5">
                 <p class="card-date">02 FEBRUARY 2023</p>
-                <h3 class="card-title text-white">Hari Kartini 2023</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h3 class="card-title text-white">Kartini Day 2023</h3>
+                <p class="card-text">Kartini Day, observed on April 21st in Indonesia, commemorates the legacy of Raden Ajeng Kartini, a pioneer in the women's emancipation movement in Indonesia.</p>
               </div>
             </div>
           </div>
@@ -164,9 +164,9 @@
                 <img src="img/news/Hackfest 2023.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
               <div class="card-body px-4 pb-5">
-                <p class="card-date">02 FEBRUARY 2023</p>
-                <h3 class="card-title text-white">Hari Kartini 2023</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-date">18 MARCH 2023</p>
+                <h3 class="card-title text-white">Hackfest 2023</h3>
+                <p class="card-text">Hackfest by Google is an exciting event that brings together innovators, developers, and tech enthusiasts to collaborate and create innovative solutions.</p>
               </div>
             </div>
           </div>
@@ -176,9 +176,9 @@
                 <img src="img/news/AMA with TechConnect.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
               <div class="card-body px-4 pb-5">
-                <p class="card-date">02 FEBRUARY 2023</p>
-                <h3 class="card-title text-white">Hari Kartini 2023</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-date">11 MEI 2023</p>
+                <h3 class="card-title text-white">AMA With Techconnect</h3>
+                <p class="card-text">The "AMA with Techconnect" seminar on tips for a career as a front-end developer is an informative and engaging event designed to provide valuable insights.</p>
               </div>
             </div>
           </div>
@@ -188,16 +188,16 @@
                 <img src="img/news/Hari-Raya-Jumat-Agung.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
               <div class="card-body px-4 pb-5">
-                <p class="card-date">02 FEBRUARY 2023</p>
-                <h3 class="card-title text-white">Hari Kartini 2023</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-date">7 APRIL 2023</p>
+                <h3 class="card-title text-white">The Good Friday</h3>
+                <p class="card-text">Good Friday, also known as Holy Friday, is a Christian holiday that remembers the crucifixion of Jesus Christ. It falls on the Friday before Easter Sunday</p>
               </div>
             </div>
           </div>
           <div class="align-items-center">
             <div class="next item d-flex flex-column justify-content-center align-items-center" style="width:200px">
                 <i class="bi bi-arrow-right-circle-fill fs-1 lengkap"></i>
-                <a href="{{ url('news') }}" class="text-white lengkap">Selengkapnya</a>
+                <a href="{{ url('news') }}" class="text-white lengkap">See More.</a>
             </div>
           </div>
         </div>
@@ -205,8 +205,8 @@
 
       <section class="gallery-section px-3 mb-5 marsec d-flex flex-column align-items-center justify-content-center">
         <div class="division-head text-center w-50">
-          <h5>KEGIATAN</h5>
-          <h3 class="lh-base mb-5">Cuplikan kegiatan - kegiatan seru bersama anggota.</h3>
+          <h5>ACTIVITY</h5>
+          <h3 class="lh-base mb-5">Footage of exciting activities with members.</h3>
           <!-- <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
         </div>
 
@@ -214,54 +214,54 @@
             <div class="gallery-item n1-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                 <img src="img/about/IMG_1.webp" alt="">
                 <div class="image-info text-center">
-                    <h3>Pelatihan Koding untuk Anak-Anak</h3>
-                    <p class="date-taken">10 September 2023</p>
-                    <p class="description">Program pelatihan koding menyenangkan untuk menginspirasi anak-anak di bidang teknologi.</p>
+                    <h3>Coding Training for Kids</h3>
+                    <p class="date-taken">8 January 2023</p>
+                    <p class="description">Fun coding training program to inspire kids in technology.</p>
                 </div>
             </div>
             
             <div class="gallery-item v-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">
                 <img src="img/about/IMG_2.webp" alt="">
                 <div class="image-info text-center">
-                    <h3>Hackathon Inovasi</h3>
-                    <p class="date-taken">10 September 2023</p>
-                    <p class="description">Kami menggelar hackathon tahunan yang mendorong para pengembang untuk berkolaborasi dan menciptakan solusi inovatif untuk masalah dunia nyata.</p>
+                    <h3>Innovation Hackathon</h3>
+                    <p class="date-taken">19 June 2023</p>
+                    <p class="description">We host an annual hackathon that encourages developers to collaborate and create innovative solutions to real-world problems.</p>
                 </div>
             </div>
     
             <div class="gallery-item n2-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200">
                 <img src="img/about/IMG_3.webp" alt="">
                 <div class="image-info text-center">
-                    <h3>Pelatihan AI dan Machine Learning</h3>
-                    <p class="date-taken">10 September 2023</p>
-                    <p class="description">Pelatihan intensif dalam AI dan machine learning.</p>
+                    <h3>AI and Machine Learning Training</h3>
+                    <p class="date-taken">16 July 2023</p>
+                    <p class="description">Intensive training in AI and machine learning.</p>
                 </div>
             </div>
     
             <div class="gallery-item nv-stretch" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                 <img src="img/about/IMG_4.webp" alt="">
                 <div class="image-info text-center">
-                    <h3>Proyek Pemrograman Web</h3>
-                    <p class="date-taken">10 September 2023</p>
-                    <p class="description">Pengembangan proyek web kreatif.</p>
+                    <h3>Web Programming Projects</h3>
+                    <p class="date-taken">28 December 2023</p>
+                    <p class="description">Creative web project development.</p>
                 </div>
             </div>
     
             <div class="gallery-item nh-stretch" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                 <img src="img/about/IMG_5.webp" alt="">
                 <div class="image-info text-center">
-                    <h3>Hackathon Kesehatan</h3>
-                    <p class="date-taken">10 September 2023</p>
-                    <p class="description">Hackathon fokus pada teknologi kesehatan.</p>
+                    <h3>Health Hackathon</h3>
+                    <p class="date-taken">31 December 2023</p>
+                    <p class="description">Hackathon focuses on health technology.</p>
                 </div>
             </div>
 
             <div class="gallery-item h-stretch" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
                 <img src="img/about/IMG_6.webp" alt="">
                 <div class="image-info text-center">
-                    <h3>Kunjungan Lapangan ke Perusahaan Teknologi</h3>
-                    <p class="date-taken">10 September 2023</p>
-                    <p class="description">IDC mengatur kunjungan lapangan ke perusahaan-perusahaan teknologi terkemuka untuk memberikan wawasan tentang industri teknologi.</p>
+                    <h3>Field Trips to Technology Companies</h3>
+                    <p class="date-taken">1 January 2022</p>
+                    <p class="description">IDC organizes field trips to leading technology companies to provide insight into the technology industry.</p>
                 </div>
             </div>
 
@@ -272,8 +272,8 @@
       <div class="row justify-content-between d-flex align-items-center">
         <div class="col-6">
           <div class="division-head">
-            <h3 class="lh-base">KRITIK DAN SARAN!</h3>
-            <p class="lh-lg">Berikan kritik dan saranmu demi perkembangan IDC yang lebih baik kedepannya.</p>
+            <h3 class="lh-base">CRITICISM AND SUGGESTIONS</h3>
+            <p class="lh-lg">Provide your criticism and suggestions for better development of IDC in the future.</p>
             <p class="icon">>>></p>
           </div>
         </div>
@@ -292,7 +292,7 @@
             <textarea style="height: 200px;" class="form-control box-form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea" class="text-black-50">Comments</label>
           </div>
-          <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Kirim</button>
+          <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Submit</button>
           </form>
         </div>
       </div>
@@ -302,7 +302,7 @@
         <div class="division-head text-center w-50">
           <h5>PARTNER</h5>
           <h3 class="lh-base">Behold! Our story is sought-after.</h3>
-          <p class="mb-5 lh-lg">Perusahaan teknologi besar telah memutuskan untuk memberdayakan tujuan kami dengan meningkatkan potensi siswa kami sepenuhnya.</p>
+          <p class="mb-5 lh-lg">Big tech companies have decided to empower our cause by enhancing the full potential of our students.</p>
         </div>
         <div class="row">
           <div class="col">
