@@ -68,12 +68,13 @@ body {
     right: 0;
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
-    opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    opacity: 1;
+    transition: transform 0.6s ease-out; /* Atur opasitas sesuai kebutuhan */
 }
 
 .single-box:hover .header-area.img1::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
-    transition: transform 0.6s ease-out; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out; 
 }
 
 .header-area.img2 {
@@ -98,11 +99,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img2::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img3 {
@@ -127,11 +130,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img3::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img4 {
@@ -156,11 +161,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img4::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img5 {
@@ -185,11 +192,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img5::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img6 {
@@ -214,11 +223,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img6::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img7 {
@@ -243,11 +254,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img7::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img8 {
@@ -272,11 +285,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img8::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img9 {
@@ -301,11 +316,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img9::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img10 {
@@ -330,11 +347,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img10::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img11 {
@@ -359,11 +378,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img11::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .header-area.img12 {
@@ -388,11 +409,13 @@ body {
     bottom: 0;
     border-radius: inherit; /* Gunakan border-radius yang sama seperti pada elemen header-area img1 */
     opacity: 1; /* Atur opasitas sesuai kebutuhan */
+    transition: transform 0.6s ease-out;
 }
 
 .single-box:hover .header-area.img12::before {
     transform: scale(1.2); /* Atur faktor perbesaran sesuai kebutuhan */
     transition: transform 0.6s ease; /* Efek transisi untuk animasi */
+    transition: transform 0.6s ease-out;
 }
 
 .body-area {
