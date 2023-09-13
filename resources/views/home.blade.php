@@ -22,9 +22,9 @@
             <h5>KOMUNITAS</h5>
             <h3 class="lh-base komunitas-text">Hingga tahun ini, kami telah mengajak ratusan mahasiswa bergabung pada komunitas</h3>
           </div>
-          <div class="py-4 mt-5 square rounded-1 row m-0 border-0">
-              <div class="col d-flex justify-content-center border-end border-light border-opacity-10">
-                <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
+          <div class="py-4 mt-5 square rounded-1 row m-0 border-0 d-flex flex-md-row flex-column">
+              <div class="col d-flex flex-row-reverse flex-md-row justify-content-start justify-content-md-center border-bottom border-md-end border-light border-opacity-10">
+                <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-md-4 rounded-1">
                   <i class="bi bi-person-fill-check px-4"></i>
                 </div>
                 <div class="komunitas-item">
@@ -32,7 +32,7 @@
                   <p class="m-0">ANGGOTA</p>
                 </div>
               </div>
-              <div class="col d-flex justify-content-center border-end border-light border-opacity-10">
+              <div class="col d-flex justify-content-start justify-content-md-center border-bottom border-md-end border-light border-opacity-10">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-up px-4"></i>
                 </div>
@@ -41,8 +41,8 @@
                   <p class="m-0">ALUMNI</p>
                 </div>
               </div>
-              <div class="col d-flex justify-content-center">
-                <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
+              <div class="col d-flex flex-row-reverse flex-md-row justify-content-start justify-content-md-center">
+                <div class="square m-0 d-flex  justify-content-center komunitas-icon border-0 me-md-4 rounded-1">
                   <i class="bi bi-calendar3 px-4"></i>
                 </div>
                 <div class="komunitas-item">
@@ -53,7 +53,7 @@
           </div>
       </section>
 
-      <section class="row gap-4 align-items-center m-0 marsec">
+      <section class="row gap-4 align-items-center m-0 marsec d-flex flex-column-reverse flex-md-row">
         <div class="col p-0">
           <div class="division-head">
             <h5>APA ITU IDC?</h5>
@@ -99,11 +99,11 @@
           </div>
         </div>
         <div class="col">
-        <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
+          <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
       </section>
 
-      <section class="row me-0 ms-0 gap-4 mb-5 align-items-center marsec">
+      <section class="row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
         <div class="col">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/divisi.svg" alt=""></div>
         </div>
@@ -269,24 +269,24 @@
     </section>
 
     <section class="mb-5 marsec recruitment">
-      <div class="row justify-content-between d-flex align-items-center">
-        <div class="col-6">
+      <div class="row justify-content-between d-flex align-items-center flex-md-row flex-sm-column">
+        <div class="col-sm-12 col-md-6">
           <div class="division-head">
             <h3 class="lh-base">KRITIK DAN SARAN!</h3>
             <p class="lh-lg">Berikan kritik dan saranmu demi perkembangan IDC yang lebih baik kedepannya.</p>
             <p class="icon">>>></p>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6">
           <form action="">  
           <div class="form-floating mb-3">
-            <input type="email" class="form-control box-form" id="floatingInput" placeholder="Email Address">
-            <label for="floatingInput" class="text-black-50">Email address</label>
+            <input type="text" class="form-control box-form" id="floatingInput" placeholder="Name">
+            <label for="floatingInput" class="text-black-50">Name</label>
         </div>
 
           <div class="form-floating mb-3">
-            <input type="password" class="form-control box-form" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword" class="text-black-50">Password</label>
+            <input type="email" class="form-control box-form" id="floatingPassword" placeholder="Email">
+            <label for="floatingPassword" class="text-black-50">Email</label>
           </div>
           <div class="form-floating mb-3">
             <textarea style="height: 200px;" class="form-control box-form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
@@ -304,7 +304,7 @@
           <h3 class="lh-base">Behold! Our story is sought-after.</h3>
           <p class="mb-5 lh-lg">Perusahaan teknologi besar telah memutuskan untuk memberdayakan tujuan kami dengan meningkatkan potensi siswa kami sepenuhnya.</p>
         </div>
-        <div class="row">
+        <div class="row d-flex flex-md-row flex-sm-column">
           <div class="col">
             <img src="img/home/instiki.png" alt="" width="200px">
           </div>

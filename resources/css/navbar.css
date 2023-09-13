@@ -159,7 +159,7 @@ header {
     display: block !important;
   }
 
-  .nav-link, .join{
+  .link-list, .join{
     display: none;
   }
 

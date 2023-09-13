@@ -2,7 +2,7 @@
 <div id="nav-shadow"></div>
   <div id="container-bg" class="container rounded-2 py-3 px-4">
     <a class="navbar-brand" href=""><img src="img/idc-2.png" alt="" width="100"></a>
-    <ul class="nav-link m-0">
+    <ul class="nav-link link-list m-0">
       <li><a class="{{ request()->is('home') ? 'active' : '' }}" href="{{ url('/home') }}">Home</a></li>
       <li><a class="{{ request()->is('news') ? 'active' : '' }}" href="{{ url('/news') }}">Berita</a></li>
       <li><a class="{{ request()->is('proker') ? 'active' : '' }}" href="{{ url('/proker') }}">Program Kerja</a></li>
