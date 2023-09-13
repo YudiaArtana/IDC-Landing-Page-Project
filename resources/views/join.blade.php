@@ -12,10 +12,10 @@
     <div class="container p-0">
         <div class="title-join">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 tulisan">
+                <div class="col-lg-6 col-md-6 col-sm-12 tulisan d-flex justify-content-start align-items-start">
                     <h4>INSTIKI DEVELOPER CLUB</h4>
-                    <h1>Yuk, bergabunglah dengan kami</h1>
-                    <p class="title-divisi">Raihlah impianmu menjadi seorang <span class="auto-type "
+                    <h1>Let's, Join with us!</h1>
+                    <p class="title-divisi">Chase your dream of becoming a <span class="auto-type "
                             id="auto-type"></span></p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 gambar">
@@ -31,23 +31,23 @@
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email</label>
             <input type="email" class="form-control form-control-lg box-form rounded-0" id="exampleInputEmail1"
-                placeholder="Masukan Email" style="color: white">
+                placeholder="Enter your Email" style="color: white">
         </div>
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">NIM</label>
             <input type="text" class="form-control form-control-lg box-form rounded-0" id="exampleInputEmail1"
-                placeholder="Masukan NIM" style="color: white">
+                placeholder="Enter your NIM" style="color: white">
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>
+            <label for="exampleInputEmail1" class="form-label">Name</label>
             <input type="text" class="form-control form-control-lg box-form rounded-0" id="exampleInputEmail1"
-                placeholder="Masukkan Nama Lengkap" style="color: white">
+                placeholder="Enter your name" style="color: white">
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Angkatan</label>
+            <label for="exampleInputEmail1" class="form-label">Years</label>
             <select class="form-select form-control-lg box-select rounded-0">
                 <option class="color-select" value="1">2019</option>
                 <option class="color-select" value="2">2020</option>
@@ -58,7 +58,7 @@
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Jurusan</label>
+            <label for="exampleInputEmail1" class="form-label">Major</label>
             <select class="form-select form-control-lg box-select rounded-0">
                 <option class="color-select" value="1">TI-MDI</option>
                 <option class="color-select" value="2">TI-KAB</option>
@@ -71,7 +71,7 @@
 
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Divisi</label>
+            <label for="exampleInputEmail1" class="form-label">Division</label>
             <select class="form-select form-control-lg box-select rounded-0">
                 <option class="color-select" value="1">Web Development</option>
                 <option class="color-select" value="2">Mobile Development</option>
@@ -81,18 +81,18 @@
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Alamat</label>
+            <label for="exampleInputEmail1" class="form-label">Address</label>
             <input type="text" class="form-control form-control-lg box-form rounded-0" id="exampleInputEmail1"
-                placeholder="Masukan Alamat" style="color: white">
+                placeholder="Enter your address" style="color: white">
         </div>
 
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Alasan Memilih UKM IDC</label>
+            <label for="exampleInputEmail1" class="form-label">The reason you chose IDC</label>
             <input type="text" class="form-control form-control-lg box-form rounded-0" id="exampleInputEmail1"
-                placeholder="Masukkan Alasan" style="color: white">
+                placeholder="Enter your reason" style="color: white">
         </div>
 
-        <button type="submit" class="btn btn-danger px-5 mt-3">KIRIM</button>
+        <button type="submit" class="btn btn-danger px-5 mt-3">Submit</button>
     </form>
 
     <br><br>

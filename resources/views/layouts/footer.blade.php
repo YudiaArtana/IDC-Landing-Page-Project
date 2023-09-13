@@ -97,7 +97,7 @@
             <a href="#!" class="text-reset">INSTIKI</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Google Developer Student Club</a>
+            <a href="#!" class="text-reset">Google Developer Students Club</a>
           </p>
         </div>
         <!-- Grid column -->
