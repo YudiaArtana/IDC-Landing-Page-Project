@@ -388,6 +388,10 @@ small {
     z-index: 1;
 }
 
+.box-text-category-5 {
+    z-index: 1;
+}
+
 .text-category-4 {
     background-color: #2c35af;
     border-radius: 50px;
@@ -868,7 +872,7 @@ small {
 }
 
 .sosmed {
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out !important;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out !important;
     opacity: 1;
 }
 
@@ -900,7 +904,6 @@ small {
     backdrop-filter: blur(3.8px);
     -webkit-backdrop-filter: blur(3.8px);
     overflow: hidden;
-
 }
 
 .btn-selengkapnya:hover {
@@ -921,7 +924,6 @@ small {
     justify-content: center;
     align-items: center;
     color: black;
-
 }
 
 .btn-selengkapnya:hover span {
@@ -1013,11 +1015,81 @@ small {
     transform-origin: left center;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {}
+.btn-berlangganan {
+    display: block !important;
+}
 
-@media all and (min-width: 768px) and (max-width: 1024px) {}
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .headline-IoT .box-text-category-5 {
+        margin-bottom: 30px !important;
+    }
+}
 
-@media all and (min-width: 576px) and (max-width: 768px) {
+@media all and (min-width: 990px) and (max-width: 992px) {
+
+}
+
+@media all and (min-width: 767px) and (max-width: 991px) {
+    .headline-card-1 .box-text-category-1 .text-category-1 {
+        font-size: 10px;
+    }
+
+    .headline-data-science {
+        padding-top: 0px;
+    }
+
+    .headline-card-2 .box-text-category-2 .text-category-2 {
+        font-size: 10px;
+    }
+
+    .headline-blockchain .box-text-category-3 {
+        padding-left: 30px !important;
+    }
+
+    .headline-blockchain .box-text-category-3 .text-category-3 {
+        font-size: 10px;
+    }
+
+    .headline-IoT .box-text-category-4 .text-category-4 {
+        font-size: 10px;
+    }
+
+    .headline-IoT .box-text-category-4 {
+        padding-left: 30px !important;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .headline-card-1 .box-text-category-1 .text-category-1 {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .headline-data-science {
+        padding-top: 15px;
+        padding-left: 0 !important;
+    }
+
+    .headline-card-2 .box-text-category-2 .text-category-2 {
+        font-size: 10px;
+    }
+
+    .headline-blockchain {
+        padding-left: 0 !important;
+    }
+
+    .headline-blockchain .box-text-category-3 {
+        padding-left: 30px !important;
+    }
+
+    .headline-blockchain .box-text-category-3 .text-category-3 {
+        font-size: 10px;
+    }
+
+    .headline-IoT .box-text-category-4 .text-category-4 {
+        font-size: 10px;
+    }
+
     .card-prestasi {
         margin-bottom: 16px;
     }
@@ -1075,10 +1147,6 @@ small {
 }
 
 @media all and (min-width: 468px) and (max-width: 576px) {
-    .headline-card-1 {
-        height: max-content;
-    }
-
     .headline-card-1 .box-text-category-1 .text-category-1 {
         font-size: 10px;
         margin-top: 50px;
@@ -1227,6 +1295,10 @@ small {
         font-size: 10px;
     }
 
+    .headline-IoT .box-text-category-4 {
+        padding-left: 30px !important;
+    }
+
     .title-slider-card {
         font-size: 12px;
     }
@@ -1294,8 +1366,11 @@ small {
         font-size: 14px;
     }
 
-    .button-selengkapnya {
-        text-align: center;
+    .btn-wadah {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
     }
 }
 
