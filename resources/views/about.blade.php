@@ -14,12 +14,9 @@
             <div class="text-about text-center pb-5 mx-auto" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
                 <h5 class="mt-5">ABOUT US</h5>
                 <h3>History of INSTIKI Developer Club</h3>
-                <p class="mx-auto">
-                Let's explore the interesting journey of the Instiki Developer Club through a series of key points that make up this innovative community. From the roots to the peak of collaboration, let's take a look at how IDC has grown into what we know today.
-                </p>
             </div>
 
-            <div id="timeline-area" class="mt-5">
+            <div id="timeline-area" class="mt-5 mx-5">
                 <div class="timeline">
                     <div class="row" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <div class="col-md">
