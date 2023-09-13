@@ -133,7 +133,7 @@
 
 
   buttonShow.addEventListener("click", function(){
-    console.log('show')
+    // console.log('show')
     navbarMenu.classList.toggle("show");
     navbarShadow.classList.toggle("shadow");
   });
@@ -150,7 +150,7 @@
 
   const updateClasses = () => {
     let screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    console.log(screenWidth);
+    // console.log(screenWidth);
 
     if (screenWidth >= 768) {
       navbarMenu.classList.remove("show");

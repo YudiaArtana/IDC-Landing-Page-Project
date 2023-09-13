@@ -883,7 +883,7 @@ small {
 
 .btn-selengkapnya {
     position: relative;
-    width: 180px;
+    width: 150px;
     height: 45px;
     font-size: 0.9rem;
     background: rgb(250, 179, 57);
@@ -1242,6 +1242,10 @@ small {
 }
 
 @media all and (max-width: 468px) {
+    .slider-partner::before,
+    .slider-partner::after {
+        width: 100px !important;
+    }
     .sosmed-container {
         padding-left: 15px;
         padding-right: 15px;

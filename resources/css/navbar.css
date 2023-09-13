@@ -123,6 +123,7 @@ header {
   color: var(--font-color-white);
   font-size: 30px;
   border: none;
+  transform: rotate(180deg);
 }
 
 .nav-link li{
@@ -159,7 +160,7 @@ header {
     display: block !important;
   }
 
-  .nav-link, .join{
+  .link-list, .join{
     display: none;
   }
 

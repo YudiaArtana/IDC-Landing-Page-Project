@@ -195,3 +195,7 @@ h5{
         padding-top: 25px;
     }
 }
+
+.carousel-item img{
+    object-fit: cover !important;
+}
