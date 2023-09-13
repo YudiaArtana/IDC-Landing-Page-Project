@@ -143,7 +143,7 @@
 
       <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
         <div class="division-head text-center w-50">
-          <h5>Latest News</h5>
+          <h5>LATEST NEWS</h5>
           <h3 class="lh-base mb-5">A collection of the latest articles with informative, educational and current news.</h3>
         </div>
         <div class="row owl-carousel owl-theme position-relative p-1">
