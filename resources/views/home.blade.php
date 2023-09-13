@@ -9,15 +9,15 @@
 
 @section('content')
 
-    <section class="header p-0">
+    <section class="header p-0" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000">
       <div class="hero ukiyo"></div>
-      <div class="text-hero container p-0">
+      <div class="text-hero container p-0" >
         <h4>INSTIKI DEVELOPER CLUB</h4>
         <h1 class="mt-2">CONNECTING AND INSPIRING STUDENT DEVELOPERS IN THE TECH COMMUNITY</h1>
       </div>
     </section>
     <div class="container p-0">
-      <section id="komunitas">
+      <section id="komunitas" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div class="division-head komunitas-head text-center">
             <h5>COMMUNITY</h5>
             <h3 class="lh-base komunitas-text">So far this year, we have invited hundreds of students to join the community</h3>
@@ -54,8 +54,8 @@
       </section>
 
       <section class="box-ref row gap-4 align-items-center m-0 marsec d-flex flex-column-reverse flex-md-row">
-        <div class="col p-0">
-          <div class="division-head">
+        <div class="col p-0" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+          <div class="division-head" >
             <h5>WHAT IS IDC?</h5>
             <h3 class="lh-base">INSTIKI DEVELOPER CLUB</h3>
             <p class="mb-5 lh-lg">Get to know Instiki Developer Club through its vision and mission.</p>
@@ -98,17 +98,17 @@
             </div>
           </div>
         </div>
-        <div class="col box-img">
+        <div class="col box-img" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it.png" alt=""></div>
         </div>
       </section>
 
 
       <section class="box-ref row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
-        <div class="col box-img">
+        <div class="col box-img" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it1.png" alt=""></div>
         </div>
-        <div class="col p-0">
+        <div class="col p-0" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
           <div class="division-head">
             <h5>DIVISION</h5>
             <h3 class="lh-base">Composed by divisions that are relevant to industry needs</h3>
@@ -141,7 +141,7 @@
         </div>
       </section>
 
-      <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
+      <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center" data-aos="fade-in" data-aos-delay="150" data-aos-duration="1000">
         <div class="division-head text-center w-50">
           <h5>LATEST NEWS</h5>
           <h3 class="lh-base mb-5">A collection of the latest articles with informative, educational and current news.</h3>
@@ -205,7 +205,7 @@
       </section>
 
       <section class="gallery-section px-3 mb-5 marsec d-flex flex-column align-items-center justify-content-center">
-        <div class="division-head text-center w-50">
+        <div class="division-head text-center w-50" data-aos="fade-in" data-aos-delay="150" data-aos-duration="1000">
           <h5>ACTIVITY</h5>
           <h3 class="lh-base mb-5">Footage of exciting activities with members.</h3>
           <!-- <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
@@ -269,7 +269,7 @@
         </div>
     </section>
 
-    <section class="mb-5 marsec recruitment">
+    <section class="mb-5 marsec recruitment" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
       <div class="row justify-content-between d-flex align-items-center flex-md-row flex-sm-column">
         <div class="col-sm-12 col-md-6">
           <div class="division-head">
@@ -299,7 +299,7 @@
       </div>
     </section>
 
-    <section class="marsec d-flex flex-column align-items-center justify-content-center partner">
+    <section class="marsec d-flex flex-column align-items-center justify-content-center partner" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
         <div class="division-head text-center w-50">
           <h5>PARTNER</h5>
           <h3 class="lh-base">Behold! Our story is sought-after.</h3>
