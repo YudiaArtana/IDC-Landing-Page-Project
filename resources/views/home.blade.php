@@ -13,17 +13,17 @@
       <div class="hero ukiyo"></div>
       <div class="text-hero container p-0" >
         <h4 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">INSTIKI DEVELOPER CLUB</h4>
-        <h1 class="mt-2">CONNECTING AND INSPIRING STUDENT DEVELOPERS IN THE TECH COMMUNITY</h1>
+        <h1 class="mt-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">CONNECTING AND INSPIRING STUDENT DEVELOPERS IN THE TECH COMMUNITY</h1>
       </div>
     </section>
     <div class="container p-0">
-      <section id="komunitas" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+      <section id="komunitas" >
           <div class="division-head komunitas-head text-center">
-            <h5>COMMUNITY</h5>
-            <h3 class="lh-base komunitas-text">So far this year, we have invited hundreds of students to join the community</h3>
+            <h5 data-aos="flip-down" data-aos-delay="100" data-aos-duration="1000">COMMUNITY</h5>
+            <h3 class="lh-base komunitas-text" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">So far this year, we have invited hundreds of students to join the community</h3>
           </div>
-          <div class="py-4 mt-5 square rounded-1 row m-0 border-0 d-flex flex-md-row flex-column">
-              <div class="col kotak-1 d-flex flex-md-row justify-content-center justify-content-md-center">
+          <div class="py-4 mt-5 square rounded-1 row m-0 border-0 d-flex flex-md-row flex-column" >
+              <div class="col kotak-1 d-flex flex-md-row justify-content-center justify-content-md-center" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                 <div class="square m-0 icon-1 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-check px-4"></i>
                 </div>
@@ -32,7 +32,7 @@
                   <p class="m-0">MEMBERS</p>
                 </div>
               </div>
-              <div class="col kotak-2 d-flex justify-content-center justify-content-md-center">
+              <div class="col kotak-2 d-flex justify-content-center justify-content-md-center" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-up px-4"></i>
                 </div>
@@ -41,7 +41,7 @@
                   <p class="m-0">GRADUATES</p>
                 </div>
               </div>
-              <div class="col kotak-3 d-flex flex-md-row justify-content-center justify-content-md-center">
+              <div class="col kotak-3 d-flex flex-md-row justify-content-center justify-content-md-center" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-calendar3 px-4"></i>
                 </div>
@@ -54,7 +54,7 @@
       </section>
 
       <section class="box-ref row gap-4 align-items-center m-0 marsec d-flex flex-column-reverse flex-md-row">
-        <div class="col p-0" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+        <div class="col p-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
           <div class="division-head" >
             <h5>WHAT IS IDC?</h5>
             <h3 class="lh-base">INSTIKI DEVELOPER CLUB</h3>
@@ -98,42 +98,42 @@
             </div>
           </div>
         </div>
-        <div class="col box-img" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
+        <div class="col box-img" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it.png" alt=""></div>
         </div>
       </section>
 
 
       <section class="box-ref row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
-        <div class="col box-img" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
+        <div class="col box-img" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
           <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it1.png" alt=""></div>
         </div>
-        <div class="col p-0" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
-          <div class="division-head">
+        <div class="col p-0"  >
+          <div class="division-head" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
             <h5>DIVISION</h5>
             <h3 class="lh-base">Composed by divisions that are relevant to industry needs</h3>
             <p class="mb-5 lh-lg">Find a division that suits your field and talent interests.</p>
           </div>
           <div class="division-list">
-            <div class="py-3 px-4 square rounded-1 d-flex">
+            <div class="py-3 px-4 square rounded-1 d-flex" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1000">
               <div class="me-3 d-flex justify-content-center align-items-center"><i class="bi bi-browser-chrome"></i></div>
               <p class="m-0">Web Development</p>
             </div>
           </div>
           <div class="division-list">
-            <div class="py-3 px-4 square rounded-1 d-flex">
+            <div class="py-3 px-4 square rounded-1 d-flex" data-aos="flip-up" data-aos-delay="350" data-aos-duration="1000">
               <div class="me-3 d-flex justify-content-center align-items-center"><i class="bi bi-phone-fill"></i></div>
               <p class="m-0">Mobile Development</p>
             </div>
           </div>
           <div class="division-list">
-            <div class="py-3 px-4 square rounded-1 d-flex">
+            <div class="py-3 px-4 square rounded-1 d-flex" data-aos="flip-up" data-aos-delay="450" data-aos-duration="1000">
               <div class="me-3 d-flex justify-content-center align-items-center"><i class="bi bi-pc-display-horizontal"></i></div>
               <p class="m-0">UI/UX Design</p>
             </div>
           </div>
           <div class="division-list">
-            <div class="py-3 px-4 square rounded-1 d-flex">
+            <div class="py-3 px-4 square rounded-1 d-flex" data-aos="flip-up" data-aos-delay="650" data-aos-duration="1000">
               <div class="me-3 d-flex justify-content-center align-items-center"><i class="bi bi-robot"></i></div>
               <p class="m-0">Data Science</p>
             </div>
@@ -141,14 +141,14 @@
         </div>
       </section>
 
-      <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+      <section class="mb-5 marsec d-flex flex-column align-items-center justify-content-center">
         <div class="division-head text-center w-50">
-          <h5>LATEST NEWS</h5>
-          <h3 class="lh-base mb-5">A collection of the latest articles with informative, educational and current news.</h3>
+          <h5 data-aos="flip-down" data-aos-delay="200" data-aos-duration="1000">LATEST NEWS</h5>
+          <h3 class="lh-base mb-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">A collection of the latest articles with informative, educational and current news.</h3>
         </div>
         <div class="row owl-carousel owl-theme position-relative p-1">
-          <div class="me-3 d-flex justify-content-center item" style="width:400px">
-            <div class="card m-0 w-100 overflow-hidden">
+          <div class="me-3 d-flex justify-content-center item" style="width:400px" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
+            <div class="card m-0 w-100 overflow-hidden" >
               <div class="overflow-hidden img-card">
                 <img src="img/news/Hari-Kartini.webp" class="card-img-top object-fit-cover" alt="...">
               </div>
@@ -159,7 +159,7 @@
               </div>
             </div>
           </div>
-          <div class="me-3 d-flex justify-content-center item" style="width:400px">
+          <div class="me-3 d-flex justify-content-center item" style="width:400px" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
             <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
                 <img src="img/news/Hackfest 2023.webp" class="card-img-top object-fit-cover" alt="...">
@@ -171,7 +171,7 @@
               </div>
             </div>
           </div>
-          <div class="me-3 d-flex justify-content-center item" style="width:400px">
+          <div class="me-3 d-flex justify-content-center item" style="width:400px" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
             <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
                 <img src="img/news/AMA with TechConnect.webp" class="card-img-top object-fit-cover" alt="...">
@@ -183,7 +183,7 @@
               </div>
             </div>
           </div>
-          <div class=" me-3 d-flex justify-content-center item" style="width:400px">
+          <div class=" me-3 d-flex justify-content-center item" style="width:400px" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">
             <div class="card m-0 w-100 overflow-hidden">
               <div class="overflow-hidden img-card">
                 <img src="img/news/Hari-Raya-Jumat-Agung.webp" class="card-img-top object-fit-cover" alt="...">
@@ -205,9 +205,9 @@
       </section>
 
       <section class="gallery-section px-3 mb-5 marsec d-flex flex-column align-items-center justify-content-center">
-        <div class="division-head text-center w-50" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
-          <h5>ACTIVITY</h5>
-          <h3 class="lh-base mb-5">Footage of exciting activities with members.</h3>
+        <div class="division-head text-center w-50"">
+          <h5 data-aos="flip-down" data-aos-delay="200" data-aos-duration="1000">ACTIVITY</h5>
+          <h3 class="lh-base mb-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Footage of exciting activities with members.</h3>
           <!-- <p class="mb-5 lh-lg">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
         </div>
 
@@ -269,50 +269,50 @@
         </div>
     </section>
 
-    <section class="mb-5 marsec recruitment" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+    <section class="mb-5 marsec recruitment" >
       <div class="row justify-content-between d-flex align-items-center flex-md-row flex-sm-column">
         <div class="col-sm-12 col-md-6">
-          <div class="division-head">
+          <div class="division-head" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
             <h3 class="lh-base">CRITICISM AND SUGGESTIONS</h3>
             <p class="lh-lg">Provide your criticism and suggestions for better development of IDC in the future.</p>
-            <p class="icon">>>></p>
+            <p class="icon" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">>>></p>
           </div>
         </div>
         <div class="col-sm-12 col-md-6">
           <form action="">  
-          <div class="form-floating mb-3">
+          <div class="form-floating mb-3" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
             <input type="text" class="form-control box-form" id="floatingInput" placeholder="Name">
             <label for="floatingInput" class="text-black-50">Name</label>
         </div>
 
-          <div class="form-floating mb-3">
+          <div class="form-floating mb-3" data-aos="fade-left" data-aos-delay="350" data-aos-duration="1000">
             <input type="email" class="form-control box-form" id="floatingPassword" placeholder="Email">
             <label for="floatingPassword" class="text-black-50">Email</label>
           </div>
-          <div class="form-floating mb-3">
+          <div class="form-floating mb-3" data-aos="fade-left" data-aos-delay="550" data-aos-duration="1000">
             <textarea style="height: 200px;" class="form-control box-form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea" class="text-black-50">Comments</label>
           </div>
-          <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white">Submit</button>
+          <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white" data-aos="fade-left" data-aos-delay="750" data-aos-duration="1000">Submit</button>
           </form>
         </div>
       </div>
     </section>
 
-    <section class="marsec d-flex flex-column align-items-center justify-content-center partner" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+    <section class="marsec d-flex flex-column align-items-center justify-content-center partner" >
         <div class="division-head text-center w-50">
-          <h5>PARTNER</h5>
-          <h3 class="lh-base">Behold! Our story is sought-after.</h3>
-          <p class="mb-5 lh-lg">Big tech companies have decided to empower our cause by enhancing the full potential of our students.</p>
+          <h5 data-aos="flip-down" data-aos-delay="200" data-aos-duration="1000">PARTNER</h5>
+          <h3 class="lh-base" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">Behold! Our story is sought-after.</h3>
+          <p class="mb-5 lh-lg" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">Big tech companies have decided to empower our cause by enhancing the full potential of our students.</p>
         </div>
         <div class="row d-flex flex-md-row flex-sm-column">
-          <div class="col">
+          <div class="col" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
             <img src="img/home/instiki.png" alt="" width="200px">
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1000">
             <img src="img/home/gdsc.png" alt="" width="200px">
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
             <img src="img/home/kampus_merdeka.png" alt="" width="150px">
           </div>
         </div>
