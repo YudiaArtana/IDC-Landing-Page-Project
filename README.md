@@ -11,6 +11,7 @@
 -   Gitbash dapat dilakukan dengan klik kanan pada folder yang ditentukan, lalu pilih gitbash kemudian jalankan perintah nomor 1
 -   Setelah project di clone, buka project pada Text Editor kesayangan anda
 -   Langkah selanjutnya adalah menjalankan `composer install` atau `composer update` pada terminal
+-   Setelah itu jalankan `npm install`
 -   Setelah itu, ketikkan `cp .env.example .env` pada terminal, kemudian `php artisan key:generate`
 -   Set up selesai, untuk menjalankan project silahkan ketikkan perintah `php artisan serve` pada terminal 1
 -   Dan ketikkan `npm run dev` pada terminal 2, npm run dev berfungsi untuk mengcompile build css dan js ke public dan melakukan hot refresh
