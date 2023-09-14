@@ -5,13 +5,13 @@
 @vite(['resources/js/app.js', 'resources/js/about.js', 'resources/css/about.css'])
 @endsection
 
-@section('title', 'Tentang Kami')
+@section('title', 'About Us')
 
 @section('content')
     <div class="container pt-5">
         <section class="about-us">
 
-            <div class="text-about text-center pb-5 mx-auto" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+            <div class="division-head text-about text-center pb-5 mx-auto" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                 <h5 class="mt-5">ABOUT US</h5>
                 <h3>History of INSTIKI Developer Club</h3>
             </div>
@@ -59,7 +59,7 @@
 
         <section class="faq px-3">
             <div class="row  row-faq d-flex flex-row  justify-content-center">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 faq-head mb-5" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000">
+                <div class="division-head col-lg-5 col-md-5 col-sm-5 col-xs-5 faq-head mb-5" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000">
 
                     <h5>FAQs</h5>
                     <h3 class="w-75">General Questions</h3>

@@ -52,8 +52,19 @@ h5{
     font-family: 'Kanit', sans-serif !important;
     font-size: var(--font-size-s) !important;
     color: var(--font-color-primary) !important;
-    letter-spacing: 4px !important;
+    letter-spacing: 2px;
 }
+
+.division-head h3 {
+	font-size: var(--font-size-l);
+	font-weight: 700;
+}
+
+.division-head h5 {
+	color: var(--font-color-primary);
+	font-weight: 600;
+}
+
 
 .jabatan{
     font-family: 'Figtree', sans-serif;
