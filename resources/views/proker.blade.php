@@ -59,7 +59,7 @@
             </div>
 
             <div class="container">
-                <div class="row py-5">
+                <div class="row py-5 ngobar">
                     <div class="col-md-6 order-md-1">
                     <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
@@ -95,7 +95,7 @@
             </div>
 
             <div class="container">
-                <div class="row py-5">
+                <div class="row py-5 seminar">
                     <div class="col-md-6 order-md-2">
                     <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
@@ -136,7 +136,7 @@
             </div>
 
             <div class="container">
-                <div class="row py-5">
+                <div class="row py-5 pkm">
                     <div class="col-md-6 order-md-1">
                     <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
@@ -177,7 +177,7 @@
             </div>
 
             <div class="container">
-                <div class="row py-5">
+                <div class="row py-5 hackathon">
                     <div class="col-md-6 order-md-2">
                     <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
                                 data-aos-duration="1000">WORKPLAN</h5>
