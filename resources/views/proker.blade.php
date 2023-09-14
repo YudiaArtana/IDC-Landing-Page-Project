@@ -4,16 +4,16 @@
 @vite(['resources/js/app.js', 'resources/js/proker.js', 'resources/css/proker.css'])
 @endsection
 
-@section('title', 'WORKPLAN')
+@section('title', 'Work Plan')
 
 @section('content')
 <section>
     <div class="page-background position-relative proker">
         <div class="bg-color position-relative">
-            <div class="main-title d-flex flex-column justify-content-center align-items-center text-center"
+            <div class="division-head main-title d-flex flex-column justify-content-center align-items-center text-center"
                 data-aos="fade-in-out" data-aos-easing="linear" data-aos-duration="2000">
                 <h5>ACTION PLAN</h5>
-                <h2 class="lh-base">Driving Work Programs</h2>
+                <h3 class="lh-base">Driving Work Programs</h3>
             </div>
             <div class="container">
                 <div class="row ldo pb-5">

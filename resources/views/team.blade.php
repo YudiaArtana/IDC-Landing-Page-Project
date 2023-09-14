@@ -4,16 +4,16 @@
 @vite(['resources/js/app.js', 'resources/js/team.js', 'resources/css/team.css'])
 @endsection
 
-@section('title', 'Home Page')
+@section('title', 'Our Team')
 
 @section('content')
 <div class="page-background position-relative">
     <div class="bg-color position-relative">
         <div class="container text-center">
-            <div class="team-title d-flex flex-column justify-content-center align-items-center text-center"
+            <div class="division-head team-title d-flex flex-column justify-content-center align-items-center text-center"
             data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
                 <h5 style="color: #ED1F24;">IDC TEAM</h5>
-                <h2 class="lh-base">Let's get to know us, the creative developer community team!</h2>
+                <h3 class="lh-base">Let's get to know us, the creative developer community team!</h3>
             </div>
             <div class="judul-tim" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
                 <h3>CORE TEAM</h3>

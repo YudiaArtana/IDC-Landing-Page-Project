@@ -1,14 +1,8 @@
-<!-- Footer -->
 <footer class="text-center text-lg-start">
-  <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
     <div class="me-5 pt-2 d-none d-lg-block">
       <span>Contact us on social media:</span>
     </div>
-    <!-- Left -->
-
-    <!-- Right -->
     <div class="mb-4">
 
       <!-- Google -->
@@ -42,18 +36,11 @@
         ><i class="fab fa-github"></i
       ></a>
 </div>
-    <!-- Right -->
   </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
   <section class="">
     <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
       <div class="row mt-3">
-        <!-- Grid column -->
         <div class="col-xs-2 col-sm-6 col-md-6 col-lg-4 col-xl-4 mx-auto mb-5">
-          <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
             <img src="img/idc-3.png" alt="" width="50">INSTIKI Developer Club
           </h6>
@@ -61,11 +48,7 @@
             A community committed to developing technical skills and fostering collaboration among developers.
           </p>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
         <div class="col-xs-2 col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto mb-5">
-          <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
             Navigation
           </h6>
@@ -85,11 +68,7 @@
             <a href="{{ url('/about') }}" class="text-reset">About Us</a>
           </p>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
         <div class="col-xs-2 col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto mb-5">
-          <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
             Partner
           </h6>
@@ -100,11 +79,7 @@
             <a href="#!" class="text-reset">Google Developer Students Club</a>
           </p>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
         <div class="col-xs-2 col-sm-6 col-md-6 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-5">
-          <!-- Links -->
         
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
           <div class="row">
@@ -123,18 +98,11 @@
           </div>
 
         </div>
-        <!-- Grid column -->
       </div>
-      <!-- Grid row -->
     </div>
   </section>
-  <!-- Section: Links  -->
-
-  <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2023 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Atong Team</a>
+    <a class="text-reset fw-bold" href="#">Atong Team</a>
   </div>
-  <!-- Copyright -->
 </footer>
-<!-- Footer -->
