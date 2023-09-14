@@ -9,10 +9,10 @@
 
 @section('content')
 
-    <section class="header p-0" data-aos="fade-in" data-aos-delay="100" data-aos-duration="1000">
+    <section class="header p-0" >
       <div class="hero ukiyo"></div>
       <div class="text-hero container p-0" >
-        <h4>INSTIKI DEVELOPER CLUB</h4>
+        <h4 data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">INSTIKI DEVELOPER CLUB</h4>
         <h1 class="mt-2">CONNECTING AND INSPIRING STUDENT DEVELOPERS IN THE TECH COMMUNITY</h1>
       </div>
     </section>

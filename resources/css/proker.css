@@ -183,6 +183,9 @@ h5{
 .btn-selengkapnya:hover::after {
     transform: translateX(170px) skewX(30deg);
 }
+.carousel-item img{
+    object-fit: cover !important;
+}
 
 /* Responsive layout */
 @media (max-width: 768px) {
@@ -195,6 +198,3 @@ h5{
     }
 }
 
-.carousel-item img{
-    object-fit: cover !important;
-}
