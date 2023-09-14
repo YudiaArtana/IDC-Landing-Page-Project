@@ -79,7 +79,7 @@ h5 {
 }
 
 .hero {
-    background-image: url(/public/img/home/bg-homepage.jpg);
+    background-image: url(/public/img/home/bg-homepage.webp);
     background-size: cover;
     background-position: center;
     height: 100vh;

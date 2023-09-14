@@ -99,14 +99,14 @@
           </div>
         </div>
         <div class="col box-img" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
-          <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it.png" alt=""></div>
+          <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it.webp" alt=""></div>
         </div>
       </section>
 
 
       <section class="box-ref row me-0 ms-0 gap-4 mb-5 align-items-center marsec d-flex flex-md-row flex-column">
         <div class="col box-img" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
-          <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it1.png" alt=""></div>
+          <div class="d-flex justify-content-center align-items-center"><img src="./img/home/it1.webp" alt=""></div>
         </div>
         <div class="col p-0"  >
           <div class="division-head" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
@@ -307,13 +307,13 @@
         </div>
         <div class="row d-flex flex-md-row flex-sm-column">
           <div class="col" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
-            <img src="img/home/instiki.png" alt="" width="200px">
+            <img src="img/home/instiki.webp" alt="" width="200px">
           </div>
           <div class="col" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1000">
-            <img src="img/home/gdsc.png" alt="" width="200px">
+            <img src="img/home/gdsc.webp" alt="" width="200px">
           </div>
           <div class="col" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
-            <img src="img/home/kampus_merdeka.png" alt="" width="150px">
+            <img src="img/home/kampus_merdeka.webp" alt="" width="150px">
           </div>
         </div>
     </section>
