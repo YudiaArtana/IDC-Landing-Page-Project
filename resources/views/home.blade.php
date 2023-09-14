@@ -32,13 +32,8 @@
                   <p class="m-0">MEMBERS</p>
                 </div>
               </div>
-<<<<<<< HEAD
               <div class="col kotak-2 d-flex justify-content-center justify-content-md-center" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
-=======
-              <div class="col kotak-2 d-flex justify-content-center justify-content-md-center">
-                <div class="square m-0 icon-2 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
->>>>>>> 6709ed2f73cee0cbca971e2b66c4d63d6308bdd4
                   <i class="bi bi-person-fill-up px-4"></i>
                 </div>
                 <div class="komunitas-item box-text-2">
@@ -46,13 +41,8 @@
                   <p class="m-0">GRADUATES</p>
                 </div>
               </div>
-<<<<<<< HEAD
               <div class="col kotak-3 d-flex flex-md-row justify-content-center justify-content-md-center" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
-=======
-              <div class="col kotak-3 d-flex flex-md-row justify-content-center justify-content-md-center">
-                <div class="square m-0 icon-3 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
->>>>>>> 6709ed2f73cee0cbca971e2b66c4d63d6308bdd4
                   <i class="bi bi-calendar3 px-4"></i>
                 </div>
                 <div class="komunitas-item box-text-3">
@@ -303,11 +293,7 @@
             <textarea style="height: 200px;" class="form-control box-form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea" class="text-black-50">Comments</label>
           </div>
-<<<<<<< HEAD
           <button class="py-2 px-5 join rounded-2 btn btn-default fw-medium text-white" data-aos="fade-left" data-aos-delay="750" data-aos-duration="1000">Submit</button>
-=======
-          <button class="py-2 px-5 join btn-submit rounded-2 btn btn-default fw-medium text-white">Submit</button>
->>>>>>> 6709ed2f73cee0cbca971e2b66c4d63d6308bdd4
           </form>
         </div>
       </div>
@@ -319,7 +305,6 @@
           <h3 class="lh-base" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">Behold! Our story is sought-after.</h3>
           <p class="mb-5 lh-lg" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">Big tech companies have decided to empower our cause by enhancing the full potential of our students.</p>
         </div>
-<<<<<<< HEAD
         <div class="row d-flex flex-md-row flex-sm-column">
           <div class="col" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
             <img src="img/home/instiki.png" alt="" width="200px">
@@ -328,16 +313,6 @@
             <img src="img/home/gdsc.png" alt="" width="200px">
           </div>
           <div class="col" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
-=======
-        <div class="row box-gambar d-flex flex-md-row flex-sm-column align-items-center justify-content-center">
-          <div class="col d-flex flex-sm-column align-items-center justify-content-center img-1">
-            <img src="img/home/instiki.png" alt="" width="200px">
-          </div>
-          <div class="col d-flex flex-sm-column align-items-center justify-content-center img-2">
-            <img src="img/home/gdsc.png" alt="" width="200px">
-          </div>
-          <div class="col d-flex flex-sm-column align-items-center justify-content-center img-3">
->>>>>>> 6709ed2f73cee0cbca971e2b66c4d63d6308bdd4
             <img src="img/home/kampus_merdeka.png" alt="" width="150px">
           </div>
         </div>
