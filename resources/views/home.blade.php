@@ -299,7 +299,7 @@
       </div>
     </section>
 
-    <section class="marsec d-flex flex-column align-items-center justify-content-center partner" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+    <section class="marsec d-flex flex-column align-items-center justify-content-center partner" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
         <div class="division-head text-center w-50">
           <h5>PARTNER</h5>
           <h3 class="lh-base">Behold! Our story is sought-after.</h3>

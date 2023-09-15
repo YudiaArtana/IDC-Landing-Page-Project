@@ -13,8 +13,8 @@
             <div class="d-flex flex-column align-items-center justify-content-center pt-5 p-0">
                 <div class="division-head d-flex flex-column align-items-center justify-content-center text-center w-50" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
                     <h5>LATEST NEWS</h5>
-                    <h3 class="lh-base">Create solutions to repetitive problems, design applications and access anywhere!</h3>
-                    <p class="mb-5 lh-lg opacity-50">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p>
+                    <h3 class="lh-base mb-5">Find the latest news about technology, business and exciting activities managed by IDC</h3>
+                    <!-- <p class="mb-5 lh-lg opacity-50">Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution.</p> -->
                 </div>
             </div>
             <div class="row">

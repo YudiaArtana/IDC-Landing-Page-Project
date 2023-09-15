@@ -7,19 +7,17 @@
 @section('title', 'Work Plan')
 
 @section('content')
-<section>
-    <div class="page-background position-relative proker">
-        <div class="bg-color position-relative">
+<section class="container">
             <div class="division-head main-title d-flex flex-column justify-content-center align-items-center text-center"
                 data-aos="fade-in-out" data-aos-easing="linear" data-aos-duration="2000">
                 <h5>ACTION PLAN</h5>
                 <h3 class="lh-base">Driving Work Programs</h3>
             </div>
-            <div class="container">
+            <section>
                 <div class="row ldo pb-5">
                     <div class="col-md-6 order-md-2">
                             <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
-                                data-aos-duration="1000">WORKPLAN</h5>
+                                data-aos-duration="1000">WORKPLAN #1</h5>
                         <b>
                             <h3 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
                                 data-aos-duration="1000">Basic Organizational Training</h3>
@@ -33,7 +31,7 @@
                              participate effectively in organizational activities and contribute positively
                              towards a common goal.
                         </p>
-                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                        <div class="position-relative text-center pt-3" data-aos="fade-left" data-aos-delay="350"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Read More<span><i
                                         class="bi bi-arrow-right"></i></span></a>
@@ -56,20 +54,20 @@
                         </div>
                     </div>
                 </div>
-            </div>
+</section>
 
-            <div class="container">
+            <section>
                 <div class="row py-5">
                     <div class="col-md-6 order-md-1">
                     <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
-                                data-aos-duration="1000">WORKPLAN</h5>
+                                data-aos-duration="1000">WORKPLAN #2</h5>
                         <b>
                             <h3 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
                                 data-aos-duration="1000">Code Collaboratively</h3>
                         </b>
                         <p data-aos="fade-right" data-aos-delay="350" data-aos-duration="1000">The Coding Together activity held on campus is an inspirational platform for students who have an interest in programming. This event not only serves as a platform for sharing knowledge and skills in the coding world but also creates a collaborative environment where innovative ideas can be discussed and transformed into real projects.
                         </p>
-                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                        <div class="position-relative text-center pt-3" data-aos="fade-right" data-aos-delay="350"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Read More<span><i
                                         class="bi bi-arrow-right"></i></span></a>
@@ -92,13 +90,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+</section>
 
-            <div class="container">
+            <section>
                 <div class="row py-5">
                     <div class="col-md-6 order-md-2">
                     <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
-                                data-aos-duration="1000">WORKPLAN</h5>
+                                data-aos-duration="1000">WORKPLAN #3</h5>
                         <b>
                             <h3 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
                                 data-aos-duration="1000">Seminars dan Workshops</h3>
@@ -110,7 +108,7 @@
                              software development, application programming, as well as the latest trends in the world
                              technology.
                         </p>
-                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                        <div class="position-relative text-center pt-3" data-aos="fade-left" data-aos-delay="350"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Read More<span><i
                                         class="bi bi-arrow-right"></i></span></a>
@@ -133,13 +131,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+</section>
 
-            <div class="container">
+            <section>
                 <div class="row py-5">
                     <div class="col-md-6 order-md-1">
                     <h5 class="sub-judul pb-2" data-aos="fade-right" data-aos-delay="50"
-                                data-aos-duration="1000">WORKPLAN</h5>
+                                data-aos-duration="1000">WORKPLAN #4</h5>
                         <b>
                             <h3 class="title-proker pb-2" data-aos="fade-right" data-aos-delay="200"
                                 data-aos-duration="1000">Community service</h3>
@@ -151,7 +149,7 @@
                              care, providing support in the form of material assistance, meaningful interactions, and holding
                              inspiring educational sessions.
                         </p>
-                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                        <div class="position-relative text-center pt-3" data-aos="fade-right" data-aos-delay="350"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Read More<span><i
                                         class="bi bi-arrow-right"></i></span></a>
@@ -174,13 +172,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
+</section>
 
-            <div class="container">
+            <section>
                 <div class="row py-5">
                     <div class="col-md-6 order-md-2">
                     <h5 class="sub-judul pb-2" data-aos="fade-left" data-aos-delay="50"
-                                data-aos-duration="1000">WORKPLAN</h5>
+                                data-aos-duration="1000">WORKPLAN #5</h5>
                         <b>
                             <h3 class="title-proker pb-2" data-aos="fade-left" data-aos-delay="200"
                                 data-aos-duration="1000">Final Project Showcase</h3>
@@ -191,7 +189,7 @@
                              collaboratively, members show off the final results of projects they have worked on with
                              full of dedication.
                         </p>
-                        <div class="position-relative text-center pt-3" data-aos="zoom-out-up" data-aos-delay="50"
+                        <div class="position-relative text-center pt-3" data-aos="fade-left" data-aos-delay="350"
                             data-aos-duration="1000">
                             <a href="#" class="btn-selengkapnya">Read More<span><i
                                         class="bi bi-arrow-right"></i></span></a>
@@ -214,8 +212,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+</section>
 </section>
 @endsection

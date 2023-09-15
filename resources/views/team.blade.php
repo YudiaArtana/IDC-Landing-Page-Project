@@ -7,8 +7,6 @@
 @section('title', 'Our Team')
 
 @section('content')
-<div class="page-background position-relative">
-    <div class="bg-color position-relative">
         <div class="container text-center">
             <div class="division-head team-title d-flex flex-column justify-content-center align-items-center text-center"
             data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
@@ -173,6 +171,4 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
 @endsection

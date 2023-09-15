@@ -21,14 +21,14 @@
   <button class="nav-collapse-close" id="nav-collapse-hidden">
     <i class="fas fa-solid fa-arrow-left fs-2"></i>
   </button>
-    <ul class="nav-link-collapse m-0">
+    <ul class="nav-link-collapse p-0 m-0">
       <li><a class="{{ request()->is('home') ? 'active' : '' }}" href="{{ url('/home') }}">Home</a></li>
       <li><a class="{{ request()->is('news') ? 'active' : '' }}" href="{{ url('/news') }}">News</a></li>
       <li><a class="{{ request()->is('proker') ? 'active' : '' }}" href="{{ url('/proker') }}">Workplan</a></li>
       <li><a class="{{ request()->is('team') ? 'active' : '' }}" href="{{ url('/team') }}">Team</a></li>
       <li><a class="{{ request()->is('about') ? 'active' : '' }}" href="{{ url('/about') }}">About Us</a></li>
 
-      <li><button class="py-2 px-5 rounded-2 btn btn-default fw-medium text-white">Join</button></li>
+      <li><button class="py-2 join-collapse px-5 rounded-2 btn btn-default fw-medium text-white">Join</button></li>
     </ul>
     
 </div>

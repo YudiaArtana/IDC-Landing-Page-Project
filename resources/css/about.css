@@ -55,7 +55,7 @@ html, body {
 
 .bg-color {
 	background-color: rgba(11,11,34,.8);
-	backdrop-filter: blur(50px);
+	backdrop-filter: blur(150px);
 }
 
 /* About Us */
