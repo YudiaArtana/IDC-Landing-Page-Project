@@ -23,7 +23,7 @@
             <h3 class="lh-base komunitas-text" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">So far this year, we have invited hundreds of students to join the community</h3>
           </div>
           <div class="py-4 mt-5 square rounded-1 row m-0 border-0 d-flex flex-md-row flex-column" >
-              <div class="col kotak-1 d-flex flex-md-row justify-content-center justify-content-md-center" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+              <div class="col kotak-1 d-flex flex-md-row justify-content-center justify-content-md-center bord" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                 <div class="square m-0 icon-1 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-check px-4"></i>
                 </div>
@@ -32,7 +32,7 @@
                   <p class="m-0">MEMBERS</p>
                 </div>
               </div>
-              <div class="col kotak-2 d-flex justify-content-center justify-content-md-center" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+              <div class="col kotak-2 d-flex justify-content-center justify-content-md-center bord" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-person-fill-up px-4"></i>
                 </div>
@@ -45,7 +45,7 @@
                 <div class="square m-0 d-flex justify-content-center komunitas-icon border-0 me-4 rounded-1">
                   <i class="bi bi-calendar3 px-4"></i>
                 </div>
-                <div class="komunitas-item box-text-3">
+                <div class="komunitas-item box-text-3 me-4 pe-4 m-md-0 p-md-0">
                   <span class="fs-1 fw-bold">5+</span>
                   <p class="m-0">YEARS</p>
                 </div>
@@ -299,24 +299,20 @@
       </div>
     </section>
 
-<<<<<<< HEAD
     <section class="marsec d-flex flex-column align-items-center justify-content-center partner" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-=======
-    <section class="marsec d-flex flex-column align-items-center justify-content-center partner" >
->>>>>>> 6a11f7f1eff648acd5968db8659439b4eab194a0
         <div class="division-head text-center w-50">
           <h5 data-aos="flip-down" data-aos-delay="200" data-aos-duration="1000">PARTNER</h5>
           <h3 class="lh-base" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">Behold! Our story is sought-after.</h3>
           <p class="mb-5 lh-lg" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">Big tech companies have decided to empower our cause by enhancing the full potential of our students.</p>
         </div>
         <div class="row d-flex flex-md-row flex-sm-column">
-          <div class="col" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
+          <div class="col d-flex justify-content-center mb-4" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000">
             <img src="img/home/instiki.webp" alt="" width="200px">
           </div>
-          <div class="col" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1000">
+          <div class="col d-flex justify-content-center mb-4" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1000">
             <img src="img/home/gdsc.webp" alt="" width="200px">
           </div>
-          <div class="col" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
+          <div class="col d-flex justify-content-center mb-4" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">
             <img src="img/home/kampus_merdeka.webp" alt="" width="150px">
           </div>
         </div>

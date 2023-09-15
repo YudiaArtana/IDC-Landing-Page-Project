@@ -454,6 +454,10 @@ h5 {
     display: block !important;
 }
 
+.bord {
+	border-right: 1px solid #dee2e6;
+}
+
 @media(max-width: 1200px) {
     .n1-stretch {
         grid-column: span 2;
@@ -538,6 +542,10 @@ h5 {
         grid-column: span 4;
     }
 
+		.bord {
+			border-right: 0 !important;
+		}
+
 }
 
 @media(max-width: 410px) {
@@ -590,6 +598,8 @@ h5 {
 	.btn-submit {
 		width: 100%;
 	}
+
+
 }
 
 @media(max-width: 577px) {

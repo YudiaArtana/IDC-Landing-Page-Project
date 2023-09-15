@@ -89,8 +89,8 @@
 
         <div class="mb-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">
             <label for="exampleInputEmail1" class="form-label">The reason you chose IDC</label>
-            <input type="text" class="form-control form-control-lg box-form rounded-0" id="exampleInputEmail1"
-                placeholder="Enter your reason" style="color: white">
+            <textarea style="height: 200px; color:white;" type="text" class="form-control form-control-lg box-form rounded-0" id="exampleInputEmail1"
+                placeholder="Enter your reason" style="color: white"></textarea>
         </div>
 
         <button type="submit" class="btn btn-danger px-5 mt-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">Submit</button>

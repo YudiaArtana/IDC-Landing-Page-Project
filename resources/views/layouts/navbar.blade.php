@@ -28,7 +28,7 @@
       <li><a class="{{ request()->is('team') ? 'active' : '' }}" href="{{ url('/team') }}">Team</a></li>
       <li><a class="{{ request()->is('about') ? 'active' : '' }}" href="{{ url('/about') }}">About Us</a></li>
 
-      <li><button class="py-2 join-collapse px-5 rounded-2 btn btn-default fw-medium text-white">Join</button></li>
+      <a href="{{ url('/join') }}"><button class="py-2 join-collapse px-5 rounded-2 btn btn-default fw-medium text-white">Join</button></a>
     </ul>
     
 </div>
