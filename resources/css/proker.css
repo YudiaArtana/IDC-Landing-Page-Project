@@ -29,11 +29,7 @@
     --font-extrabold: 800;
 }
 
-* {
-    position: relative;
-    height: auto;
-    margin-bottom: -50px;
-}
+
 html,
 body {
     max-width: 100%;
@@ -53,6 +49,7 @@ h2{
 h5{
     font-family: 'Kanit', sans-serif !important;
     color: var(--font-color-primary) !important;
+    letter-spacing: 2px;
 }
 
 .division-head h3 {
@@ -69,10 +66,7 @@ h4{
 	font-family: 'Kanit', sans-serif;
 	letter-spacing: 2px;
 }
-h5{
-	font-family: 'Kanit', sans-serif;
-	letter-spacing: 2px;
-}
+
 
 .page-background {
     background-image: url(/public/img/page-background.svg);
@@ -98,7 +92,22 @@ h5{
 
 .ldo {
     padding-top: 100px;
+
 }
+
+/* .ngobar{
+    margin-top: 150px;
+}
+.seminar{
+    margin-top: 150px;
+}
+.pkm{
+    margin-top: 150px;
+}
+.hackathon{
+    margin-top: 150px;
+} */
+
 
 .underline-1 {
     font-size: 30px;
@@ -199,6 +208,9 @@ h5{
 .btn-selengkapnya:hover::after {
     transform: translateX(170px) skewX(30deg);
 }
+.carousel-item img{
+    object-fit: cover !important;
+}
 
 /* Responsive layout */
 @media (max-width: 768px) {
@@ -211,6 +223,3 @@ h5{
     }
 }
 
-.carousel-item img{
-    object-fit: cover !important;
-}
