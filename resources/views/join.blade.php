@@ -96,7 +96,7 @@
         <button type="submit" class="btn btn-danger px-5 mt-3" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">Submit</button>
     </form>
 
-    <br><br>
+    <br><br><br>
 </div>
 
 
