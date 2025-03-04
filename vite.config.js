@@ -20,6 +20,7 @@ export default defineConfig({
                 'resources/css/about.css',
                 'resources/css/join.css',
                 'resources/css/navbar.css',
+                'resources/css/app.css',
                 'resources/sass/news.scss',
             ],
             refresh: true,
