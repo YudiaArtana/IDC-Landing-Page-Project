@@ -4,8 +4,9 @@ import 'owl.carousel/dist/owl.carousel.min.js';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Pastikan ini ada
+import 'aos/dist/aos.css'; // Pastikan CSS AOS juga diimpor
 AOS.init();
+
 
 const parallax = document.querySelector('.ukiyo')
 
