@@ -3,7 +3,9 @@ import Ukiyo from "ukiyojs";
 import 'owl.carousel/dist/owl.carousel.min.js';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
-import AOS from 'aos/src/js/aos';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Pastikan ini ada
+AOS.init();
 
 const parallax = document.querySelector('.ukiyo')
 
@@ -30,10 +32,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-
-
-
-AOS.init();
 
 
 

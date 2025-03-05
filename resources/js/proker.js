@@ -1,2 +1,3 @@
-import AOS from 'aos/src/js/aos';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Pastikan ini ada
 AOS.init();

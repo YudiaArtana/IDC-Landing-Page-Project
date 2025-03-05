@@ -1,6 +1,8 @@
 // Owlcarousel
 import 'owl.carousel/dist/owl.carousel.min.js';
-import AOS from 'aos/src/js/aos';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Pastikan ini ada
+AOS.init();
 
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
@@ -34,7 +36,3 @@ $(document).ready(function () {
         }
     });
 });
-
-AOS.init();
-
-
