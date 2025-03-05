@@ -1,44 +1,45 @@
-@import '../../node_modules/aos/dist/aos.css';
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../../node_modules/aos/dist/aos.css";
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --global-background: #fff;
-  --global-background-dark: #1f1f1f;
-  --font-color-white: white;
-  --font-color-dark: black;
-  --font-color-super-primary: #A01C20;
-  --font-color-primary: #ED1F24;
-  --font-color-super-secondary: #FBAD18;
-	--font-color-third: #ffffff99;
-  --font-color-secondary: #F6E016;
+    --global-background: #fff;
+    --global-background-dark: #1f1f1f;
+    --font-color-white: white;
+    --font-color-dark: black;
+    --font-color-super-primary: #a01c20;
+    --font-color-primary: #ed1f24;
+    --font-color-super-secondary: #fbad18;
+    --font-color-third: #ffffff99;
+    --font-color-secondary: #f6e016;
 
-  --font-size-xxl: 48px;
-  --font-size-xl: 36px;
-  --font-size-l: 28px;
-  --font-size-m: 20px;
-  --font-size-s: 16px;
-  --font-size-xs: 14px;
-  --font-size-xxs: 12px;
-  --font-size-xxxs: 10px;
+    --font-size-xxl: 48px;
+    --font-size-xl: 36px;
+    --font-size-l: 28px;
+    --font-size-m: 20px;
+    --font-size-s: 16px;
+    --font-size-xs: 14px;
+    --font-size-xxs: 12px;
+    --font-size-xxxs: 10px;
 
-	--font-light: 300;
-	--font-regular: 400;
-	--font-medium: 500;
-	--font-semibold: 600;
-	--font-bold: 700;
-	--font-extrabold: 800;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold: 800;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-} 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .page-background,
 .bg-color {
@@ -47,314 +48,310 @@ html, body {
     height: 100%;
 }
 
-.page-background{
-	background-image: url(/public/img/about/page-background-about.svg);
-	background-size: cover;
-  background-color: rgba(11, 11, 34);
+.page-background {
+    background-image: url(/public/img/about/page-background-about.svg);
+    background-size: cover;
+    background-color: rgba(11, 11, 34);
 }
 
 .bg-color {
-	background-color: rgba(11,11,34,.8);
-	backdrop-filter: blur(150px);
+    background-color: rgba(11, 11, 34, 0.8);
+    backdrop-filter: blur(150px);
 }
 
 /* About Us */
 
-h4{
-	font-family: 'Kanit', sans-serif;
-	letter-spacing: 2px;
+h4 {
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 2px;
 }
-h5{
-	font-family: 'Kanit', sans-serif;
-	letter-spacing: 2px;
+h5 {
+    font-family: "Kanit", sans-serif;
+    letter-spacing: 2px;
 }
 
 .division-head h5 {
-	color: var(--font-color-primary);
-	font-weight: 600;
+    color: var(--font-color-primary);
+    font-weight: 600;
 }
 
 .division-head h3 {
-	font-size: var(--font-size-l);
-	font-weight: 700;
+    font-size: var(--font-size-l);
+    font-weight: 700;
 }
 
 .about-us {
-  margin-top: 10%;
+    margin-top: 10%;
 }
 
 .text-about {
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
 }
 
-.text-about h5{
-  color: var(--font-color-primary) !important;
-  font-size: 1.125rem !important;
+.text-about h5 {
+    color: var(--font-color-primary) !important;
+    font-size: 1.125rem !important;
 }
 
-.text-about h3{
-  font-size: var(--font-size-l) !important;
-  font-weight: 700;
+.text-about h3 {
+    font-size: var(--font-size-l) !important;
+    font-weight: 700;
 }
 
-.text-about p{
-  color: var(--font-color-third) !important;
-  font-size: var(--font-size-s) !important;
-  font-weight: 400;
-  width: 60%;
+.text-about p {
+    color: var(--font-color-third) !important;
+    font-size: var(--font-size-s) !important;
+    font-weight: 400;
+    width: 60%;
 }
 
 .text-about,
 .text-vission {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(50px);
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
 }
 
 .text-about.show,
 .text-vission.show {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @media (max-width: 768px) {
     .about-us {
-      margin-top: 20%;
-  }
+        margin-top: 20%;
+    }
 }
 
 /* Timeline History */
 
-#timeline-area{
-  width: auto;
-  border-left: 3px solid white;
-  padding: 0 2px 0 30px;
+#timeline-area {
+    width: auto;
+    border-left: 3px solid white;
+    padding: 0 2px 0 30px;
 }
 
-.timeline{
-  padding: 30px 25px;
-  line-height: 1.7;
-  position: relative;
-  height: auto; 
+.timeline {
+    padding: 30px 25px;
+    line-height: 1.7;
+    position: relative;
+    height: auto;
 }
 
-.timeline h5{
-  color: var(--font-color-primary) !important;
-  font-size: 1.125rem !important;
+.timeline h5 {
+    color: var(--font-color-primary) !important;
+    font-size: 1.125rem !important;
 }
 
-.timeline .sub-timeline{
-  color: var(--font-color-third) !important;
-  font-size: var(--font-size-s) !important;
-  font-weight: 400;
+.timeline .sub-timeline {
+    color: var(--font-color-third) !important;
+    font-size: var(--font-size-s) !important;
+    font-weight: 400;
 }
 
-.timeline:before{
-  content: '';
-  display: block;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: white;
-  border: 4px solid white;
-  position: absolute;
-  top: 30px;
-  left: -38.4px;
+.timeline:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid white;
+    position: absolute;
+    top: 30px;
+    left: -38.4px;
 }
 
 @media (max-width: 990px) {
     .timeline {
-    height: auto;
-  }
+        height: auto;
+    }
 
-  .timeline:before {
-    top: 0;
-    left: -38.4px;
-  }
+    .timeline:before {
+        top: 0;
+        left: -38.4px;
+    }
 }
 
 @media (max-width: 768px) {
     .timeline {
-    height: auto;
-  }
+        height: auto;
+    }
 
-  .timeline:before {
-    top: 0;
-    left: -38.4px;
-  }
+    .timeline:before {
+        top: 0;
+        left: -38.4px;
+    }
 }
 
 @media (max-width: 576px) {
-  .timeline {
-    padding: 10px;
-  }
+    .timeline {
+        padding: 10px;
+    }
 
-  .timeline:before {
-    top: 5px;
-    left: -38.4px;
-  }
+    .timeline:before {
+        top: 5px;
+        left: -38.4px;
+    }
 }
 
 /* FAQs */
 
 .faq {
-  position: relative;
-  z-index: 2; 
-  margin-top: 130px;
+    position: relative;
+    z-index: 2;
+    margin-top: 130px;
 }
 
 .faqs {
-  max-width: 700px;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #fff;
-  cursor: pointer;
-  transition: border-color 0.3s ease; 
+    max-width: 700px;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
 }
 
 .question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: color 0.3s ease; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s ease;
 }
 
 .question h3 {
-  font-size: 1.8rem;
-  margin: 0; 
+    font-size: 1.8rem;
+    margin: 0;
 }
 
 .answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease, padding 0.3s ease; 
-  animation: fade 0.3s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    transition:
+        max-height 0.5s ease,
+        padding 0.3s ease;
+    animation: fade 0.3s ease-in-out;
 }
 
 .answer p {
-  padding-top: 1rem;
-  line-height: 1.6;
-  font-size: 1.4rem;
-  margin: 0; 
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    margin: 0;
 }
 
 .faqs.active .answer {
-  max-height: 300px;
-  padding: 1rem 0; 
-  animation: fade 0.5s ease-in-out; 
+    max-height: 300px;
+    padding: 1rem 0;
+    animation: fade 0.5s ease-in-out;
 }
 
 .faqs.active svg {
-  transform: rotate(180deg);
-  transition: transform 0.3s ease-in 0.1s; 
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in 0.1s;
 }
 
 svg {
-  transition: transform 0.3s ease-in 0.1s; 
+    transition: transform 0.3s ease-in 0.1s;
 }
 
-.faq-head h5{
-  color: var(--font-color-primary) !important;
-  font-size: 1.125rem !important;
+.faq-head h5 {
+    color: var(--font-color-primary) !important;
+    font-size: 1.125rem !important;
 }
-.faq-head h3{
-  font-size: var(--font-size-l) !important;
-  font-weight: 700;
+.faq-head h3 {
+    font-size: var(--font-size-l) !important;
+    font-weight: 700;
 }
-.faq-head p{
-  color: var(--font-color-third) !important;
-  font-size: var(--font-size-s) !important;
-  font-weight: 400;
-}
-
-.question h5{
-  font-size: var(--font-size-l) !important;
-  font-size: 1.4rem !important;
-  font-weight: bold !important;
+.faq-head p {
+    color: var(--font-color-third) !important;
+    font-size: var(--font-size-s) !important;
+    font-weight: 400;
 }
 
-.answer p{
-  color: var(--font-color-third) !important;
-  font-size: var(--font-size-s) !important;
-  font-weight: 400;
+.question h5 {
+    font-size: var(--font-size-l) !important;
+    font-size: 1.4rem !important;
+    font-weight: bold !important;
 }
-.btn-custom{
-  background-color: var(--font-color-primary) !important;
-  color: white !important;
-  transition: background-color 0.3s, color 0.3s !important; 
+
+.answer p {
+    color: var(--font-color-third) !important;
+    font-size: var(--font-size-s) !important;
+    font-weight: 400;
+}
+.btn-custom {
+    background-color: var(--font-color-primary) !important;
+    color: white !important;
+    transition:
+        background-color 0.3s,
+        color 0.3s !important;
 }
 
 .btn-custom:hover {
-    background-color: var(--font-color-super-primary)  !important;
+    background-color: var(--font-color-super-primary) !important;
     color: white !important;
 }
 @keyframes fade {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 @media (max-width: 576px) {
-  .row-faq{
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+    .row-faq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-  .faq-head{
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .faq-head h3{
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .faq-head p{
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  }
+    .faq-head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq-head h3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq-head p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 429px) {
+    .question h3 {
+        font-size: 1rem;
+    }
 
-  .question h3{
-    font-size: 1rem;
-  }
-
-  .faq-head h3{
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .faq-head p{
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-  }
+    .faq-head h3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .faq-head p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
-
-
-
-
-
-
-

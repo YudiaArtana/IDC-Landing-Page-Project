@@ -1,182 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap");
 
 :root {
-  --global-background: #fff;
-  --global-background-dark: #1f1f1f;
-  --font-color-white: white;
-  --font-color-dark: black;
-  --font-color-super-primary: #A01C20;
-  --font-color-primary: #ED1F24;
-  --font-color-super-secondary: #FBAD18;
-  --font-color-secondary: #F6E016;
-  --font-color-tersier: #2C48A8;
+    --global-background: #fff;
+    --global-background-dark: #1f1f1f;
+    --font-color-white: white;
+    --font-color-dark: black;
+    --font-color-super-primary: #a01c20;
+    --font-color-primary: #ed1f24;
+    --font-color-super-secondary: #fbad18;
+    --font-color-secondary: #f6e016;
+    --font-color-tersier: #2c48a8;
 
-  --font-size-xxl: 48px;
-  --font-size-xl: 36px;
-  --font-size-l: 28px;
-  --font-size-m: 20px;
-  --font-size-s: 16px;
-  --font-size-xs: 14px;
-  --font-size-xxs: 12px;
-  --font-size-xxxs: 10px;
+    --font-size-xxl: 48px;
+    --font-size-xl: 36px;
+    --font-size-l: 28px;
+    --font-size-m: 20px;
+    --font-size-s: 16px;
+    --font-size-xs: 14px;
+    --font-size-xxs: 12px;
+    --font-size-xxxs: 10px;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  text-decoration: none !important;
-  font-family: 'Figtree', sans-serif;
-  font-size: var(--font-size-s);
-  color: var(--font-color-white);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none !important;
+    font-family: "Figtree", sans-serif;
+    font-size: var(--font-size-s);
+    color: var(--font-color-white);
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 40;
 }
 
-.nav-bg{
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(64px);
-  transition: all ease-in-out 0.3s;
+.nav-bg {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(64px);
+    transition: all ease-in-out 0.3s;
 }
 
-.join{
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(100px);
+.join {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(100px);
 }
 
 .join:hover {
-	background-color: #ff000022;
+    background-color: #ff000022;
 }
 
-.join-collapse{
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(100px);
-  width: 100%;
+.join-collapse {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(100px);
+    width: 100%;
 }
 
 .join-collapse:hover {
-	background-color: #ff000022;
+    background-color: #ff000022;
 }
 
-#navbar{
-  transition: 0.5s ease-in-out;
+#navbar {
+    transition: 0.5s ease-in-out;
 }
 
-.nav-toggler{
-  width: 50px;
-  height: 50px;
-  background: none;
-  cursor: pointer;
-  color: var(--font-color-white);
-  font-size: 30px;
-  border: none;
-  display: none !important;
+.nav-toggler {
+    width: 50px;
+    height: 50px;
+    background: none;
+    cursor: pointer;
+    color: var(--font-color-white);
+    font-size: 30px;
+    border: none;
+    display: none !important;
 }
 
-.nav-collapse{
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 80%;
-  height: 100vh;
-  z-index: 9999;
-  background-color: rgba(11, 11, 34);
-  padding: 20px;
-  transition: all ease-in-out 0.8s;
-  box-shadow: 0 1px 20px rgb(0, 0, 0, 0.247);
+.nav-collapse {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    z-index: 9999;
+    background-color: rgba(11, 11, 34);
+    padding: 20px;
+    transition: all ease-in-out 0.8s;
+    box-shadow: 0 1px 20px rgb(0, 0, 0, 0.247);
 }
 
-#nav-shadow{
-  position: fixed;
-  top: 0;
-  right: -100%;
-  height: 100vh;
-  width: 100%;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 99;
-  transition: all ease-in-out 0.4s;
+#nav-shadow {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    transition: all ease-in-out 0.4s;
 }
 
-.shadow{
-  right: 0% !important;
+.shadow {
+    right: 0% !important;
 }
 
-.show{
-  right: 0%;
+.show {
+    right: 0%;
 }
 
-.nav-collapse ul{
-  text-align: center;
-  margin-top: 40px;
+.nav-collapse ul {
+    text-align: center;
+    margin-top: 40px;
 }
 
-.nav-collapse ul li{
-  display: block;
-  margin: 50px 0;
+.nav-collapse ul li {
+    display: block;
+    margin: 50px 0;
 }
 
-.nav-collapse ul li a{
-  cursor: pointer;
-  color: var(--font-color-white);
-  letter-spacing: 0.5px;
-  font-size: var(--xs);
-  font-weight: bold;
+.nav-collapse ul li a {
+    cursor: pointer;
+    color: var(--font-color-white);
+    letter-spacing: 0.5px;
+    font-size: var(--xs);
+    font-weight: bold;
 }
 
-.nav-collapse-close{
-  width: 50px;
-  height: 50px;
-  background: none;
-  cursor: pointer;
-  color: var(--font-color-white);
-  font-size: 30px;
-  border: none;
-  transform: rotate(180deg);
+.nav-collapse-close {
+    width: 50px;
+    height: 50px;
+    background: none;
+    cursor: pointer;
+    color: var(--font-color-white);
+    font-size: 30px;
+    border: none;
+    transform: rotate(180deg);
 }
 
-.nav-link li{
-  display: inline-block;
+.nav-link li {
+    display: inline-block;
 }
 
-
-.nav-link li a{
-  padding: 0 20px;
-  cursor: pointer;
-  letter-spacing: 0.5px;
-  color: var(--font-color-white);
-  opacity: 80%;
+.nav-link li a {
+    padding: 0 20px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    color: var(--font-color-white);
+    opacity: 80%;
 }
 
-.nav-link li a:hover{
-	color: var(--font-color-white);
-  opacity: 100%;
+.nav-link li a:hover {
+    color: var(--font-color-white);
+    opacity: 100%;
 }
 
-.nav-link-collapse li a:hover{
-	color: var(--font-color-white);
+.nav-link-collapse li a:hover {
+    color: var(--font-color-white);
 }
 
-
-.active{
-	color: var(--font-color-white) !important;
-  opacity: 100% !important;
-  font-weight: 600;
+.active {
+    color: var(--font-color-white) !important;
+    opacity: 100% !important;
+    font-weight: 600;
 }
 
-@media screen and (max-width:1000px) {
-  .nav-toggler{
-    display: block !important;
-  }
+@media screen and (max-width: 1000px) {
+    .nav-toggler {
+        display: block !important;
+    }
 
-  .link-list, .join{
-    display: none;
-  }
-
+    .link-list,
+    .join {
+        display: none;
+    }
 }

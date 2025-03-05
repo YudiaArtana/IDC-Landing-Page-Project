@@ -1,17 +1,16 @@
-@import '../../node_modules/aos/dist/aos.css';
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import "../../node_modules/aos/dist/aos.css";
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
     --global-background: #fff;
     --global-background-dark: #1f1f1f;
     --font-color-white: white;
     --font-color-dark: black;
-    --font-color-super-primary: #A01C20;
-    --font-color-primary: #ED1F24;
-    --font-color-super-secondary: #FBAD18;
+    --font-color-super-primary: #a01c20;
+    --font-color-primary: #ed1f24;
+    --font-color-super-secondary: #fbad18;
     --font-color-third: #ffffff99;
-    --font-color-secondary: #F6E016;
+    --font-color-secondary: #f6e016;
 
     --font-size-xxl: 48px;
     --font-size-xl: 36px;
@@ -36,7 +35,7 @@
     padding: 0;
     scroll-behavior: smooth;
     text-decoration: none !important;
-    font-family: 'Figtree', sans-serif;
+    font-family: "Figtree", sans-serif;
     font-size: var(--font-size-s);
     color: var(--font-color-white);
 }
@@ -60,17 +59,17 @@ body {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background-color: rgba(11, 11, 34, .8);
+    background-color: rgba(11, 11, 34, 0.8);
     backdrop-filter: blur(150px);
 }
 
 h4 {
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     letter-spacing: 2px;
 }
 
 h5 {
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     letter-spacing: 2px;
 }
 
@@ -117,7 +116,6 @@ h5 {
     margin: 0;
 }
 
-
 /* APA ITU IDC */
 .nav-tabs::before {
     content: "";
@@ -126,7 +124,11 @@ h5 {
     right: 0;
     bottom: 0;
     height: 1px;
-    background: linear-gradient(to right, var(--font-color-super-primary), transparent);
+    background: linear-gradient(
+        to right,
+        var(--font-color-super-primary),
+        transparent
+    );
     z-index: -1;
 }
 
@@ -161,7 +163,6 @@ h5 {
 }
 
 /* END */
-
 
 /* DIVISI */
 
@@ -221,7 +222,6 @@ h5 {
     color: var(--font-color-third);
 }
 
-
 .paroller h1 {
     font-size: 100px;
     color: #ff0000;
@@ -249,23 +249,23 @@ h5 {
 }
 
 .owl-carousel::before {
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     width: 50px;
-    background: linear-gradient(to right, rgba(11, 11, 34, .8), transparent);
+    background: linear-gradient(to right, rgba(11, 11, 34, 0.8), transparent);
     position: absolute;
     z-index: 10;
 }
 
 .owl-carousel::after {
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     width: 50px;
     right: 0;
     top: 0;
-    background: linear-gradient(to left, rgba(11, 11, 34, .95), transparent);
+    background: linear-gradient(to left, rgba(11, 11, 34, 0.95), transparent);
     position: absolute;
     z-index: 10;
 }
@@ -316,7 +316,11 @@ h5 {
 
 .card:hover {
     background: rgb(160, 28, 32);
-    background: radial-gradient(circle, rgba(160, 28, 32, 1) 59%, rgb(108, 0, 0) 100%);
+    background: radial-gradient(
+        circle,
+        rgba(160, 28, 32, 1) 59%,
+        rgb(108, 0, 0) 100%
+    );
     cursor: pointer;
     text-decoration: underline !important;
     color: white;
@@ -455,10 +459,10 @@ h5 {
 }
 
 .bord {
-	border-right: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
     .n1-stretch {
         grid-column: span 2;
     }
@@ -483,41 +487,40 @@ h5 {
     .nh-stretch {
         grid-column: span 2;
     }
-
 }
 
-@media(max-width: 768px) {
-	.text-hero {
-		margin-top: 50px !important;
-	}
+@media (max-width: 768px) {
+    .text-hero {
+        margin-top: 50px !important;
+    }
 
     .kotak-1 .icon-1 {
         margin-left: 0px !important;
     }
 
     .kotak-2 {
-		margin-top: 20px !important;
+        margin-top: 20px !important;
     }
 
-	.kotak-2 .icon-2 {
-		margin-left: 20px !important;
-	}
+    .kotak-2 .icon-2 {
+        margin-left: 20px !important;
+    }
 
     .kotak-3 {
-		margin-top: 20px !important;
+        margin-top: 20px !important;
     }
 
-	.kotak-3 .icon-3 {
-		margin-left: -25px !important;
-	}
+    .kotak-3 .icon-3 {
+        margin-left: -25px !important;
+    }
 
-	.box-gambar .img-2,
-	.box-gambar .img-3 {
-		margin-top: 30px !important;
-	}
+    .box-gambar .img-2,
+    .box-gambar .img-3 {
+        margin-top: 30px !important;
+    }
 }
 
-@media(max-width: 770px) {
+@media (max-width: 770px) {
     .n1-stretch {
         grid-column: span 4;
     }
@@ -542,20 +545,19 @@ h5 {
         grid-column: span 4;
     }
 
-		.bord {
-			border-right: 0 !important;
-		}
-
+    .bord {
+        border-right: 0 !important;
+    }
 }
 
-@media(max-width: 410px) {
+@media (max-width: 410px) {
     .box-img img {
         height: 100% !important;
         width: 100% !important;
     }
 }
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
     .box-ref {
         padding-left: 20px !important;
         padding-right: 20px !important;
@@ -566,64 +568,62 @@ h5 {
         padding-right: 20px !important;
     }
 
-	.container .square {
-		margin-left: 20px !important;
-		margin-right: 20px !important;
-	}
+    .container .square {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
 
-	.kotak-1 .icon-1 {
+    .kotak-1 .icon-1 {
         margin-left: 0px !important;
     }
 
     .kotak-2 {
-		margin-top: 20px !important;
+        margin-top: 20px !important;
     }
 
-	.kotak-2 .icon-2 {
-		margin-left: 20px !important;
-	}
+    .kotak-2 .icon-2 {
+        margin-left: 20px !important;
+    }
 
     .kotak-3 {
-		margin-top: 20px !important;
+        margin-top: 20px !important;
     }
 
-	.kotak-3 .icon-3 {
-		margin-left: -25px !important;
-	}
-	
-	.marsec {
-		margin-top: 200px !important;
-	}
-	
-	.btn-submit {
-		width: 100%;
-	}
+    .kotak-3 .icon-3 {
+        margin-left: -25px !important;
+    }
 
+    .marsec {
+        margin-top: 200px !important;
+    }
 
+    .btn-submit {
+        width: 100%;
+    }
 }
 
-@media(max-width: 577px) {
-	.text-hero {
-		position: relative;
-		margin-top: -400px !important;
-		margin-bottom: 300px !important;
-		top: 0px !important;
-		left: 0px !important;
-		transform: none !important;
-		text-align: center;
-		z-index: 1;
-		padding: 0px !important;
-		width: fit-content !important;
-		margin-left: 10px !important;
-		margin-right: 10px !important;
-		font-size: 1rem;
-	}
-	
-	.text-hero h4 {
-		font-size: 1rem;
-	}
+@media (max-width: 577px) {
+    .text-hero {
+        position: relative;
+        margin-top: -400px !important;
+        margin-bottom: 300px !important;
+        top: 0px !important;
+        left: 0px !important;
+        transform: none !important;
+        text-align: center;
+        z-index: 1;
+        padding: 0px !important;
+        width: fit-content !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        font-size: 1rem;
+    }
 
-	.text-hero h1 {
-		font-size: 2rem;
-	}
+    .text-hero h4 {
+        font-size: 1rem;
+    }
+
+    .text-hero h1 {
+        font-size: 2rem;
+    }
 }
