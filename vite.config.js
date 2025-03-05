@@ -5,7 +5,6 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/app.css',
                 'resources/js/app.js',
                 'resources/js/home.js',
                 'resources/js/news.js',
@@ -20,14 +19,13 @@ export default defineConfig({
                 'resources/css/about.css',
                 'resources/css/join.css',
                 'resources/css/navbar.css',
-                'resources/css/app.css',
                 'resources/sass/news.scss',
             ],
             refresh: true,
         }),
     ],
     build: {
-        outDir: 'public/build', // Pastikan output disimpan di public
+        outDir: 'dist', // Pastikan output disimpan di public
     },
     optimizeDeps: {
         include: ['jquery'],

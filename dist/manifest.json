@@ -1,0 +1,227 @@
+{
+  "_aos-B-cQxaYG.js": {
+    "file": "assets/aos-B-cQxaYG.js",
+    "name": "aos",
+    "css": [
+      "assets/aos-DvB2Xm2x.css"
+    ]
+  },
+  "_aos-DvB2Xm2x.css": {
+    "file": "assets/aos-DvB2Xm2x.css",
+    "src": "_aos-DvB2Xm2x.css"
+  },
+  "_owl.carousel.min-BO0phakG.js": {
+    "file": "assets/owl.carousel.min-BO0phakG.js",
+    "name": "owl.carousel.min"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-D8ioIzQS.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-Drp84nVS.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "node_modules/owl.carousel/dist/assets/owl.video.play.png": {
+    "file": "assets/owl.video.play-BJo37keB.png",
+    "src": "node_modules/owl.carousel/dist/assets/owl.video.play.png"
+  },
+  "public/img/about/page-background-about.svg": {
+    "file": "assets/page-background-about-CIx2lFoB.svg",
+    "src": "public/img/about/page-background-about.svg"
+  },
+  "public/img/home/bg-homepage.webp": {
+    "file": "assets/bg-homepage-Cv2qcmN2.webp",
+    "src": "public/img/home/bg-homepage.webp"
+  },
+  "public/img/news/news-1.webp": {
+    "file": "assets/news-1-DIe_Xai2.webp",
+    "src": "public/img/news/news-1.webp"
+  },
+  "public/img/news/slide-1.webp": {
+    "file": "assets/slide-1-DIqEHCtp.webp",
+    "src": "public/img/news/slide-1.webp"
+  },
+  "public/img/news/slide-2.webp": {
+    "file": "assets/slide-2-BHpA3fJD.webp",
+    "src": "public/img/news/slide-2.webp"
+  },
+  "public/img/news/slide-3.webp": {
+    "file": "assets/slide-3-BRGJ0UXp.webp",
+    "src": "public/img/news/slide-3.webp"
+  },
+  "public/img/page-background.svg": {
+    "file": "assets/page-background-DzOkP0mQ.svg",
+    "src": "public/img/page-background.svg"
+  },
+  "public/img/team/background.png": {
+    "file": "assets/background-CWgXyyGr.png",
+    "src": "public/img/team/background.png"
+  },
+  "public/img/team/orang-polosan/1.png": {
+    "file": "assets/1-d_HsyN4T.png",
+    "src": "public/img/team/orang-polosan/1.png"
+  },
+  "public/img/team/orang-polosan/10.png": {
+    "file": "assets/10-CZjfmDMy.png",
+    "src": "public/img/team/orang-polosan/10.png"
+  },
+  "public/img/team/orang-polosan/11.png": {
+    "file": "assets/11-BSTh4llt.png",
+    "src": "public/img/team/orang-polosan/11.png"
+  },
+  "public/img/team/orang-polosan/12.png": {
+    "file": "assets/12-MYPMvjZK.png",
+    "src": "public/img/team/orang-polosan/12.png"
+  },
+  "public/img/team/orang-polosan/2.png": {
+    "file": "assets/2-D2ayr-Ma.png",
+    "src": "public/img/team/orang-polosan/2.png"
+  },
+  "public/img/team/orang-polosan/3.png": {
+    "file": "assets/3-DDDd2tuh.png",
+    "src": "public/img/team/orang-polosan/3.png"
+  },
+  "public/img/team/orang-polosan/4.png": {
+    "file": "assets/4-D24kJO2F.png",
+    "src": "public/img/team/orang-polosan/4.png"
+  },
+  "public/img/team/orang-polosan/5.png": {
+    "file": "assets/5-D2AJRESF.png",
+    "src": "public/img/team/orang-polosan/5.png"
+  },
+  "public/img/team/orang-polosan/6.png": {
+    "file": "assets/6-DydVjSbC.png",
+    "src": "public/img/team/orang-polosan/6.png"
+  },
+  "public/img/team/orang-polosan/7.png": {
+    "file": "assets/7-CGVnwe8m.png",
+    "src": "public/img/team/orang-polosan/7.png"
+  },
+  "public/img/team/orang-polosan/8.png": {
+    "file": "assets/8-zLhMGBpO.png",
+    "src": "public/img/team/orang-polosan/8.png"
+  },
+  "public/img/team/orang-polosan/9.png": {
+    "file": "assets/9-Dzo2qgbu.png",
+    "src": "public/img/team/orang-polosan/9.png"
+  },
+  "resources/css/about.css": {
+    "file": "assets/about-DZ1l9PWV.css",
+    "src": "resources/css/about.css",
+    "isEntry": true
+  },
+  "resources/css/home.css": {
+    "file": "assets/home-DPfg5WUb.css",
+    "src": "resources/css/home.css",
+    "isEntry": true
+  },
+  "resources/css/join.css": {
+    "file": "assets/join-CSxgu7SS.css",
+    "src": "resources/css/join.css",
+    "isEntry": true
+  },
+  "resources/css/navbar.css": {
+    "file": "assets/navbar-B3Vm5jwX.css",
+    "src": "resources/css/navbar.css",
+    "isEntry": true
+  },
+  "resources/css/news.css": {
+    "file": "assets/news-BAez4MFh.css",
+    "src": "resources/css/news.css",
+    "isEntry": true
+  },
+  "resources/css/proker.css": {
+    "file": "assets/proker-Bj1pXadC.css",
+    "src": "resources/css/proker.css",
+    "isEntry": true
+  },
+  "resources/css/team.css": {
+    "file": "assets/team-DruOXUoY.css",
+    "src": "resources/css/team.css",
+    "isEntry": true
+  },
+  "resources/js/about.js": {
+    "file": "assets/about-Cbbv1ss4.js",
+    "name": "about",
+    "src": "resources/js/about.js",
+    "isEntry": true,
+    "imports": [
+      "_aos-B-cQxaYG.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-U3-QpcLP.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_aos-B-cQxaYG.js"
+    ],
+    "css": [
+      "assets/app-Ck198FIp.css"
+    ],
+    "assets": [
+      "assets/bootstrap-icons-Drp84nVS.woff2",
+      "assets/bootstrap-icons-D8ioIzQS.woff"
+    ]
+  },
+  "resources/js/home.js": {
+    "file": "assets/home-D19mmS7y.js",
+    "name": "home",
+    "src": "resources/js/home.js",
+    "isEntry": true,
+    "imports": [
+      "_owl.carousel.min-BO0phakG.js",
+      "_aos-B-cQxaYG.js"
+    ],
+    "css": [
+      "assets/home-BqUJ0Hn1.css"
+    ],
+    "assets": [
+      "assets/owl.video.play-BJo37keB.png"
+    ]
+  },
+  "resources/js/join.js": {
+    "file": "assets/join-Cbbv1ss4.js",
+    "name": "join",
+    "src": "resources/js/join.js",
+    "isEntry": true,
+    "imports": [
+      "_aos-B-cQxaYG.js"
+    ]
+  },
+  "resources/js/news.js": {
+    "file": "assets/news-oWznzHEe.js",
+    "name": "news",
+    "src": "resources/js/news.js",
+    "isEntry": true,
+    "imports": [
+      "_owl.carousel.min-BO0phakG.js",
+      "_aos-B-cQxaYG.js"
+    ]
+  },
+  "resources/js/proker.js": {
+    "file": "assets/proker-Cbbv1ss4.js",
+    "name": "proker",
+    "src": "resources/js/proker.js",
+    "isEntry": true,
+    "imports": [
+      "_aos-B-cQxaYG.js"
+    ]
+  },
+  "resources/js/team.js": {
+    "file": "assets/team-Cbbv1ss4.js",
+    "name": "team",
+    "src": "resources/js/team.js",
+    "isEntry": true,
+    "imports": [
+      "_aos-B-cQxaYG.js"
+    ]
+  },
+  "resources/sass/news.scss": {
+    "file": "assets/news-BD34OPz8.css",
+    "src": "resources/sass/news.scss",
+    "isEntry": true
+  }
+}
