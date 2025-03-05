@@ -24,8 +24,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    base: './', // Pastikan base sudah dikonfigurasi
     build: {
-        outDir: 'dist', // Pastikan output disimpan di public
+        outDir: 'public/build', // Pastikan output disimpan di public
     },
     optimizeDeps: {
         include: ['jquery'],
