@@ -20,12 +20,20 @@
 <p align="right">(<a href="#readme-top"> Back to Top </a>)</p>
 
 ## Built With
-* ![HTML][HTML]
-* ![CSS][CSS]
-* ![JavaScript][JavaScript]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* ![HTML][HTML]  
+* ![CSS][CSS]  
+* ![JavaScript][JavaScript]  
+* [![Laravel][Laravel.com]][Laravel-url]  
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]  
+* [![JQuery][JQuery.com]][JQuery-url]  
+* ![Node.js][Nodejs]  
+* ![Google Colab][GoogleColab]  
+* ![Vite][Vite]  
+* ![Spreadsheet][Spreadsheet]  
+* ![Python][Python]  
+* ![Flask][Flask]  
+* ![Express.js][ExpressJS]  
+* ![PHP][PHP] 
 
 <p align="right">(<a href="#readme-top"> Back to Top </a>)</p>
 
