@@ -1,6 +1,9 @@
 {
   "build": {
     "command": "npm run build",
-    "outputDirectory": "public"
-  }
+    "outputDirectory": "public/build"
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.php" }
+  ]
 }
