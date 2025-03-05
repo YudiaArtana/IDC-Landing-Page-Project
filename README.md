@@ -26,14 +26,14 @@
 * [![Laravel][Laravel.com]][Laravel-url]  
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]  
 * [![JQuery][JQuery.com]][JQuery-url]  
-* ![Node.js][Nodejs]  
-* ![Google Colab][GoogleColab]  
-* ![Vite][Vite]  
-* ![Spreadsheet][Spreadsheet]  
-* ![Python][Python]  
-* ![Flask][Flask]  
-* ![Express.js][ExpressJS]  
-* ![PHP][PHP] 
+* ![Node.js](https://nodejs.org/static/images/logo.svg)
+* ![Google Colab](https://colab.research.google.com/img/colab_favicon_256px.png)
+* ![Vite](https://vitejs.dev/logo.svg)
+* ![Spreadsheet](https://upload.wikimedia.org/wikipedia/commons/3/31/Google_Sheets_logo_%282014-2020%29.svg)
+* ![Python](https://www.python.org/static/community_logos/python-logo.png)
+* ![Flask](https://flask.palletsprojects.com/en/2.0.x/_static/flask-logo.png)
+* ![Express.js](https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png)
+* ![PHP](https://www.php.net/images/logos/php-logo.svg)
 
 <p align="right">(<a href="#readme-top"> Back to Top </a>)</p>
 
